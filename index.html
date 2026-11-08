@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>lasmeldas | Cybersecurity &amp; AI</title>
+  <meta name="description" content="Interactive 3D portfolio of lasmeldas: cybersecurity and AI projects.">
+  <meta name="theme-color" content="#05070d">
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">
+    { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" } }
+  </script>
+</head>
+<body>
+  <canvas id="scene" aria-hidden="true"></canvas>
+
+  <header class="nav">
+    <a class="brand" href="#top">&gt;_ lasmeldas</a>
+    <nav aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">Hello, world. I'm</p>
+      <h1>lasmeldas</h1>
+      <p class="roles"><span id="typed" aria-live="off"></span><span class="cursor" aria-hidden="true">|</span></p>
+      <p class="lead">I build tools that detect, scan and defend, and I like making security ideas easy to see and use.</p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">See my work</a>
+        <a class="btn" href="https://github.com/lasmeldas" target="_blank" rel="noopener">GitHub profile</a>
+      </div>
+      <p class="hint">Move your mouse and scroll: the network reacts.</p>
+    </section>
+
+    <section id="about" class="panel reveal">
+      <h2>About</h2>
+      <p>I'm a developer focused on cybersecurity and applied AI. I enjoy turning security problems, such as phishing, exposed services and weak configurations, into small, practical tools anyone can run.</p>
+      <p>I build in the open, learn by shipping, and keep improving what I've made.</p>
+    </section>
+
+    <section id="projects" class="reveal">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <span class="tag">AI &bull; Security</span>
+          <h3>PhishGuard-AI</h3>
+          <p>An AI-powered approach to spotting phishing, built to help people avoid malicious messages and links.</p>
+          <a href="https://github.com/lasmeldas/PhishGuard-AI" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+        </article>
+        <article class="card">
+          <span class="tag">Security &bull; Tooling</span>
+          <h3>SentinelScan</h3>
+          <p>A scanning tool aimed at finding weak spots early, so they can be fixed before attackers find them.</p>
+          <a href="https://github.com/lasmeldas/SentinelScan" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+        </article>
+        <article class="card">
+          <span class="tag">WebGL &bull; Three.js</span>
+          <h3>This 3D portfolio</h3>
+          <p>The interactive network you're looking at: plain HTML, CSS and Three.js, with no build step and no framework.</p>
+          <a href="https://github.com/lasmeldas/cyber-portfolio-3d" target="_blank" rel="noopener">View source &rarr;</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="panel reveal">
+      <h2>Skills</h2>
+      <ul class="chips">
+        <li>Cybersecurity</li>
+        <li>Threat detection</li>
+        <li>Machine learning</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Three.js</li>
+        <li>Git &amp; GitHub</li>
+        <li>Linux</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="panel reveal">
+      <h2>Contact</h2>
+      <p>The best way to reach me is through GitHub. Open an issue, start a discussion, or follow along.</p>
+      <p><a class="btn primary" href="https://github.com/lasmeldas" target="_blank" rel="noopener">github.com/lasmeldas</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> lasmeldas &middot; Built with Three.js</p>
+  </footer>
+
+  <noscript><p class="noscript">This portfolio uses JavaScript for its 3D scene. The content above still works without it.</p></noscript>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
