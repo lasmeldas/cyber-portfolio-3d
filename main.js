@@ -1,10 +1,28 @@
 import * as THREE from 'three';
 
+const OWNER = 'lasmeldas';
 const canvas = document.getElementById('scene');
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 const GREEN = 0x00ffa3;
 const CYAN = 0x38bdf8;
+
+// Motion starts off for people who asked their system to reduce motion.
+let paused = reduceMotion;
+
+function setupMotionToggle() {
+  const button = document.getElementById('motion-toggle');
+  if (!button) return;
+  const sync = () => {
+    button.setAttribute('aria-pressed', String(!paused));
+    button.textContent = paused ? 'Motion: off' : 'Motion: on';
+  };
+  button.addEventListener('click', () => {
+    paused = !paused;
+    sync();
+  });
+  sync();
+}
 
 function startScene() {
   let renderer;
@@ -86,9 +104,11 @@ function startScene() {
     renderer.setSize(w, h, false);
     camera.aspect = w / h;
     camera.updateProjectionMatrix();
-    // On wide screens push the network to the right so the text sits on the left.
-    world.position.x = w > 900 ? 2.2 : 0;
-    world.scale.setScalar(w > 900 ? 1 : 0.8);
+    // Wide screens: network on the right, text on the left.
+    // Narrow screens: a smaller network below the text so nothing is hard to read.
+    const wide = w > 900;
+    world.position.set(wide ? 2.2 : 0, wide ? 0 : -2.9, 0);
+    world.scale.setScalar(wide ? 1 : 0.5);
   }
 
   const mouse = { x: 0, y: 0 };
@@ -107,20 +127,24 @@ function startScene() {
     { passive: true }
   );
 
+  // Animation time only advances while motion is on, so pausing never causes a jump.
+  let animTime = 0;
   const clock = new THREE.Clock();
   function frame() {
-    const t = clock.getElapsedTime();
-    core.rotation.x = t * 0.25;
-    core.rotation.y = t * 0.35;
-    inner.rotation.x = -t * 0.4;
-    inner.rotation.y = -t * 0.3;
-    core.scale.setScalar(1 + Math.sin(t * 1.6) * 0.04);
-    world.rotation.y = t * 0.08 + scrollT * Math.PI;
-    stars.rotation.y = t * 0.01;
-
-    // Ease the camera toward the pointer for a gentle parallax.
-    camera.position.x += (mouse.x * 1.2 - camera.position.x) * 0.05;
-    camera.position.y += (-mouse.y * 0.8 - camera.position.y) * 0.05;
+    const dt = Math.min(clock.getDelta(), 0.1);
+    if (!paused) {
+      animTime += dt;
+      // Ease the camera toward the pointer for a gentle parallax.
+      camera.position.x += (mouse.x * 1.2 - camera.position.x) * 0.05;
+      camera.position.y += (-mouse.y * 0.8 - camera.position.y) * 0.05;
+    }
+    core.rotation.x = animTime * 0.25;
+    core.rotation.y = animTime * 0.35;
+    inner.rotation.x = -animTime * 0.4;
+    inner.rotation.y = -animTime * 0.3;
+    core.scale.setScalar(1 + Math.sin(animTime * 1.6) * 0.04);
+    world.rotation.y = animTime * 0.08 + scrollT * Math.PI;
+    stars.rotation.y = animTime * 0.01;
     camera.position.z = 8 + scrollT * 2;
     camera.lookAt(0, 0, 0);
 
@@ -129,16 +153,8 @@ function startScene() {
   }
 
   resize();
-  window.addEventListener('resize', () => {
-    resize();
-    if (reduceMotion) renderer.render(scene, camera);
-  });
-
-  if (reduceMotion) {
-    renderer.render(scene, camera); // one still frame, no animation
-  } else {
-    frame();
-  }
+  window.addEventListener('resize', resize);
+  frame();
 }
 
 function startTyping() {
@@ -190,7 +206,121 @@ function startReveal() {
   items.forEach((el) => observer.observe(el));
 }
 
+// ---- Live repositories from the public GitHub API -------------------------
+
+const LANGUAGE_COLORS = {
+  Python: '#3572A5',
+  JavaScript: '#f1e05a',
+  TypeScript: '#3178c6',
+  HTML: '#e34c26',
+  CSS: '#563d7c',
+  Java: '#b07219',
+  'C++': '#f34b7d',
+  C: '#9aa4b2',
+  Go: '#00ADD8',
+  Rust: '#dea584',
+  Shell: '#89e051',
+  Kotlin: '#A97BFF',
+  Dart: '#00B4AB',
+  Jupyter: '#DA5B0B',
+};
+
+const CACHE_KEY = 'repos-cache-v1';
+const CACHE_MS = 10 * 60 * 1000; // the unauthenticated API allows only 60 requests/hour
+
+function readCache() {
+  try {
+    const cached = JSON.parse(sessionStorage.getItem(CACHE_KEY));
+    if (cached && Date.now() - cached.time < CACHE_MS) return cached.data;
+  } catch (err) {
+    /* storage unavailable: fall through to the network */
+  }
+  return null;
+}
+
+function writeCache(data) {
+  try {
+    sessionStorage.setItem(CACHE_KEY, JSON.stringify({ time: Date.now(), data }));
+  } catch (err) {
+    /* ignore */
+  }
+}
+
+function repoCard(repo) {
+  const card = document.createElement('article');
+  card.className = 'card';
+
+  const tag = document.createElement('span');
+  tag.className = 'tag';
+  tag.textContent = repo.language || 'Repository';
+
+  const title = document.createElement('h3');
+  const link = document.createElement('a');
+  link.href = repo.html_url;
+  link.target = '_blank';
+  link.rel = 'noopener';
+  link.textContent = repo.name;
+  title.appendChild(link);
+
+  const description = document.createElement('p');
+  description.textContent = repo.description || 'No description yet.';
+
+  const meta = document.createElement('div');
+  meta.className = 'repo-meta';
+  if (repo.language) {
+    const lang = document.createElement('span');
+    const dot = document.createElement('span');
+    dot.className = 'lang-dot';
+    dot.style.background = LANGUAGE_COLORS[repo.language] || '';
+    lang.append(dot, repo.language);
+    meta.appendChild(lang);
+  }
+  const stars = document.createElement('span');
+  stars.textContent = `★ ${repo.stargazers_count}`;
+  const updated = document.createElement('span');
+  updated.textContent = `Updated ${new Date(repo.pushed_at).toLocaleDateString(undefined, {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+  })}`;
+  meta.append(stars, updated);
+
+  card.append(tag, title, description, meta);
+  return card;
+}
+
+async function loadRepos() {
+  const grid = document.getElementById('repo-grid');
+  const status = document.getElementById('repo-status');
+  if (!grid || !status) return;
+  try {
+    let repos = readCache();
+    if (!repos) {
+      const response = await fetch(`https://api.github.com/users/${OWNER}/repos?per_page=100&sort=pushed`, {
+        headers: { Accept: 'application/vnd.github+json' },
+      });
+      if (!response.ok) throw new Error(`GitHub API responded ${response.status}`);
+      repos = await response.json();
+      writeCache(repos);
+    }
+    const shown = repos
+      .filter((r) => !r.fork && !r.archived && r.name.toLowerCase() !== OWNER)
+      .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at))
+      .slice(0, 6);
+    if (shown.length === 0) {
+      status.textContent = 'No public repositories to show yet.';
+      return;
+    }
+    shown.forEach((repo) => grid.appendChild(repoCard(repo)));
+    status.textContent = '';
+  } catch (err) {
+    status.textContent = 'Could not load repositories right now. You can see them all on my GitHub profile.';
+  }
+}
+
 document.getElementById('year').textContent = new Date().getFullYear();
+setupMotionToggle();
 startTyping();
 startReveal();
 startScene();
+loadRepos();

@@ -71,7 +71,7 @@ h1 {
 .roles { font-family: var(--mono); font-size: clamp(1.05rem, 2.6vw, 1.4rem); margin: 0 0 1rem; min-height: 1.6em; }
 .cursor { color: var(--green); animation: blink 1s steps(1) infinite; }
 @keyframes blink { 50% { opacity: 0; } }
-.lead { color: var(--muted); font-size: 1.1rem; margin: 0 0 1.6rem; }
+.lead { color: var(--muted); font-size: 1.1rem; margin: 0 0 1.6rem; text-shadow: 0 0 14px var(--bg), 0 0 4px var(--bg); }
 .hint { color: var(--muted); font-size: 0.85rem; margin-top: 2rem; font-family: var(--mono); opacity: 0.8; }
 
 .cta { display: flex; flex-wrap: wrap; gap: 12px; }
@@ -132,6 +132,28 @@ h2::before { content: "// "; color: var(--muted); }
 
 .no-webgl #scene { display: none; }
 
+.nav-right { display: flex; align-items: center; gap: clamp(12px, 2.5vw, 28px); }
+.motion-btn {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--muted);
+  background: rgba(10, 16, 28, 0.6);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 4px 12px;
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+}
+.motion-btn:hover, .motion-btn:focus-visible { color: var(--cyan); border-color: var(--cyan); }
+
+.section-note { color: var(--muted); margin: -0.4rem 0 1rem; }
+#repo-status { margin-top: 1rem; font-size: 0.9rem; }
+#repo-status:empty { display: none; }
+.card h3 a { color: var(--text); text-decoration: none; }
+.card h3 a:hover, .card h3 a:focus-visible { color: var(--green); }
+.repo-meta { display: flex; flex-wrap: wrap; gap: 6px 14px; font-family: var(--mono); font-size: 0.8rem; color: var(--muted); }
+.lang-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; background: var(--muted); }
+
 a:focus-visible, .btn:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; }
 
 @media (prefers-reduced-motion: reduce) {
@@ -142,6 +164,7 @@ a:focus-visible, .btn:focus-visible { outline: 2px solid var(--cyan); outline-of
 }
 
 @media (max-width: 700px) {
-  .nav nav a:nth-child(3) { display: none; }
+  .nav nav a:nth-child(n+3) { display: none; }
+  .nav-right { gap: 10px; }
   .hero { min-height: 92vh; }
 }
