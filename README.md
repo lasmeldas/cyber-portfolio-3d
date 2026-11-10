@@ -17,6 +17,8 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-green">
 </p>
 
+<p align="center">Built by <a href="https://github.com/lasmeldas"><b>Beamlak</b></a></p>
+
 <p align="center">
   <a href="https://lasmeldas.github.io/cyber-portfolio-3d/">
     <img src="docs/preview.png" alt="Screenshot of the portfolio: a glowing 3D network of nodes around a wireframe core, with the name lasmeldas and a typed tagline" width="90%">
@@ -83,3 +85,7 @@ cyber-portfolio-3d/
 ## License
 
 [MIT](LICENSE)
+
+---
+
+<p align="center">Built by <a href="https://github.com/lasmeldas"><b>Beamlak</b></a> &middot; <a href="https://github.com/lasmeldas">github.com/lasmeldas</a></p>
