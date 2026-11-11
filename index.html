@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>lasmeldas | Cybersecurity &amp; AI</title>
-  <meta name="description" content="Interactive 3D portfolio of lasmeldas: cybersecurity and AI projects.">
+  <title>lasmeldas | Developer, ML &amp; Cybersecurity</title>
+  <meta name="description" content="Interactive 3D portfolio of lasmeldas (Beamlak): software development, machine learning and cybersecurity projects.">
   <meta name="theme-color" content="#05070d">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="lasmeldas | Cybersecurity &amp; AI">
-  <meta property="og:description" content="Interactive 3D portfolio: security tools, AI projects and open-source work.">
+  <meta property="og:title" content="lasmeldas | Developer, ML &amp; Cybersecurity">
+  <meta property="og:description" content="Interactive 3D portfolio: web apps, machine learning from scratch, security tools and open-source work.">
   <meta property="og:url" content="https://lasmeldas.github.io/cyber-portfolio-3d/">
   <meta property="og:image" content="https://lasmeldas.github.io/cyber-portfolio-3d/docs/preview.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -47,7 +47,7 @@
       <p class="eyebrow">Hello, world. I'm Beamlak, a.k.a.</p>
       <h1>lasmeldas</h1>
       <p class="roles"><span id="typed" aria-live="off"></span><span class="cursor" aria-hidden="true">|</span></p>
-      <p class="lead">I build tools that detect, scan and defend, and I like making security ideas easy to see and use.</p>
+      <p class="lead">I build software across three areas: web and developer tools, machine learning, and security. I like making hard ideas easy to see and use.</p>
       <div class="cta">
         <a class="btn primary" href="#projects">See my work</a>
         <a class="btn" href="https://github.com/lasmeldas" target="_blank" rel="noopener">GitHub profile</a>
@@ -57,38 +57,65 @@
 
     <section id="about" class="panel reveal">
       <h2>About</h2>
-      <p>I'm Beamlak, a developer focused on cybersecurity and applied AI. I enjoy turning security problems, such as phishing, exposed services and weak configurations, into small, practical tools anyone can run.</p>
+      <p>I'm Beamlak, a software developer who works across web development, machine learning and cybersecurity. I like understanding how things work underneath, so I write ML algorithms from scratch, build developer tools that run in the browser, and turn security problems such as phishing, exposed services and weak configurations into small tools anyone can run.</p>
       <p>I build in the open, learn by shipping, and keep improving what I've made.</p>
     </section>
 
     <section id="projects" class="reveal">
       <h2>Featured projects</h2>
-      <div class="grid">
-        <article class="card">
+      <div class="filters" role="group" aria-label="Filter projects by area">
+        <button type="button" class="filter" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" class="filter" data-filter="dev" aria-pressed="false">Development</button>
+        <button type="button" class="filter" data-filter="ml" aria-pressed="false">Machine learning</button>
+        <button type="button" class="filter" data-filter="security" aria-pressed="false">Security</button>
+        <button type="button" class="filter" data-filter="3d" aria-pressed="false">3D</button>
+      </div>
+      <div class="grid" id="project-grid">
+        <article class="card" data-cat="ml">
+          <span class="tag">Python &bull; NumPy &bull; ML</span>
+          <h3>ml-from-scratch</h3>
+          <p>Linear and logistic regression, k-NN, naive Bayes, decision trees, random forests, k-means and PCA written with only NumPy, and checked against scikit-learn on four real datasets.</p>
+          <a href="https://github.com/lasmeldas/ml-from-scratch" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+        </article>
+        <article class="card" data-cat="dev">
+          <span class="tag">JavaScript &bull; Web &bull; Tooling</span>
+          <h3>devtoolbox</h3>
+          <p>JSON, Base64, JWT, hashes, regex, timestamps, diff and UUIDs in one dependency-free page. Everything runs in the browser, and the logic is covered by tests.</p>
+          <a href="https://lasmeldas.github.io/devtoolbox/" target="_blank" rel="noopener">Open live demo &rarr;</a>
+          &nbsp;&middot;&nbsp;
+          <a href="https://github.com/lasmeldas/devtoolbox" target="_blank" rel="noopener">Source</a>
+        </article>
+        <article class="card" data-cat="dev">
+          <span class="tag">Full-stack &bull; Web app</span>
+          <h3>Ethiopost Library (ELMS)</h3>
+          <p>A library management system for managing books, members and lending. The source is private; the live demo is public.</p>
+          <a href="https://ethiopost-library.vercel.app" target="_blank" rel="noopener">Open live demo &rarr;</a>
+        </article>
+        <article class="card" data-cat="security">
           <span class="tag">Python &bull; Security</span>
           <h3>authwatch</h3>
           <p>Reads an SSH auth log and flags brute-force attacks, username spraying, and logins that succeeded after a burst of failures.</p>
           <a href="https://github.com/lasmeldas/authwatch" target="_blank" rel="noopener">View on GitHub &rarr;</a>
         </article>
-        <article class="card">
+        <article class="card" data-cat="security">
           <span class="tag">Python &bull; Security</span>
           <h3>passguard</h3>
           <p>An offline password strength analyzer and generator, with an optional privacy-preserving breach check.</p>
           <a href="https://github.com/lasmeldas/passguard" target="_blank" rel="noopener">View on GitHub &rarr;</a>
         </article>
-        <article class="card">
+        <article class="card" data-cat="ml security">
           <span class="tag">AI &bull; Security</span>
           <h3>PhishGuard-AI</h3>
           <p>A machine-learning phishing and malicious-URL detector: it extracts security features from a URL and scores it with a trained classifier behind a FastAPI service.</p>
           <a href="https://github.com/lasmeldas/PhishGuard-AI" target="_blank" rel="noopener">View on GitHub &rarr;</a>
         </article>
-        <article class="card">
+        <article class="card" data-cat="security">
           <span class="tag">Security &bull; Tooling</span>
           <h3>SentinelScan</h3>
           <p>An asynchronous network security auditor and port scanner in Python, with banner grabbing, service fingerprinting, a TLS certificate audit and CVE matching.</p>
           <a href="https://github.com/lasmeldas/SentinelScan" target="_blank" rel="noopener">View on GitHub &rarr;</a>
         </article>
-        <article class="card">
+        <article class="card" data-cat="3d security">
           <span class="tag">WebGL &bull; Three.js &bull; 3D</span>
           <h3>Threat Globe 3D</h3>
           <p>A draggable 3D Earth where simulated cyber-attack arcs fly between world cities and get blocked on arrival, with a live HUD. All data is simulated.</p>
@@ -96,7 +123,7 @@
           &nbsp;&middot;&nbsp;
           <a href="https://github.com/lasmeldas/threat-globe-3d" target="_blank" rel="noopener">Source</a>
         </article>
-        <article class="card">
+        <article class="card" data-cat="3d dev">
           <span class="tag">WebGL &bull; Three.js</span>
           <h3>This 3D portfolio</h3>
           <p>The interactive network you're looking at: plain HTML, CSS and Three.js, with no build step and no framework.</p>
@@ -114,16 +141,16 @@
 
     <section id="skills" class="panel reveal">
       <h2>Skills</h2>
-      <ul class="chips">
-        <li>Cybersecurity</li>
-        <li>Threat detection</li>
-        <li>Machine learning</li>
-        <li>Python</li>
-        <li>JavaScript</li>
-        <li>Three.js</li>
-        <li>Git &amp; GitHub</li>
-        <li>Linux</li>
-      </ul>
+      <div class="skill-groups">
+        <h3>Development</h3>
+        <ul class="chips"><li>JavaScript</li><li>Python</li><li>HTML &amp; CSS</li><li>REST APIs</li><li>Testing</li><li>Git &amp; GitHub</li><li>CI with GitHub Actions</li></ul>
+        <h3>Machine learning</h3>
+        <ul class="chips"><li>NumPy</li><li>scikit-learn</li><li>Model evaluation</li><li>Feature engineering</li><li>Classification &amp; clustering</li></ul>
+        <h3>Cybersecurity</h3>
+        <ul class="chips"><li>Threat detection</li><li>Log analysis</li><li>Network scanning</li><li>Password security</li><li>Linux</li></ul>
+        <h3>3D &amp; visual</h3>
+        <ul class="chips"><li>Three.js</li><li>WebGL</li><li>Data visualization</li></ul>
+      </div>
     </section>
 
     <section id="contact" class="panel reveal">

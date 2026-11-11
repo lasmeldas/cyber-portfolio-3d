@@ -31,6 +31,7 @@ A personal portfolio that opens on a live 3D scene: a glowing wireframe core ins
 
 - **3D hero scene** built with WebGL: a counter-rotating core, a linked node network and a starfield.
 - **Interactive:** the camera eases toward your pointer, and scrolling rotates the network.
+- **Three areas, one page:** featured projects cover development, machine learning, security and 3D, with a filter to show one area at a time, and skills are grouped the same way.
 - **Live project list:** the "Latest on GitHub" section reads your public repositories from the GitHub API, so new work appears without editing the page. Forks, archived repos and the profile repo are skipped, and results are cached for 10 minutes to stay under the API's rate limit.
 - **Accessible:** a **Motion** button pauses all animation, `prefers-reduced-motion` starts it paused, and focus styles and contrast are kept readable.
 - **Resilient:** without WebGL the page still works, and if the GitHub API is unavailable the section shows a short message instead of breaking.
@@ -51,7 +52,7 @@ Then open http://localhost:8000.
 
 | What | Where |
 |------|-------|
-| Name, text, featured projects, links | `index.html` |
+| Name, text, featured projects (each card's `data-cat` sets its filter area), skills, links | `index.html` |
 | Colors, spacing, fonts | CSS variables at the top of `style.css` |
 | Node count, radius, scene colors | `NODE_COUNT`, `RADIUS`, `GREEN`, `CYAN` at the top of `main.js` |
 | Typed roles | the `roles` array in `startTyping()` in `main.js` |

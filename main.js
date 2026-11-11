@@ -162,7 +162,7 @@ function startScene() {
 function startTyping() {
   const el = document.getElementById('typed');
   if (!el) return;
-  const roles = ['Cybersecurity enthusiast', 'AI builder', 'Threat detection', 'Open-source tinkerer'];
+  const roles = ['Software developer', 'Machine learning builder', 'Cybersecurity enthusiast', 'Open-source tinkerer'];
   if (reduceMotion) {
     el.textContent = roles[0];
     return;
@@ -326,3 +326,18 @@ startTyping();
 startReveal();
 startScene();
 loadRepos();
+
+// Project filter: show only the cards whose data-cat includes the chosen area.
+(function () {
+  const buttons = document.querySelectorAll('.filter');
+  const cards = document.querySelectorAll('#project-grid .card');
+  buttons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      const want = btn.dataset.filter;
+      buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b === btn)); });
+      cards.forEach(function (card) {
+        card.hidden = want !== 'all' && card.dataset.cat.split(' ').indexOf(want) === -1;
+      });
+    });
+  });
+})();
