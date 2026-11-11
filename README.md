@@ -25,7 +25,7 @@
   </a>
 </p>
 
-A personal portfolio that opens on a live 3D scene: a glowing wireframe core inside a network of linked nodes that follows your mouse and rotates as you scroll. It is plain HTML, CSS and JavaScript with a single CDN import, so there is nothing to install or build.
+A personal portfolio that opens on a live 3D scene: a glowing wireframe core inside a network of linked nodes that follows your mouse and rotates as you scroll. It is plain HTML, CSS and JavaScript with Three.js included in the repo, so there is nothing to install, build or download from a CDN.
 
 ## Features
 
@@ -72,6 +72,7 @@ cyber-portfolio-3d/
 ├── index.html    # content, meta tags, import map
 ├── style.css     # theme, layout, animation
 ├── main.js       # Three.js scene, typing effect, motion toggle, GitHub repo list
+├── vendor/       # Three.js r160 (MIT), so the site has no CDN dependency
 ├── .nojekyll     # tells GitHub Pages to skip Jekyll and serve files as they are
 ├── docs/         # README banner and screenshot
 ├── LICENSE
@@ -80,7 +81,7 @@ cyber-portfolio-3d/
 
 ## Tech
 
-[Three.js](https://threejs.org/) r160, loaded from jsDelivr through an import map, plus the public [GitHub REST API](https://docs.github.com/en/rest). No framework, bundler or package manager.
+[Three.js](https://threejs.org/) r160, bundled in `vendor/` and loaded through an import map, plus the public [GitHub REST API](https://docs.github.com/en/rest). No framework, bundler or package manager.
 
 ## License
 

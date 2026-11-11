@@ -1,5 +1,7 @@
 import * as THREE from 'three';
 
+document.documentElement.dataset.ready = '1'; // tells the page the 3D script loaded
+
 const OWNER = 'lasmeldas';
 const canvas = document.getElementById('scene');
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
