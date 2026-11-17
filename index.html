@@ -34,6 +34,8 @@
       <nav aria-label="Primary">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
+        <a href="#lab">Lab</a>
+        <a href="#cases">Case studies</a>
         <a href="#repos">Repos</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
@@ -44,8 +46,9 @@
 
   <main id="top">
     <section class="hero">
-      <p class="eyebrow">Hello, world. I'm Beamlak, a.k.a.</p>
-      <h1>lasmeldas</h1>
+      <p class="eyebrow">Hello, world. I'm</p>
+      <h1>Beamlak</h1>
+      <p class="handle">@lasmeldas on GitHub</p>
       <p class="roles"><span id="typed" aria-live="off"></span><span class="cursor" aria-hidden="true">|</span></p>
       <p class="lead">I build software across three areas: web and developer tools, machine learning, and security. I like making hard ideas easy to see and use.</p>
       <div class="cta">
@@ -61,6 +64,13 @@
       <p>I build in the open, learn by shipping, and keep improving what I've made.</p>
     </section>
 
+    <section class="stats reveal" aria-label="At a glance">
+      <div><strong>279</strong><span>automated tests across 4 projects</span></div>
+      <div><strong>8</strong><span>ML algorithms from scratch</span></div>
+      <div><strong>3</strong><span>areas: dev, ML, security</span></div>
+      <div><strong>0</strong><span>dependencies in devtoolbox</span></div>
+    </section>
+
     <section id="projects" class="reveal">
       <h2>Featured projects</h2>
       <div class="filters" role="group" aria-label="Filter projects by area">
@@ -74,7 +84,7 @@
         <article class="card" data-cat="ml">
           <span class="tag">Python &bull; NumPy &bull; ML</span>
           <h3>ml-from-scratch</h3>
-          <p>Linear and logistic regression, k-NN, naive Bayes, decision trees, random forests, k-means and PCA written with only NumPy, and checked against scikit-learn on four real datasets.</p>
+          <p>Eight algorithms (linear, ridge and logistic regression, naive Bayes, k-NN, decision trees, k-means and PCA) written with only NumPy. 161 tests, 53 of them train scikit-learn on the same data and compare the results.</p>
           <a href="https://github.com/lasmeldas/ml-from-scratch" target="_blank" rel="noopener">View on GitHub &rarr;</a>
         </article>
         <article class="card" data-cat="dev">
@@ -132,6 +142,37 @@
       </div>
     </section>
 
+    <section id="lab" class="panel reveal">
+      <h2>Security lab</h2>
+      <p class="section-note">A small live demo of how <a href="https://github.com/lasmeldas/passguard" target="_blank" rel="noopener">passguard</a>'s breach check keeps your password private. Type anything: it is hashed in your browser and nothing is sent anywhere.</p>
+      <label for="lab-pw" class="lab-label">Try a password</label>
+      <input id="lab-pw" class="lab-input" type="text" autocomplete="off" spellcheck="false" placeholder="e.g. correct horse battery staple">
+      <dl class="lab-out" aria-live="polite">
+        <div><dt>SHA-1 (stays on your device)</dt><dd id="lab-hash">-</dd></div>
+        <div><dt>Only this prefix would be sent</dt><dd id="lab-prefix">-</dd></div>
+        <div><dt>Kept private</dt><dd id="lab-suffix">-</dd></div>
+        <div><dt>Rough strength (length &times; log2 of the character pool)</dt><dd id="lab-entropy">-</dd></div>
+      </dl>
+      <p class="section-note">The strength figure is a simplified estimate that ignores patterns. The real tool also subtracts repeated runs, keyboard sequences, years and common passwords.</p>
+    </section>
+
+    <section id="cases" class="reveal">
+      <h2>How I build</h2>
+      <p class="section-note">Short write-ups of the thinking behind three projects.</p>
+      <details class="case">
+        <summary>authwatch: telling an attack from noise</summary>
+        <p>An SSH log has thousands of failed logins, and most are harmless background scanning. The one that matters is a <em>successful</em> login right after a burst of failures from the same address. authwatch ranks findings that way: <strong>critical</strong> for success after failures, <strong>high</strong> for a brute-force burst (5 failures in 300 seconds by default), <strong>medium</strong> for slow username spraying. Every threshold is a flag, trusted networks can be skipped with CIDR ranges, and <code>--fail-on-alert</code> makes it usable from cron or CI.</p>
+      </details>
+      <details class="case">
+        <summary>passguard: honest about what a strength score means</summary>
+        <p>Entropy is length times the log of the character pool, but real attackers try patterns first. passguard shrinks the effective length for repeated runs, keyboard sequences, years and common words, caps known passwords at 12 bits, and rates the result. The README says plainly that it is a heuristic with a small built-in word list. The optional breach check uses the Have I Been Pwned k-anonymity API, so only five characters of a SHA-1 hash ever leave your machine.</p>
+      </details>
+      <details class="case">
+        <summary>ml-from-scratch: trusting my own implementations</summary>
+        <p>Writing an algorithm is easy; knowing it is right is the hard part. Each model has behaviour tests with answers worked out by hand, plus parity tests that train the scikit-learn equivalent on the same data and compare coefficients, probabilities, neighbours, trees, clusters and components numerically. Input validation and edge cases (unfitted models, bad shapes, reproducible seeds) are tested too. CI runs it all on three Python versions.</p>
+      </details>
+    </section>
+
     <section id="repos" class="reveal">
       <h2>Latest on GitHub</h2>
       <p class="section-note">Loaded live from my public repositories.</p>
@@ -143,11 +184,11 @@
       <h2>Skills</h2>
       <div class="skill-groups">
         <h3>Development</h3>
-        <ul class="chips"><li>JavaScript</li><li>Python</li><li>HTML &amp; CSS</li><li>REST APIs</li><li>Testing</li><li>Git &amp; GitHub</li><li>CI with GitHub Actions</li></ul>
+        <ul class="chips"><li>JavaScript</li><li>Python</li><li>HTML &amp; CSS</li><li>REST APIs</li><li>FastAPI</li><li>Full-stack web apps</li><li>Testing</li><li>Git &amp; GitHub</li><li>CI with GitHub Actions</li></ul>
         <h3>Machine learning</h3>
         <ul class="chips"><li>NumPy</li><li>scikit-learn</li><li>Model evaluation</li><li>Feature engineering</li><li>Classification &amp; clustering</li></ul>
         <h3>Cybersecurity</h3>
-        <ul class="chips"><li>Threat detection</li><li>Log analysis</li><li>Network scanning</li><li>Password security</li><li>Linux</li></ul>
+        <ul class="chips"><li>Threat detection</li><li>Log analysis</li><li>Brute-force detection</li><li>TLS auditing</li><li>Phishing detection</li><li>Network scanning</li><li>Password security</li><li>Linux</li></ul>
         <h3>3D &amp; visual</h3>
         <ul class="chips"><li>Three.js</li><li>WebGL</li><li>Data visualization</li></ul>
       </div>
@@ -166,5 +207,6 @@
 
   <noscript><p class="noscript">This portfolio uses JavaScript for its 3D scene and live repository list. The content above still works without it.</p></noscript>
   <script type="module" src="main.js"></script>
+  <script type="module" src="lab.js"></script>
 </body>
 </html>

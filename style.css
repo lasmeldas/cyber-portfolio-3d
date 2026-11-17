@@ -178,3 +178,28 @@ a:focus-visible, .btn:focus-visible { outline: 2px solid var(--cyan); outline-of
 .card[hidden] { display: none; }
 .skill-groups h3 { font-family: var(--mono); font-size: 0.8rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; margin: 1.1rem 0 0.6rem; }
 .skill-groups h3:first-child { margin-top: 0; }
+
+/* Name and handle in the hero */
+.handle { font-family: var(--mono); color: var(--green); margin: -0.3rem 0 0.6rem; }
+
+/* At-a-glance numbers */
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 0 0 clamp(48px, 9vh, 96px); }
+.stats div { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 16px; text-align: center; }
+.stats strong { display: block; font-family: var(--mono); font-size: 2rem; color: var(--green); }
+.stats span { color: var(--muted); font-size: 0.85rem; }
+@media (max-width: 700px) { .stats { grid-template-columns: repeat(2, 1fr); } }
+
+/* Security lab */
+.lab-label { display: block; color: var(--muted); font-size: 0.85rem; margin-bottom: 6px; }
+.lab-input { width: 100%; background: rgba(5, 7, 13, 0.8); color: var(--text); border: 1px solid var(--border); border-radius: 8px; padding: 12px; font: 0.95rem var(--mono); }
+.lab-input:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
+.lab-out { margin: 1rem 0; display: grid; gap: 10px; }
+.lab-out dt { color: var(--muted); font-size: 0.8rem; }
+.lab-out dd { margin: 0; font-family: var(--mono); color: var(--green); word-break: break-all; }
+
+/* Case studies */
+.case { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 4px 18px; margin-bottom: 10px; }
+.case summary { cursor: pointer; padding: 12px 0; font-weight: 600; }
+.case summary:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
+.case p { color: var(--muted); margin: 0 0 14px; }
+.case code { font-family: var(--mono); color: var(--cyan); }
