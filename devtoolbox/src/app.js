@@ -7,6 +7,9 @@ import { parseTimestampInput, describeTimestamp } from './lib/time.js';
 import { diffLines } from './lib/diff.js';
 import { uuidv4, uuidv7, parseUuid } from './lib/uuid.js';
 
+// ?theme=dark or ?theme=light overrides the system setting (used when embedded in my portfolio).
+try { const t = new URLSearchParams(location.search).get('theme'); if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t; } catch {}
+
 const $ = (s, r = document) => r.querySelector(s);
 function el(tag, attrs = {}, ...kids) {
   const n = document.createElement(tag);

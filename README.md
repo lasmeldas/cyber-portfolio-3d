@@ -91,3 +91,7 @@ cyber-portfolio-3d/
 ---
 
 <p align="center">Built by <a href="https://github.com/lasmeldas"><b>Beamlak</b></a> &middot; <a href="https://github.com/lasmeldas">github.com/lasmeldas</a></p>
+
+## Lab and tests
+
+The **Lab** section lets visitors try the projects in the browser: devtoolbox (embedded), passguard, authwatch and a k-NN / k-means playground. The passguard and authwatch versions are JavaScript ports in `lab/`. `tests/lab.test.mjs` checks them against outputs produced by the real Python tools (152 passwords, 28 logs, 12 k-NN datasets); regenerate the fixtures with `tests/make_fixtures.py`, then run `node --test tests/lab.test.mjs`.

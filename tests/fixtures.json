@@ -1,0 +1,6226 @@
+{
+ "passwords": [
+  {
+   "input": "",
+   "result": {
+    "length": 0,
+    "entropy_bits": 0.0,
+    "score": 0,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "The password is empty."
+    ],
+    "suggestions": [
+     "Use a long passphrase or a generated password."
+    ]
+   }
+  },
+  {
+   "input": "a",
+   "result": {
+    "length": 1,
+    "entropy_bits": 4.7,
+    "score": 6,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "password",
+   "result": {
+    "length": 8,
+    "entropy_bits": 12.0,
+    "score": 15,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "This is a very common password."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "Password1",
+   "result": {
+    "length": 9,
+    "entropy_bits": 12.0,
+    "score": 15,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "This is a very common password."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "p@ssw0rd",
+   "result": {
+    "length": 8,
+    "entropy_bits": 12.0,
+    "score": 15,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "This is a very common password."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "qwerty",
+   "result": {
+    "length": 6,
+    "entropy_bits": 4.7,
+    "score": 6,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Contains a predictable sequence (6 characters).",
+     "This is a very common password.",
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "abcdef",
+   "result": {
+    "length": 6,
+    "entropy_bits": 4.7,
+    "score": 6,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Contains a predictable sequence (6 characters).",
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "aaaaaaaa",
+   "result": {
+    "length": 8,
+    "entropy_bits": 4.7,
+    "score": 6,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Contains repeated characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "Tr0ub4dor&3",
+   "result": {
+    "length": 11,
+    "entropy_bits": 72.1,
+    "score": 90,
+    "rating": "Strong",
+    "crack_time": "~8 thousand years",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "correct horse battery staple",
+   "result": {
+    "length": 28,
+    "entropy_bits": 164.0,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "hello2024",
+   "result": {
+    "length": 9,
+    "entropy_bits": 12.0,
+    "score": 15,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Contains a year, which is easy to guess.",
+     "This is a very common password."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "12345678",
+   "result": {
+    "length": 8,
+    "entropy_bits": 3.3,
+    "score": 4,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Contains a predictable sequence (8 characters).",
+     "This is a very common password."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "ZZZ111zzz",
+   "result": {
+    "length": 9,
+    "entropy_bits": 17.9,
+    "score": 22,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Contains repeated characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "Summer2019!",
+   "result": {
+    "length": 11,
+    "entropy_bits": 59.0,
+    "score": 74,
+    "rating": "Fair",
+    "crack_time": "333 days",
+    "issues": [
+     "Contains a year, which is easy to guess."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "letmein123",
+   "result": {
+    "length": 10,
+    "entropy_bits": 12.0,
+    "score": 15,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Contains a predictable sequence (3 characters).",
+     "This is a very common password."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "qazwsx",
+   "result": {
+    "length": 6,
+    "entropy_bits": 12.0,
+    "score": 15,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "This is a very common password.",
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "héllo wörld",
+   "result": {
+    "length": 11,
+    "entropy_bits": 64.4,
+    "score": 80,
+    "rating": "Strong",
+    "crack_time": "38 years",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "日本語パスワード",
+   "result": {
+    "length": 8,
+    "entropy_bits": 40.0,
+    "score": 50,
+    "rating": "Fair",
+    "crack_time": "54 seconds",
+    "issues": [],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "result": {
+    "length": 40,
+    "entropy_bits": 4.7,
+    "score": 6,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Contains repeated characters."
+    ],
+    "suggestions": [
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "Xk9#mQ2$vL7@pR4!",
+   "result": {
+    "length": 16,
+    "entropy_bits": 104.9,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "P@ssw0rd!!!",
+   "result": {
+    "length": 11,
+    "entropy_bits": 12.0,
+    "score": 15,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Contains repeated characters.",
+     "This is a very common password."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "iloveyou2020",
+   "result": {
+    "length": 12,
+    "entropy_bits": 12.0,
+    "score": 15,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Contains a year, which is easy to guess.",
+     "This is a very common password."
+    ],
+    "suggestions": [
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "asdfghjkl",
+   "result": {
+    "length": 9,
+    "entropy_bits": 4.7,
+    "score": 6,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Contains a predictable sequence (9 characters)."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "987654321",
+   "result": {
+    "length": 9,
+    "entropy_bits": 0.0,
+    "score": 0,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Contains a predictable sequence (9 characters).",
+     "Contains a very common password or word."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "mnbvcxz",
+   "result": {
+    "length": 7,
+    "entropy_bits": 4.7,
+    "score": 6,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Contains a predictable sequence (7 characters).",
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "  spaces here ",
+   "result": {
+    "length": 14,
+    "entropy_bits": 82.0,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "~8 million years",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "monkey",
+   "result": {
+    "length": 6,
+    "entropy_bits": 12.0,
+    "score": 15,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "This is a very common password.",
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "monkey!",
+   "result": {
+    "length": 7,
+    "entropy_bits": 12.0,
+    "score": 15,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "This is a very common password.",
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "Dragon1",
+   "result": {
+    "length": 7,
+    "entropy_bits": 12.0,
+    "score": 15,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "This is a very common password.",
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "football99",
+   "result": {
+    "length": 10,
+    "entropy_bits": 12.0,
+    "score": 15,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "This is a very common password."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "abc",
+   "result": {
+    "length": 3,
+    "entropy_bits": 4.7,
+    "score": 6,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Contains a predictable sequence (3 characters).",
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "abcd1234",
+   "result": {
+    "length": 8,
+    "entropy_bits": 10.3,
+    "score": 13,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Contains a predictable sequence (4 characters).",
+     "Contains a predictable sequence (4 characters)."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "tYgj&mU=h#B",
+   "result": {
+    "length": 11,
+    "entropy_bits": 70.3,
+    "score": 88,
+    "rating": "Strong",
+    "crack_time": "~2 thousand years",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "l3",
+   "result": {
+    "length": 2,
+    "entropy_bits": 10.3,
+    "score": 13,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "iEl(2h-pC=h_=Y",
+   "result": {
+    "length": 14,
+    "entropy_bits": 91.8,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "Cf",
+   "result": {
+    "length": 2,
+    "entropy_bits": 11.4,
+    "score": 14,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "rL1s*p_N)xn=_yVm(i",
+   "result": {
+    "length": 18,
+    "entropy_bits": 118.0,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "hA@&2O7=6UMFxFk_M^@",
+   "result": {
+    "length": 19,
+    "entropy_bits": 124.5,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "5Kjp$1vRt!1",
+   "result": {
+    "length": 11,
+    "entropy_bits": 72.1,
+    "score": 90,
+    "rating": "Strong",
+    "crack_time": "~8 thousand years",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "j)",
+   "result": {
+    "length": 2,
+    "entropy_bits": 11.7,
+    "score": 15,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "ORS@=6ilI8ihN_5KXSc",
+   "result": {
+    "length": 19,
+    "entropy_bits": 124.5,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "Tvo@hBKqFYY@kv5",
+   "result": {
+    "length": 15,
+    "entropy_bits": 98.3,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "(Jr3(J1TWDtkw",
+   "result": {
+    "length": 13,
+    "entropy_bits": 85.2,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "~70 million years",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "DDb!+",
+   "result": {
+    "length": 5,
+    "entropy_bits": 32.0,
+    "score": 40,
+    "rating": "Weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "HKas1&",
+   "result": {
+    "length": 6,
+    "entropy_bits": 39.3,
+    "score": 49,
+    "rating": "Fair",
+    "crack_time": "33 seconds",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "-Oq$g6)YYZYn",
+   "result": {
+    "length": 12,
+    "entropy_bits": 78.7,
+    "score": 98,
+    "rating": "Strong",
+    "crack_time": "~778 thousand years",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "ZhyiA4uoRgna-t&m",
+   "result": {
+    "length": 16,
+    "entropy_bits": 104.9,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "djAWtGSU8po!",
+   "result": {
+    "length": 12,
+    "entropy_bits": 78.7,
+    "score": 98,
+    "rating": "Strong",
+    "crack_time": "~778 thousand years",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "99NksnRH9u%cA^U",
+   "result": {
+    "length": 15,
+    "entropy_bits": 98.3,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "*d^Ml",
+   "result": {
+    "length": 5,
+    "entropy_bits": 32.0,
+    "score": 40,
+    "rating": "Weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "H%UvTC&*#QCyEZDz%@TddJ8",
+   "result": {
+    "length": 23,
+    "entropy_bits": 150.8,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "yS5SUkCnD",
+   "result": {
+    "length": 9,
+    "entropy_bits": 53.6,
+    "score": 67,
+    "rating": "Fair",
+    "crack_time": "7 days",
+    "issues": [],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "zRA9a9SkpXz9w3Ql",
+   "result": {
+    "length": 16,
+    "entropy_bits": 95.3,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "Y7Zkuvqdt+7s8St((qcbn^r3",
+   "result": {
+    "length": 24,
+    "entropy_bits": 157.3,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "BdGBL#E",
+   "result": {
+    "length": 7,
+    "entropy_bits": 44.7,
+    "score": 56,
+    "rating": "Fair",
+    "crack_time": "23 minutes",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "PH*1qhT6=%1#q&t^$c4",
+   "result": {
+    "length": 19,
+    "entropy_bits": 124.5,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "atws8p",
+   "result": {
+    "length": 6,
+    "entropy_bits": 31.0,
+    "score": 39,
+    "rating": "Weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "hP%^)9n)hFyJfm#5)d",
+   "result": {
+    "length": 18,
+    "entropy_bits": 118.0,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "4P#",
+   "result": {
+    "length": 3,
+    "entropy_bits": 18.3,
+    "score": 23,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "$zJ5$&9#F%H)z5r1pY4O",
+   "result": {
+    "length": 20,
+    "entropy_bits": 131.1,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "E2j",
+   "result": {
+    "length": 3,
+    "entropy_bits": 17.9,
+    "score": 22,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "MptUsGr",
+   "result": {
+    "length": 7,
+    "entropy_bits": 39.9,
+    "score": 50,
+    "rating": "Fair",
+    "crack_time": "51 seconds",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "CmY!uCu3$ZR1zTO",
+   "result": {
+    "length": 15,
+    "entropy_bits": 98.3,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "UcR",
+   "result": {
+    "length": 3,
+    "entropy_bits": 17.1,
+    "score": 21,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "64cXQ%L$ioDnkHIfxI",
+   "result": {
+    "length": 18,
+    "entropy_bits": 118.0,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "2HZt&",
+   "result": {
+    "length": 5,
+    "entropy_bits": 32.8,
+    "score": 41,
+    "rating": "Weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "_@PlJhx2jIclHkCiH",
+   "result": {
+    "length": 17,
+    "entropy_bits": 111.4,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "6bR(",
+   "result": {
+    "length": 4,
+    "entropy_bits": 26.2,
+    "score": 33,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "Iqf^EouHgxzNN^",
+   "result": {
+    "length": 14,
+    "entropy_bits": 89.5,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "L5#wISc",
+   "result": {
+    "length": 7,
+    "entropy_bits": 45.9,
+    "score": 57,
+    "rating": "Fair",
+    "crack_time": "54 minutes",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "ebc#(y$8F",
+   "result": {
+    "length": 9,
+    "entropy_bits": 59.0,
+    "score": 74,
+    "rating": "Fair",
+    "crack_time": "333 days",
+    "issues": [],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "n3@*Y#NBDRzrZSg",
+   "result": {
+    "length": 15,
+    "entropy_bits": 98.3,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "bjG3u",
+   "result": {
+    "length": 5,
+    "entropy_bits": 29.8,
+    "score": 37,
+    "rating": "Weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "kW",
+   "result": {
+    "length": 2,
+    "entropy_bits": 11.4,
+    "score": 14,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "KFLf6xuI5aHUQ(PFe",
+   "result": {
+    "length": 17,
+    "entropy_bits": 111.4,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "BTxaQWk8J#",
+   "result": {
+    "length": 10,
+    "entropy_bits": 65.5,
+    "score": 82,
+    "rating": "Strong",
+    "crack_time": "82 years",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "zF#alHlsZ+fYcMMDk=^tX",
+   "result": {
+    "length": 21,
+    "entropy_bits": 134.2,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "@tKsf$2#r^#",
+   "result": {
+    "length": 11,
+    "entropy_bits": 72.1,
+    "score": 90,
+    "rating": "Strong",
+    "crack_time": "~8 thousand years",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "c=DkdfrUnW5)gc&F!Ha",
+   "result": {
+    "length": 19,
+    "entropy_bits": 124.5,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "i#&l^i8GjHEAD6@",
+   "result": {
+    "length": 15,
+    "entropy_bits": 98.3,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "j9KfzjsQGM-rb",
+   "result": {
+    "length": 13,
+    "entropy_bits": 85.2,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "~70 million years",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "h!ImB!L%K777p(zN",
+   "result": {
+    "length": 16,
+    "entropy_bits": 91.8,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [
+     "Contains repeated characters."
+    ],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "8cL",
+   "result": {
+    "length": 3,
+    "entropy_bits": 17.9,
+    "score": 22,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "j#5IXAAj=ls^HUq",
+   "result": {
+    "length": 15,
+    "entropy_bits": 98.3,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "$JoUD@!Ydua!5ZMs1SWO",
+   "result": {
+    "length": 20,
+    "entropy_bits": 131.1,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "QaPR",
+   "result": {
+    "length": 4,
+    "entropy_bits": 22.8,
+    "score": 29,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "pzbLGViYX+jU2",
+   "result": {
+    "length": 13,
+    "entropy_bits": 85.2,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "~70 million years",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "gJngKtFI3",
+   "result": {
+    "length": 9,
+    "entropy_bits": 53.6,
+    "score": 67,
+    "rating": "Fair",
+    "crack_time": "7 days",
+    "issues": [],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "OyV2dZ((Akg05rK!g",
+   "result": {
+    "length": 17,
+    "entropy_bits": 111.4,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "qv81RKMGHZEM9)Ypvu",
+   "result": {
+    "length": 18,
+    "entropy_bits": 118.0,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "A#@",
+   "result": {
+    "length": 3,
+    "entropy_bits": 17.6,
+    "score": 22,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "C5Q52r(yFlwR)lOEVH",
+   "result": {
+    "length": 18,
+    "entropy_bits": 118.0,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "zc0X0^AWIRh@J_Uq#^B",
+   "result": {
+    "length": 19,
+    "entropy_bits": 124.5,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "IFX",
+   "result": {
+    "length": 3,
+    "entropy_bits": 14.1,
+    "score": 18,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "53Ncqe28+!ajY",
+   "result": {
+    "length": 13,
+    "entropy_bits": 85.2,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "~70 million years",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "75FnCtt%n6k(faqD-",
+   "result": {
+    "length": 17,
+    "entropy_bits": 111.4,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "Mq",
+   "result": {
+    "length": 2,
+    "entropy_bits": 11.4,
+    "score": 14,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "G^3omjM^=yXHCab&M6JOF",
+   "result": {
+    "length": 21,
+    "entropy_bits": 137.6,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "^E(Fd0Nhcy@1kGD2",
+   "result": {
+    "length": 16,
+    "entropy_bits": 104.9,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "D@eR1UYzaL#i",
+   "result": {
+    "length": 12,
+    "entropy_bits": 78.7,
+    "score": 98,
+    "rating": "Strong",
+    "crack_time": "~778 thousand years",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "@zNyD7C",
+   "result": {
+    "length": 7,
+    "entropy_bits": 45.9,
+    "score": 57,
+    "rating": "Fair",
+    "crack_time": "54 minutes",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "Ln@xC!1hs",
+   "result": {
+    "length": 9,
+    "entropy_bits": 59.0,
+    "score": 74,
+    "rating": "Fair",
+    "crack_time": "333 days",
+    "issues": [],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "gBds1ghxY5Ook",
+   "result": {
+    "length": 13,
+    "entropy_bits": 77.4,
+    "score": 97,
+    "rating": "Strong",
+    "crack_time": "~316 thousand years",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "Qyx^7e",
+   "result": {
+    "length": 6,
+    "entropy_bits": 39.3,
+    "score": 49,
+    "rating": "Fair",
+    "crack_time": "33 seconds",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "WVQ4vnakJk",
+   "result": {
+    "length": 10,
+    "entropy_bits": 59.5,
+    "score": 74,
+    "rating": "Fair",
+    "crack_time": "1 year",
+    "issues": [],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "1p)AWTN3lg8z",
+   "result": {
+    "length": 12,
+    "entropy_bits": 78.7,
+    "score": 98,
+    "rating": "Strong",
+    "crack_time": "~778 thousand years",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "*5yPU8d0FZfW",
+   "result": {
+    "length": 12,
+    "entropy_bits": 78.7,
+    "score": 98,
+    "rating": "Strong",
+    "crack_time": "~778 thousand years",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "7i",
+   "result": {
+    "length": 2,
+    "entropy_bits": 10.3,
+    "score": 13,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "Gy",
+   "result": {
+    "length": 2,
+    "entropy_bits": 11.4,
+    "score": 14,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "iRUIQfHOJMaidDn87XG3@q@x",
+   "result": {
+    "length": 24,
+    "entropy_bits": 157.3,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "M",
+   "result": {
+    "length": 1,
+    "entropy_bits": 4.7,
+    "score": 6,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "tEPO6Uk$zYuF0ie9(*Pu2nj",
+   "result": {
+    "length": 23,
+    "entropy_bits": 150.8,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "kAm1@5wDr",
+   "result": {
+    "length": 9,
+    "entropy_bits": 59.0,
+    "score": 74,
+    "rating": "Fair",
+    "crack_time": "333 days",
+    "issues": [],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "6E&pLLJ-IVGHz4",
+   "result": {
+    "length": 14,
+    "entropy_bits": 91.8,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "xFEtK=yP",
+   "result": {
+    "length": 8,
+    "entropy_bits": 51.1,
+    "score": 64,
+    "rating": "Fair",
+    "crack_time": "1 day",
+    "issues": [],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "YGF",
+   "result": {
+    "length": 3,
+    "entropy_bits": 14.1,
+    "score": 18,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "^Dm7ena8D5VfLDpgy",
+   "result": {
+    "length": 17,
+    "entropy_bits": 111.4,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "=yjV$w5HanSBeVRsfAGe",
+   "result": {
+    "length": 20,
+    "entropy_bits": 131.1,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "AbP0VxNjAe@(9i0mY(t&",
+   "result": {
+    "length": 20,
+    "entropy_bits": 131.1,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "uYI",
+   "result": {
+    "length": 3,
+    "entropy_bits": 17.1,
+    "score": 21,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "KN1gN-T11cUzYZ",
+   "result": {
+    "length": 14,
+    "entropy_bits": 91.8,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "a3u2olZ",
+   "result": {
+    "length": 7,
+    "entropy_bits": 41.7,
+    "score": 52,
+    "rating": "Fair",
+    "crack_time": "2 minutes",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "U6uqbg(sYl_V#vsSKu%",
+   "result": {
+    "length": 19,
+    "entropy_bits": 124.5,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "inX!zM",
+   "result": {
+    "length": 6,
+    "entropy_bits": 38.4,
+    "score": 48,
+    "rating": "Fair",
+    "crack_time": "18 seconds",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "f9OgX",
+   "result": {
+    "length": 5,
+    "entropy_bits": 29.8,
+    "score": 37,
+    "rating": "Weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "uCZ",
+   "result": {
+    "length": 3,
+    "entropy_bits": 17.1,
+    "score": 21,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "z8x-BfZ%uXTptFyf)ePp",
+   "result": {
+    "length": 20,
+    "entropy_bits": 131.1,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "6(N1N=F2XV5#4",
+   "result": {
+    "length": 13,
+    "entropy_bits": 79.1,
+    "score": 99,
+    "rating": "Strong",
+    "crack_time": "~1 million years",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "ca!7E5",
+   "result": {
+    "length": 6,
+    "entropy_bits": 39.3,
+    "score": 49,
+    "rating": "Fair",
+    "crack_time": "33 seconds",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "6w8ZniqT3Ul4#$ffqkO$",
+   "result": {
+    "length": 20,
+    "entropy_bits": 131.1,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "g#W",
+   "result": {
+    "length": 3,
+    "entropy_bits": 19.2,
+    "score": 24,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "rdioyq!KvCiSGuPJ6sG#9",
+   "result": {
+    "length": 21,
+    "entropy_bits": 137.6,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "+H#EOVe",
+   "result": {
+    "length": 7,
+    "entropy_bits": 44.7,
+    "score": 56,
+    "rating": "Fair",
+    "crack_time": "23 minutes",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "xZuJPWv",
+   "result": {
+    "length": 7,
+    "entropy_bits": 39.9,
+    "score": 50,
+    "rating": "Fair",
+    "crack_time": "51 seconds",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "o^gU5)%=n",
+   "result": {
+    "length": 9,
+    "entropy_bits": 59.0,
+    "score": 74,
+    "rating": "Fair",
+    "crack_time": "333 days",
+    "issues": [],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "&YVHWV_sU",
+   "result": {
+    "length": 9,
+    "entropy_bits": 57.5,
+    "score": 72,
+    "rating": "Fair",
+    "crack_time": "117 days",
+    "issues": [],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "k4DwgL%GN=O",
+   "result": {
+    "length": 11,
+    "entropy_bits": 72.1,
+    "score": 90,
+    "rating": "Strong",
+    "crack_time": "~8 thousand years",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "aeCtL31$Ugq!Dfcga-TMn%T&",
+   "result": {
+    "length": 24,
+    "entropy_bits": 157.3,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "0=M+rAU8",
+   "result": {
+    "length": 8,
+    "entropy_bits": 52.4,
+    "score": 66,
+    "rating": "Fair",
+    "crack_time": "3 days",
+    "issues": [],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "rbFt5m",
+   "result": {
+    "length": 6,
+    "entropy_bits": 35.7,
+    "score": 45,
+    "rating": "Weak",
+    "crack_time": "2 seconds",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "sIZ",
+   "result": {
+    "length": 3,
+    "entropy_bits": 17.1,
+    "score": 21,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "bh)S=4%@F",
+   "result": {
+    "length": 9,
+    "entropy_bits": 59.0,
+    "score": 74,
+    "rating": "Fair",
+    "crack_time": "333 days",
+    "issues": [],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "afh&dZ",
+   "result": {
+    "length": 6,
+    "entropy_bits": 38.4,
+    "score": 48,
+    "rating": "Fair",
+    "crack_time": "18 seconds",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "Euhnb(",
+   "result": {
+    "length": 6,
+    "entropy_bits": 38.4,
+    "score": 48,
+    "rating": "Fair",
+    "crack_time": "18 seconds",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "zs0z%#1w$NiMg9&aW37k5w",
+   "result": {
+    "length": 22,
+    "entropy_bits": 144.2,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "billions of years or more",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "nHDepQHg",
+   "result": {
+    "length": 8,
+    "entropy_bits": 45.6,
+    "score": 57,
+    "rating": "Fair",
+    "crack_time": "44 minutes",
+    "issues": [],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "(3%HLBk#b",
+   "result": {
+    "length": 9,
+    "entropy_bits": 59.0,
+    "score": 74,
+    "rating": "Fair",
+    "crack_time": "333 days",
+    "issues": [],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "HEzuPy",
+   "result": {
+    "length": 6,
+    "entropy_bits": 34.2,
+    "score": 43,
+    "rating": "Weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "QEW&88^ad3D_N",
+   "result": {
+    "length": 13,
+    "entropy_bits": 85.2,
+    "score": 100,
+    "rating": "Very strong",
+    "crack_time": "~70 million years",
+    "issues": [],
+    "suggestions": []
+   }
+  },
+  {
+   "input": "Y=j-vse",
+   "result": {
+    "length": 7,
+    "entropy_bits": 44.7,
+    "score": 56,
+    "rating": "Fair",
+    "crack_time": "23 minutes",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "o",
+   "result": {
+    "length": 1,
+    "entropy_bits": 4.7,
+    "score": 6,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  },
+  {
+   "input": "uSsd",
+   "result": {
+    "length": 4,
+    "entropy_bits": 22.8,
+    "score": 29,
+    "rating": "Very weak",
+    "crack_time": "instantly",
+    "issues": [
+     "Shorter than 8 characters."
+    ],
+    "suggestions": [
+     "Use at least 12 characters; 16 or more is better.",
+     "Try a passphrase of 4+ unrelated random words.",
+     "Use a password manager and a unique password for every site."
+    ]
+   }
+  }
+ ],
+ "logs": [
+  {
+   "text": "Nov  8 03:11:40 web01 CRON[2210]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)\nNov  8 03:12:01 web01 sshd[3101]: Failed password for root from 203.0.113.45 port 51234 ssh2\nNov  8 03:12:03 web01 sshd[3103]: Failed password for invalid user admin from 203.0.113.45 port 51236 ssh2\nNov  8 03:12:05 web01 sshd[3105]: Failed password for invalid user test from 203.0.113.45 port 51238 ssh2\nNov  8 03:12:08 web01 sshd[3107]: Failed password for ubuntu from 203.0.113.45 port 51240 ssh2\nNov  8 03:12:10 web01 sshd[3109]: Failed password for invalid user oracle from 203.0.113.45 port 51242 ssh2\nNov  8 03:12:12 web01 sshd[3111]: Failed password for root from 203.0.113.45 port 51244 ssh2\nNov  8 03:12:15 web01 sshd[3113]: Failed password for ubuntu from 203.0.113.45 port 51246 ssh2\nNov  8 03:12:19 web01 sshd[3115]: Accepted password for ubuntu from 203.0.113.45 port 51248 ssh2\nNov  8 09:00:12 web01 sshd[4001]: Failed password for invalid user git from 198.51.100.99 port 40001 ssh2\nNov  8 09:10:14 web01 sshd[4010]: Failed password for invalid user jenkins from 198.51.100.99 port 40011 ssh2\nNov  8 09:20:09 web01 sshd[4020]: Failed password for invalid user ftpuser from 198.51.100.99 port 40021 ssh2\nNov  8 09:30:31 web01 sshd[4030]: Failed password for invalid user guest from 198.51.100.99 port 40031 ssh2\nNov  8 09:40:02 web01 sshd[4040]: Failed password for invalid user nagios from 198.51.100.99 port 40041 ssh2\nNov  8 11:05:44 web01 sshd[4500]: Accepted publickey for deploy from 192.0.2.10 port 60222 ssh2: RSA SHA256:abcdefghijklmnopqrstuvwxyz\nNov  8 12:30:05 web01 sshd[4700]: Failed password for alice from 192.0.2.77 port 55100 ssh2\nNov  8 12:30:21 web01 sshd[4702]: Failed password for alice from 192.0.2.77 port 55102 ssh2\nNov  8 12:31:02 web01 sshd[4704]: Accepted password for alice from 192.0.2.77 port 55104 ssh2\nNov  8 14:20:01 web01 sshd[5001]: Failed password for root from 198.51.100.23 port 33001 ssh2\nNov  8 14:20:06 web01 sshd[5003]: Failed password for root from 198.51.100.23 port 33003 ssh2\nNov  8 14:20:11 web01 sshd[5005]: Failed password for invalid user admin from 198.51.100.23 port 33005 ssh2\nNov  8 14:20:17 web01 sshd[5007]: Failed password for invalid user guest from 198.51.100.23 port 33007 ssh2\nNov  8 14:20:22 web01 sshd[5009]: Failed password for root from 198.51.100.23 port 33009 ssh2\nNov  8 14:20:28 web01 sshd[5011]: Failed password for invalid user postgres from 198.51.100.23 port 33011 ssh2\nNov  8 14:20:33 web01 sshd[5013]: Failed password for root from 198.51.100.23 port 33013 ssh2\nNov  8 14:20:40 web01 sshd[5015]: Failed password for root from 198.51.100.23 port 33015 ssh2\n",
+   "year": 2026,
+   "opts": {},
+   "alerts": [
+    {
+     "severity": "critical",
+     "kind": "success_after_failures",
+     "ip": "203.0.113.45",
+     "failures": 7,
+     "users": [
+      "admin",
+      "oracle",
+      "root",
+      "test",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T03:12:01",
+     "last_seen": "2026-11-08T03:12:19",
+     "detail": "Login as 'ubuntu' succeeded after 7 failures within 300s. Treat the account as possibly compromised."
+    },
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "198.51.100.23",
+     "failures": 8,
+     "users": [
+      "admin",
+      "guest",
+      "postgres",
+      "root"
+     ],
+     "first_seen": "2026-11-08T14:20:01",
+     "last_seen": "2026-11-08T14:20:40",
+     "detail": "8 failed logins within 300s."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "198.51.100.99",
+     "failures": 5,
+     "users": [
+      "ftpuser",
+      "git",
+      "guest",
+      "jenkins",
+      "nagios"
+     ],
+     "first_seen": "2026-11-08T09:00:12",
+     "last_seen": "2026-11-08T09:40:02",
+     "detail": "5 failed logins spread over 5 different usernames (slow spray, stays under the burst threshold)."
+    }
+   ]
+  },
+  {
+   "text": "Nov  8 03:11:40 web01 CRON[2210]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)\nNov  8 03:12:01 web01 sshd[3101]: Failed password for root from 203.0.113.45 port 51234 ssh2\nNov  8 03:12:03 web01 sshd[3103]: Failed password for invalid user admin from 203.0.113.45 port 51236 ssh2\nNov  8 03:12:05 web01 sshd[3105]: Failed password for invalid user test from 203.0.113.45 port 51238 ssh2\nNov  8 03:12:08 web01 sshd[3107]: Failed password for ubuntu from 203.0.113.45 port 51240 ssh2\nNov  8 03:12:10 web01 sshd[3109]: Failed password for invalid user oracle from 203.0.113.45 port 51242 ssh2\nNov  8 03:12:12 web01 sshd[3111]: Failed password for root from 203.0.113.45 port 51244 ssh2\nNov  8 03:12:15 web01 sshd[3113]: Failed password for ubuntu from 203.0.113.45 port 51246 ssh2\nNov  8 03:12:19 web01 sshd[3115]: Accepted password for ubuntu from 203.0.113.45 port 51248 ssh2\nNov  8 09:00:12 web01 sshd[4001]: Failed password for invalid user git from 198.51.100.99 port 40001 ssh2\nNov  8 09:10:14 web01 sshd[4010]: Failed password for invalid user jenkins from 198.51.100.99 port 40011 ssh2\nNov  8 09:20:09 web01 sshd[4020]: Failed password for invalid user ftpuser from 198.51.100.99 port 40021 ssh2\nNov  8 09:30:31 web01 sshd[4030]: Failed password for invalid user guest from 198.51.100.99 port 40031 ssh2\nNov  8 09:40:02 web01 sshd[4040]: Failed password for invalid user nagios from 198.51.100.99 port 40041 ssh2\nNov  8 11:05:44 web01 sshd[4500]: Accepted publickey for deploy from 192.0.2.10 port 60222 ssh2: RSA SHA256:abcdefghijklmnopqrstuvwxyz\nNov  8 12:30:05 web01 sshd[4700]: Failed password for alice from 192.0.2.77 port 55100 ssh2\nNov  8 12:30:21 web01 sshd[4702]: Failed password for alice from 192.0.2.77 port 55102 ssh2\nNov  8 12:31:02 web01 sshd[4704]: Accepted password for alice from 192.0.2.77 port 55104 ssh2\nNov  8 14:20:01 web01 sshd[5001]: Failed password for root from 198.51.100.23 port 33001 ssh2\nNov  8 14:20:06 web01 sshd[5003]: Failed password for root from 198.51.100.23 port 33003 ssh2\nNov  8 14:20:11 web01 sshd[5005]: Failed password for invalid user admin from 198.51.100.23 port 33005 ssh2\nNov  8 14:20:17 web01 sshd[5007]: Failed password for invalid user guest from 198.51.100.23 port 33007 ssh2\nNov  8 14:20:22 web01 sshd[5009]: Failed password for root from 198.51.100.23 port 33009 ssh2\nNov  8 14:20:28 web01 sshd[5011]: Failed password for invalid user postgres from 198.51.100.23 port 33011 ssh2\nNov  8 14:20:33 web01 sshd[5013]: Failed password for root from 198.51.100.23 port 33013 ssh2\nNov  8 14:20:40 web01 sshd[5015]: Failed password for root from 198.51.100.23 port 33015 ssh2\n",
+   "year": 2026,
+   "opts": {
+    "threshold": 3,
+    "window": 60,
+    "spray_users": 3
+   },
+   "alerts": [
+    {
+     "severity": "critical",
+     "kind": "success_after_failures",
+     "ip": "203.0.113.45",
+     "failures": 7,
+     "users": [
+      "admin",
+      "oracle",
+      "root",
+      "test",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T03:12:01",
+     "last_seen": "2026-11-08T03:12:19",
+     "detail": "Login as 'ubuntu' succeeded after 7 failures within 60s. Treat the account as possibly compromised."
+    },
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "198.51.100.23",
+     "failures": 8,
+     "users": [
+      "admin",
+      "guest",
+      "postgres",
+      "root"
+     ],
+     "first_seen": "2026-11-08T14:20:01",
+     "last_seen": "2026-11-08T14:20:40",
+     "detail": "8 failed logins within 60s, targeting 4 different usernames."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "198.51.100.99",
+     "failures": 5,
+     "users": [
+      "ftpuser",
+      "git",
+      "guest",
+      "jenkins",
+      "nagios"
+     ],
+     "first_seen": "2026-11-08T09:00:12",
+     "last_seen": "2026-11-08T09:40:02",
+     "detail": "5 failed logins spread over 5 different usernames (slow spray, stays under the burst threshold)."
+    }
+   ]
+  },
+  {
+   "text": "Nov  8 00:16:41 h sshd[1]: Failed password for root from 198.51.100.9 port 22 ssh2\nNov  8 00:16:41 h CRON[2]: noise line\nNov  8 00:17:11 h sshd[1]: Accepted password for git from 192.0.2.77 port 22 ssh2\nNov  8 00:19:11 h sshd[1]: Failed password for invalid user bob from 203.0.113.5 port 22 ssh2\nNov  8 00:19:12 h sshd[1]: Failed password for invalid user test from 203.0.113.5 port 22 ssh2\nNov  8 00:21:12 h sshd[1]: Failed password for test from 198.51.100.9 port 22 ssh2\nNov  8 00:21:12 h CRON[2]: noise line\nNov  8 00:21:15 h sshd[1]: Failed password for invalid user root from 192.0.2.77 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {
+    "window": 30,
+    "spray_users": 2
+   },
+   "alerts": [
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "198.51.100.9",
+     "failures": 2,
+     "users": [
+      "root",
+      "test"
+     ],
+     "first_seen": "2026-11-08T00:16:41",
+     "last_seen": "2026-11-08T00:21:12",
+     "detail": "2 failed logins spread over 2 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "203.0.113.5",
+     "failures": 2,
+     "users": [
+      "bob",
+      "test"
+     ],
+     "first_seen": "2026-11-08T00:19:11",
+     "last_seen": "2026-11-08T00:19:12",
+     "detail": "2 failed logins spread over 2 different usernames (slow spray, stays under the burst threshold)."
+    }
+   ]
+  },
+  {
+   "text": "Nov  8 00:16:45 h sshd[1]: Failed password for invalid user root from 192.0.2.77 port 22 ssh2\nNov  8 00:16:46 h sshd[1]: Failed password for alice from 192.0.2.77 port 22 ssh2\nNov  8 00:28:26 h sshd[1]: Failed password for invalid user test from 203.0.113.5 port 22 ssh2\nNov  8 00:40:06 h sshd[1]: Failed password for invalid user root from 203.0.113.5 port 22 ssh2\nNov  8 00:51:46 h sshd[1]: Failed password for alice from 198.51.100.9 port 22 ssh2\nNov  8 00:52:16 h sshd[1]: Accepted password for test from 198.51.100.9 port 22 ssh2\nNov  8 00:52:18 h sshd[1]: Failed password for ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 00:52:18 h CRON[2]: noise line\nNov  8 01:03:58 h sshd[1]: Failed password for oracle from 203.0.113.5 port 22 ssh2\nNov  8 01:05:58 h sshd[1]: Accepted password for bob from 203.0.113.5 port 22 ssh2\nNov  8 01:05:58 h CRON[2]: noise line\nNov  8 01:06:00 h sshd[1]: Failed password for test from 192.0.2.77 port 22 ssh2\nNov  8 01:08:00 h sshd[1]: Failed password for alice from 198.51.100.9 port 22 ssh2\nNov  8 01:08:30 h sshd[1]: Failed password for oracle from 203.0.113.5 port 22 ssh2\nNov  8 01:08:35 h sshd[1]: Failed password for ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 01:08:37 h sshd[1]: Failed password for oracle from 198.51.100.9 port 22 ssh2\nNov  8 01:08:39 h sshd[1]: Failed password for test from 192.0.2.77 port 22 ssh2\nNov  8 01:10:39 h sshd[1]: Failed password for git from 198.51.100.9 port 22 ssh2\nNov  8 01:10:41 h sshd[1]: Failed password for git from 192.0.2.77 port 22 ssh2\nNov  8 01:10:43 h sshd[1]: Failed password for git from 203.0.113.5 port 22 ssh2\nNov  8 01:12:43 h sshd[1]: Failed password for invalid user bob from 192.0.2.77 port 22 ssh2\nNov  8 01:12:46 h sshd[1]: Failed password for invalid user bob from 198.51.100.9 port 22 ssh2\nNov  8 01:12:51 h sshd[1]: Failed password for invalid user test from 198.51.100.9 port 22 ssh2\nNov  8 01:12:56 h sshd[1]: Accepted password for git from 203.0.113.5 port 22 ssh2\nNov  8 01:13:26 h sshd[1]: Failed password for git from 2001:db8::1 port 22 ssh2\nNov  8 01:15:26 h sshd[1]: Failed password for ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 01:17:26 h sshd[1]: Failed password for bob from 203.0.113.5 port 22 ssh2\nNov  8 01:17:28 h sshd[1]: Failed password for invalid user bob from 192.0.2.77 port 22 ssh2\nNov  8 01:17:58 h sshd[1]: Failed password for invalid user oracle from 198.51.100.9 port 22 ssh2\nNov  8 01:17:59 h sshd[1]: Failed password for invalid user test from 203.0.113.5 port 22 ssh2\nNov  8 01:18:01 h sshd[1]: Accepted password for admin from 192.0.2.77 port 22 ssh2\nNov  8 01:18:03 h sshd[1]: Failed password for root from 2001:db8::1 port 22 ssh2\nNov  8 01:18:08 h sshd[1]: Accepted password for git from 2001:db8::1 port 22 ssh2\nNov  8 01:18:38 h sshd[1]: Failed password for invalid user oracle from 203.0.113.5 port 22 ssh2\nNov  8 01:18:39 h sshd[1]: Failed password for admin from 203.0.113.5 port 22 ssh2\nNov  8 01:18:42 h sshd[1]: Failed password for admin from 192.0.2.77 port 22 ssh2\nNov  8 01:19:12 h sshd[1]: Failed password for invalid user bob from 198.51.100.9 port 22 ssh2\nNov  8 01:19:13 h sshd[1]: Failed password for alice from 198.51.100.9 port 22 ssh2\nNov  8 01:19:15 h sshd[1]: Failed password for invalid user bob from 192.0.2.77 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {},
+   "alerts": [
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "198.51.100.9",
+     "failures": 5,
+     "users": [
+      "alice",
+      "bob",
+      "git",
+      "oracle",
+      "test"
+     ],
+     "first_seen": "2026-11-08T01:08:00",
+     "last_seen": "2026-11-08T01:12:51",
+     "detail": "5 failed logins within 300s, targeting 5 different usernames."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "192.0.2.77",
+     "failures": 10,
+     "users": [
+      "admin",
+      "alice",
+      "bob",
+      "git",
+      "root",
+      "test",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:16:45",
+     "last_seen": "2026-11-08T01:19:15",
+     "detail": "10 failed logins spread over 7 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "203.0.113.5",
+     "failures": 9,
+     "users": [
+      "admin",
+      "bob",
+      "git",
+      "oracle",
+      "root",
+      "test"
+     ],
+     "first_seen": "2026-11-08T00:28:26",
+     "last_seen": "2026-11-08T01:18:39",
+     "detail": "9 failed logins spread over 6 different usernames (slow spray, stays under the burst threshold)."
+    }
+   ]
+  },
+  {
+   "text": "Nov  8 00:28:20 h sshd[1]: Failed password for invalid user oracle from 2001:db8::1 port 22 ssh2\nNov  8 00:30:20 h sshd[1]: Failed password for bob from 192.0.2.77 port 22 ssh2\nNov  8 00:42:00 h sshd[1]: Failed password for invalid user oracle from 192.0.2.77 port 22 ssh2\nNov  8 00:42:05 h sshd[1]: Failed password for invalid user oracle from 203.0.113.5 port 22 ssh2\nNov  8 00:42:06 h sshd[1]: Failed password for invalid user ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 00:44:06 h sshd[1]: Accepted password for git from 203.0.113.5 port 22 ssh2\nNov  8 00:44:09 h sshd[1]: Accepted password for ubuntu from 203.0.113.5 port 22 ssh2\nNov  8 00:44:14 h sshd[1]: Failed password for ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 00:44:44 h sshd[1]: Failed password for test from 203.0.113.5 port 22 ssh2\nNov  8 00:46:44 h sshd[1]: Failed password for invalid user admin from 2001:db8::1 port 22 ssh2\nNov  8 00:46:46 h sshd[1]: Failed password for alice from 2001:db8::1 port 22 ssh2\nNov  8 00:48:46 h sshd[1]: Failed password for git from 2001:db8::1 port 22 ssh2\nNov  8 00:48:47 h sshd[1]: Failed password for oracle from 198.51.100.9 port 22 ssh2\nNov  8 01:00:27 h sshd[1]: Failed password for oracle from 2001:db8::1 port 22 ssh2\nNov  8 01:00:29 h sshd[1]: Failed password for invalid user root from 192.0.2.77 port 22 ssh2\nNov  8 01:00:32 h sshd[1]: Failed password for alice from 203.0.113.5 port 22 ssh2\nNov  8 01:00:32 h CRON[2]: noise line\nNov  8 01:02:32 h sshd[1]: Failed password for ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 01:02:37 h sshd[1]: Failed password for test from 198.51.100.9 port 22 ssh2\nNov  8 01:14:17 h sshd[1]: Failed password for test from 192.0.2.77 port 22 ssh2\nNov  8 01:14:20 h sshd[1]: Failed password for git from 192.0.2.77 port 22 ssh2\nNov  8 01:14:23 h sshd[1]: Failed password for ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 01:14:24 h sshd[1]: Failed password for invalid user bob from 2001:db8::1 port 22 ssh2\nNov  8 01:14:25 h sshd[1]: Accepted password for git from 203.0.113.5 port 22 ssh2\nNov  8 01:26:05 h sshd[1]: Failed password for bob from 203.0.113.5 port 22 ssh2\nNov  8 01:26:35 h sshd[1]: Failed password for git from 203.0.113.5 port 22 ssh2\nNov  8 01:26:37 h sshd[1]: Accepted password for ubuntu from 203.0.113.5 port 22 ssh2\nNov  8 01:26:38 h sshd[1]: Accepted password for oracle from 203.0.113.5 port 22 ssh2\nNov  8 01:26:41 h sshd[1]: Failed password for invalid user test from 192.0.2.77 port 22 ssh2\nNov  8 01:26:41 h CRON[2]: noise line\nNov  8 01:27:11 h sshd[1]: Failed password for invalid user alice from 203.0.113.5 port 22 ssh2\nNov  8 01:38:51 h sshd[1]: Failed password for invalid user bob from 2001:db8::1 port 22 ssh2\nNov  8 01:39:21 h sshd[1]: Failed password for alice from 198.51.100.9 port 22 ssh2\nNov  8 01:39:21 h CRON[2]: noise line\nNov  8 01:39:26 h sshd[1]: Failed password for ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 01:39:26 h CRON[2]: noise line\nNov  8 01:41:26 h sshd[1]: Failed password for invalid user admin from 203.0.113.5 port 22 ssh2\nNov  8 01:41:29 h sshd[1]: Failed password for invalid user alice from 198.51.100.9 port 22 ssh2\nNov  8 01:41:29 h CRON[2]: noise line\nNov  8 01:53:09 h sshd[1]: Failed password for admin from 198.51.100.9 port 22 ssh2\nNov  8 01:55:09 h sshd[1]: Failed password for invalid user root from 192.0.2.77 port 22 ssh2\nNov  8 01:55:09 h CRON[2]: noise line\nNov  8 01:57:09 h sshd[1]: Failed password for bob from 203.0.113.5 port 22 ssh2\nNov  8 02:08:49 h sshd[1]: Failed password for root from 2001:db8::1 port 22 ssh2\nNov  8 02:08:54 h sshd[1]: Accepted password for ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 02:10:54 h sshd[1]: Failed password for bob from 198.51.100.9 port 22 ssh2\nNov  8 02:10:57 h sshd[1]: Failed password for test from 192.0.2.77 port 22 ssh2\nNov  8 02:22:37 h sshd[1]: Accepted password for root from 192.0.2.77 port 22 ssh2\nNov  8 02:22:40 h sshd[1]: Failed password for git from 2001:db8::1 port 22 ssh2\nNov  8 02:22:42 h sshd[1]: Failed password for invalid user test from 2001:db8::1 port 22 ssh2\nNov  8 02:22:44 h sshd[1]: Accepted password for test from 203.0.113.5 port 22 ssh2\nNov  8 02:34:24 h sshd[1]: Accepted password for test from 198.51.100.9 port 22 ssh2\nNov  8 02:34:54 h sshd[1]: Failed password for oracle from 2001:db8::1 port 22 ssh2\nNov  8 02:34:59 h sshd[1]: Failed password for invalid user git from 198.51.100.9 port 22 ssh2\nNov  8 02:36:59 h sshd[1]: Failed password for invalid user test from 198.51.100.9 port 22 ssh2\nNov  8 02:37:29 h sshd[1]: Failed password for invalid user oracle from 203.0.113.5 port 22 ssh2\nNov  8 02:37:32 h sshd[1]: Failed password for invalid user alice from 192.0.2.77 port 22 ssh2\nNov  8 02:37:33 h sshd[1]: Failed password for test from 198.51.100.9 port 22 ssh2\nNov  8 02:38:03 h sshd[1]: Failed password for git from 198.51.100.9 port 22 ssh2\nNov  8 02:38:04 h sshd[1]: Failed password for invalid user alice from 192.0.2.77 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {
+    "threshold": 3
+   },
+   "alerts": [
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "198.51.100.9",
+     "failures": 4,
+     "users": [
+      "git",
+      "test"
+     ],
+     "first_seen": "2026-11-08T02:34:59",
+     "last_seen": "2026-11-08T02:38:03",
+     "detail": "4 failed logins within 300s."
+    },
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "192.0.2.77",
+     "failures": 3,
+     "users": [
+      "oracle",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:42:00",
+     "last_seen": "2026-11-08T00:44:14",
+     "detail": "3 failed logins within 300s."
+    },
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "2001:db8::1",
+     "failures": 3,
+     "users": [
+      "admin",
+      "alice",
+      "git"
+     ],
+     "first_seen": "2026-11-08T00:46:44",
+     "last_seen": "2026-11-08T00:48:46",
+     "detail": "3 failed logins within 300s."
+    },
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "203.0.113.5",
+     "failures": 3,
+     "users": [
+      "alice",
+      "bob",
+      "git"
+     ],
+     "first_seen": "2026-11-08T01:26:05",
+     "last_seen": "2026-11-08T01:27:11",
+     "detail": "3 failed logins within 300s."
+    }
+   ]
+  },
+  {
+   "text": "Nov  8 00:17:10 h sshd[1]: Failed password for admin from 203.0.113.5 port 22 ssh2\nNov  8 00:17:15 h sshd[1]: Accepted password for test from 198.51.100.9 port 22 ssh2\nNov  8 00:17:16 h sshd[1]: Failed password for invalid user ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 00:17:18 h sshd[1]: Failed password for invalid user admin from 2001:db8::1 port 22 ssh2\nNov  8 00:19:18 h sshd[1]: Accepted password for alice from 2001:db8::1 port 22 ssh2\nNov  8 00:19:19 h sshd[1]: Failed password for invalid user admin from 2001:db8::1 port 22 ssh2\nNov  8 00:19:21 h sshd[1]: Failed password for bob from 203.0.113.5 port 22 ssh2\nNov  8 00:19:23 h sshd[1]: Failed password for invalid user ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 00:19:53 h sshd[1]: Failed password for root from 203.0.113.5 port 22 ssh2\nNov  8 00:31:33 h sshd[1]: Failed password for invalid user root from 2001:db8::1 port 22 ssh2\nNov  8 00:31:33 h CRON[2]: noise line\nNov  8 00:31:35 h sshd[1]: Failed password for invalid user alice from 192.0.2.77 port 22 ssh2\nNov  8 00:31:38 h sshd[1]: Failed password for invalid user admin from 2001:db8::1 port 22 ssh2\nNov  8 00:43:18 h sshd[1]: Failed password for root from 198.51.100.9 port 22 ssh2\nNov  8 00:43:20 h sshd[1]: Accepted password for admin from 198.51.100.9 port 22 ssh2\nNov  8 00:45:20 h sshd[1]: Accepted password for alice from 198.51.100.9 port 22 ssh2\nNov  8 00:45:25 h sshd[1]: Failed password for invalid user admin from 203.0.113.5 port 22 ssh2\nNov  8 00:45:30 h sshd[1]: Failed password for invalid user oracle from 203.0.113.5 port 22 ssh2\nNov  8 00:45:30 h CRON[2]: noise line\nNov  8 00:47:30 h sshd[1]: Failed password for invalid user ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 00:47:32 h sshd[1]: Failed password for root from 198.51.100.9 port 22 ssh2\nNov  8 00:47:34 h sshd[1]: Failed password for alice from 192.0.2.77 port 22 ssh2\nNov  8 00:47:36 h sshd[1]: Failed password for git from 203.0.113.5 port 22 ssh2\nNov  8 00:59:16 h sshd[1]: Failed password for invalid user oracle from 198.51.100.9 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {},
+   "alerts": [
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "203.0.113.5",
+     "failures": 6,
+     "users": [
+      "admin",
+      "bob",
+      "git",
+      "oracle",
+      "root"
+     ],
+     "first_seen": "2026-11-08T00:17:10",
+     "last_seen": "2026-11-08T00:47:36",
+     "detail": "6 failed logins spread over 5 different usernames (slow spray, stays under the burst threshold)."
+    }
+   ]
+  },
+  {
+   "text": "Nov  8 00:16:45 h sshd[1]: Accepted password for bob from 192.0.2.77 port 22 ssh2\nNov  8 00:16:45 h CRON[2]: noise line\nNov  8 00:18:45 h sshd[1]: Accepted password for ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 00:18:45 h CRON[2]: noise line\nNov  8 00:30:25 h sshd[1]: Failed password for ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 00:30:28 h sshd[1]: Failed password for oracle from 198.51.100.9 port 22 ssh2\nNov  8 00:30:58 h sshd[1]: Accepted password for ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 00:31:00 h sshd[1]: Failed password for git from 198.51.100.9 port 22 ssh2\nNov  8 00:33:00 h sshd[1]: Failed password for invalid user test from 2001:db8::1 port 22 ssh2\nNov  8 00:35:00 h sshd[1]: Failed password for invalid user test from 198.51.100.9 port 22 ssh2\nNov  8 00:35:05 h sshd[1]: Failed password for oracle from 203.0.113.5 port 22 ssh2\nNov  8 00:35:10 h sshd[1]: Failed password for root from 203.0.113.5 port 22 ssh2\nNov  8 00:37:10 h sshd[1]: Failed password for git from 192.0.2.77 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {},
+   "alerts": []
+  },
+  {
+   "text": "Nov  8 00:16:43 h sshd[1]: Failed password for oracle from 203.0.113.5 port 22 ssh2\nNov  8 00:16:44 h sshd[1]: Accepted password for git from 192.0.2.77 port 22 ssh2\nNov  8 00:16:47 h sshd[1]: Failed password for invalid user root from 2001:db8::1 port 22 ssh2\nNov  8 00:16:52 h sshd[1]: Failed password for ubuntu from 203.0.113.5 port 22 ssh2\nNov  8 00:16:54 h sshd[1]: Failed password for admin from 198.51.100.9 port 22 ssh2\nNov  8 00:16:55 h sshd[1]: Failed password for git from 203.0.113.5 port 22 ssh2\nNov  8 00:17:00 h sshd[1]: Failed password for alice from 198.51.100.9 port 22 ssh2\nNov  8 00:17:01 h sshd[1]: Failed password for admin from 192.0.2.77 port 22 ssh2\nNov  8 00:17:02 h sshd[1]: Failed password for invalid user admin from 203.0.113.5 port 22 ssh2\nNov  8 00:28:42 h sshd[1]: Failed password for ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 00:40:22 h sshd[1]: Failed password for bob from 203.0.113.5 port 22 ssh2\nNov  8 00:40:23 h sshd[1]: Failed password for invalid user root from 2001:db8::1 port 22 ssh2\nNov  8 00:40:26 h sshd[1]: Accepted password for oracle from 2001:db8::1 port 22 ssh2\nNov  8 00:40:27 h sshd[1]: Accepted password for ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 00:40:29 h sshd[1]: Failed password for root from 2001:db8::1 port 22 ssh2\nNov  8 00:40:29 h CRON[2]: noise line\nNov  8 00:40:34 h sshd[1]: Failed password for root from 198.51.100.9 port 22 ssh2\nNov  8 00:40:39 h sshd[1]: Failed password for root from 203.0.113.5 port 22 ssh2\nNov  8 00:42:39 h sshd[1]: Failed password for invalid user root from 192.0.2.77 port 22 ssh2\nNov  8 00:42:44 h sshd[1]: Failed password for invalid user root from 198.51.100.9 port 22 ssh2\nNov  8 00:42:45 h sshd[1]: Failed password for test from 203.0.113.5 port 22 ssh2\nNov  8 00:42:50 h sshd[1]: Accepted password for ubuntu from 203.0.113.5 port 22 ssh2\nNov  8 00:43:20 h sshd[1]: Failed password for invalid user test from 192.0.2.77 port 22 ssh2\nNov  8 00:55:00 h sshd[1]: Failed password for invalid user git from 2001:db8::1 port 22 ssh2\nNov  8 00:55:05 h sshd[1]: Failed password for invalid user alice from 192.0.2.77 port 22 ssh2\nNov  8 00:55:07 h sshd[1]: Accepted password for bob from 198.51.100.9 port 22 ssh2\nNov  8 00:55:10 h sshd[1]: Failed password for invalid user git from 198.51.100.9 port 22 ssh2\nNov  8 00:55:12 h sshd[1]: Failed password for invalid user root from 192.0.2.77 port 22 ssh2\nNov  8 00:55:12 h CRON[2]: noise line\nNov  8 01:06:52 h sshd[1]: Failed password for alice from 192.0.2.77 port 22 ssh2\nNov  8 01:06:55 h sshd[1]: Accepted password for git from 203.0.113.5 port 22 ssh2\nNov  8 01:06:57 h sshd[1]: Failed password for invalid user oracle from 2001:db8::1 port 22 ssh2\nNov  8 01:07:27 h sshd[1]: Failed password for admin from 192.0.2.77 port 22 ssh2\nNov  8 01:07:32 h sshd[1]: Failed password for invalid user ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 01:08:02 h sshd[1]: Failed password for alice from 203.0.113.5 port 22 ssh2\nNov  8 01:19:42 h sshd[1]: Failed password for admin from 192.0.2.77 port 22 ssh2\nNov  8 01:21:42 h sshd[1]: Failed password for test from 192.0.2.77 port 22 ssh2\nNov  8 01:23:42 h sshd[1]: Failed password for root from 192.0.2.77 port 22 ssh2\nNov  8 01:23:47 h sshd[1]: Failed password for ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 01:23:52 h sshd[1]: Accepted password for admin from 198.51.100.9 port 22 ssh2\nNov  8 01:35:32 h sshd[1]: Failed password for oracle from 198.51.100.9 port 22 ssh2\nNov  8 01:35:33 h sshd[1]: Failed password for root from 203.0.113.5 port 22 ssh2\nNov  8 01:36:03 h sshd[1]: Failed password for bob from 192.0.2.77 port 22 ssh2\nNov  8 01:36:08 h sshd[1]: Failed password for oracle from 2001:db8::1 port 22 ssh2\nNov  8 01:36:09 h sshd[1]: Failed password for invalid user git from 203.0.113.5 port 22 ssh2\nNov  8 01:36:39 h sshd[1]: Accepted password for git from 198.51.100.9 port 22 ssh2\nNov  8 01:36:44 h sshd[1]: Failed password for invalid user admin from 192.0.2.77 port 22 ssh2\nNov  8 01:48:24 h sshd[1]: Failed password for ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 02:00:04 h sshd[1]: Failed password for ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 02:00:06 h sshd[1]: Failed password for ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 02:00:36 h sshd[1]: Failed password for invalid user bob from 203.0.113.5 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {
+    "window": 30,
+    "spray_users": 2
+   },
+   "alerts": [
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "192.0.2.77",
+     "failures": 15,
+     "users": [
+      "admin",
+      "alice",
+      "bob",
+      "root",
+      "test",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:17:01",
+     "last_seen": "2026-11-08T01:48:24",
+     "detail": "15 failed logins spread over 6 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "203.0.113.5",
+     "failures": 11,
+     "users": [
+      "admin",
+      "alice",
+      "bob",
+      "git",
+      "oracle",
+      "root",
+      "test",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:16:43",
+     "last_seen": "2026-11-08T02:00:36",
+     "detail": "11 failed logins spread over 8 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "2001:db8::1",
+     "failures": 8,
+     "users": [
+      "git",
+      "oracle",
+      "root",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:16:47",
+     "last_seen": "2026-11-08T02:00:06",
+     "detail": "8 failed logins spread over 4 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "198.51.100.9",
+     "failures": 7,
+     "users": [
+      "admin",
+      "alice",
+      "git",
+      "oracle",
+      "root",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:16:54",
+     "last_seen": "2026-11-08T01:35:32",
+     "detail": "7 failed logins spread over 6 different usernames (slow spray, stays under the burst threshold)."
+    }
+   ]
+  },
+  {
+   "text": "Nov  8 00:16:43 h sshd[1]: Failed password for admin from 2001:db8::1 port 22 ssh2\nNov  8 00:16:48 h sshd[1]: Failed password for ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 00:16:50 h sshd[1]: Failed password for invalid user root from 203.0.113.5 port 22 ssh2\nNov  8 00:28:30 h sshd[1]: Accepted password for bob from 2001:db8::1 port 22 ssh2\nNov  8 00:28:30 h CRON[2]: noise line\nNov  8 00:28:31 h sshd[1]: Failed password for invalid user ubuntu from 192.0.2.77 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {
+    "threshold": 3
+   },
+   "alerts": []
+  },
+  {
+   "text": "Nov  8 00:16:41 h sshd[1]: Failed password for oracle from 203.0.113.5 port 22 ssh2\nNov  8 00:16:41 h CRON[2]: noise line\nNov  8 00:16:43 h sshd[1]: Failed password for root from 2001:db8::1 port 22 ssh2\nNov  8 00:16:44 h sshd[1]: Failed password for ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 00:16:47 h sshd[1]: Accepted password for test from 2001:db8::1 port 22 ssh2\nNov  8 00:16:48 h sshd[1]: Failed password for bob from 198.51.100.9 port 22 ssh2\nNov  8 00:16:53 h sshd[1]: Failed password for invalid user root from 2001:db8::1 port 22 ssh2\nNov  8 00:16:56 h sshd[1]: Failed password for ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 00:16:59 h sshd[1]: Failed password for invalid user oracle from 203.0.113.5 port 22 ssh2\nNov  8 00:17:00 h sshd[1]: Accepted password for bob from 203.0.113.5 port 22 ssh2\nNov  8 00:17:02 h sshd[1]: Failed password for invalid user git from 2001:db8::1 port 22 ssh2\nNov  8 00:17:05 h sshd[1]: Accepted password for oracle from 203.0.113.5 port 22 ssh2\nNov  8 00:17:07 h sshd[1]: Failed password for git from 203.0.113.5 port 22 ssh2\nNov  8 00:17:12 h sshd[1]: Failed password for invalid user git from 2001:db8::1 port 22 ssh2\nNov  8 00:17:17 h sshd[1]: Accepted password for test from 198.51.100.9 port 22 ssh2\nNov  8 00:17:19 h sshd[1]: Accepted password for ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 00:17:49 h sshd[1]: Failed password for oracle from 2001:db8::1 port 22 ssh2\nNov  8 00:17:51 h sshd[1]: Failed password for invalid user admin from 203.0.113.5 port 22 ssh2\nNov  8 00:17:56 h sshd[1]: Failed password for invalid user ubuntu from 203.0.113.5 port 22 ssh2\nNov  8 00:17:56 h CRON[2]: noise line\nNov  8 00:17:58 h sshd[1]: Failed password for oracle from 198.51.100.9 port 22 ssh2\nNov  8 00:17:58 h CRON[2]: noise line\nNov  8 00:18:01 h sshd[1]: Failed password for invalid user git from 192.0.2.77 port 22 ssh2\nNov  8 00:18:03 h sshd[1]: Failed password for test from 2001:db8::1 port 22 ssh2\nNov  8 00:20:03 h sshd[1]: Failed password for invalid user test from 198.51.100.9 port 22 ssh2\nNov  8 00:22:03 h sshd[1]: Failed password for bob from 192.0.2.77 port 22 ssh2\nNov  8 00:33:43 h sshd[1]: Accepted password for oracle from 2001:db8::1 port 22 ssh2\nNov  8 00:33:43 h CRON[2]: noise line\nNov  8 00:33:46 h sshd[1]: Accepted password for test from 203.0.113.5 port 22 ssh2\nNov  8 00:35:46 h sshd[1]: Failed password for invalid user bob from 203.0.113.5 port 22 ssh2\nNov  8 00:35:49 h sshd[1]: Failed password for bob from 198.51.100.9 port 22 ssh2\nNov  8 00:35:51 h sshd[1]: Failed password for invalid user alice from 198.51.100.9 port 22 ssh2\nNov  8 00:37:51 h sshd[1]: Failed password for root from 192.0.2.77 port 22 ssh2\nNov  8 00:37:52 h sshd[1]: Failed password for invalid user git from 203.0.113.5 port 22 ssh2\nNov  8 00:49:32 h sshd[1]: Failed password for admin from 192.0.2.77 port 22 ssh2\nNov  8 00:50:02 h sshd[1]: Failed password for invalid user test from 198.51.100.9 port 22 ssh2\nNov  8 00:50:07 h sshd[1]: Failed password for alice from 192.0.2.77 port 22 ssh2\nNov  8 00:52:07 h sshd[1]: Failed password for invalid user alice from 198.51.100.9 port 22 ssh2\nNov  8 01:03:47 h sshd[1]: Failed password for ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 01:04:17 h sshd[1]: Accepted password for git from 192.0.2.77 port 22 ssh2\nNov  8 01:04:20 h sshd[1]: Failed password for invalid user admin from 2001:db8::1 port 22 ssh2\nNov  8 01:06:20 h sshd[1]: Failed password for invalid user alice from 2001:db8::1 port 22 ssh2\nNov  8 01:06:25 h sshd[1]: Failed password for invalid user oracle from 198.51.100.9 port 22 ssh2\nNov  8 01:06:55 h sshd[1]: Failed password for invalid user oracle from 198.51.100.9 port 22 ssh2\nNov  8 01:06:57 h sshd[1]: Accepted password for alice from 198.51.100.9 port 22 ssh2\nNov  8 01:06:59 h sshd[1]: Failed password for test from 203.0.113.5 port 22 ssh2\nNov  8 01:06:59 h CRON[2]: noise line\nNov  8 01:07:02 h sshd[1]: Failed password for invalid user git from 192.0.2.77 port 22 ssh2\nNov  8 01:07:04 h sshd[1]: Failed password for invalid user alice from 192.0.2.77 port 22 ssh2\nNov  8 01:07:05 h sshd[1]: Failed password for root from 203.0.113.5 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {
+    "window": 30,
+    "spray_users": 2
+   },
+   "alerts": [
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "2001:db8::1",
+     "failures": 5,
+     "users": [
+      "git",
+      "root",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:16:43",
+     "last_seen": "2026-11-08T00:17:12",
+     "detail": "5 failed logins within 30s, targeting 3 different usernames."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "198.51.100.9",
+     "failures": 10,
+     "users": [
+      "alice",
+      "bob",
+      "oracle",
+      "test",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:16:44",
+     "last_seen": "2026-11-08T01:06:55",
+     "detail": "10 failed logins spread over 5 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "203.0.113.5",
+     "failures": 9,
+     "users": [
+      "admin",
+      "bob",
+      "git",
+      "oracle",
+      "root",
+      "test",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:16:41",
+     "last_seen": "2026-11-08T01:07:05",
+     "detail": "9 failed logins spread over 7 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "192.0.2.77",
+     "failures": 8,
+     "users": [
+      "admin",
+      "alice",
+      "bob",
+      "git",
+      "root",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:18:01",
+     "last_seen": "2026-11-08T01:07:04",
+     "detail": "8 failed logins spread over 6 different usernames (slow spray, stays under the burst threshold)."
+    }
+   ]
+  },
+  {
+   "text": "Nov  8 00:16:43 h sshd[1]: Failed password for admin from 192.0.2.77 port 22 ssh2\nNov  8 00:28:23 h sshd[1]: Failed password for invalid user root from 192.0.2.77 port 22 ssh2\nNov  8 00:28:53 h sshd[1]: Failed password for git from 192.0.2.77 port 22 ssh2\nNov  8 00:28:53 h CRON[2]: noise line\nNov  8 00:28:58 h sshd[1]: Failed password for test from 198.51.100.9 port 22 ssh2\nNov  8 00:30:58 h sshd[1]: Failed password for admin from 198.51.100.9 port 22 ssh2\nNov  8 00:31:01 h sshd[1]: Failed password for invalid user ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 00:31:03 h sshd[1]: Failed password for invalid user test from 192.0.2.77 port 22 ssh2\nNov  8 00:33:03 h sshd[1]: Accepted password for root from 2001:db8::1 port 22 ssh2\nNov  8 00:33:08 h sshd[1]: Failed password for test from 198.51.100.9 port 22 ssh2\nNov  8 00:33:10 h sshd[1]: Failed password for ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 00:33:10 h CRON[2]: noise line\nNov  8 00:33:11 h sshd[1]: Failed password for alice from 2001:db8::1 port 22 ssh2\nNov  8 00:33:11 h CRON[2]: noise line\nNov  8 00:44:51 h sshd[1]: Failed password for ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 00:44:56 h sshd[1]: Failed password for admin from 192.0.2.77 port 22 ssh2\nNov  8 00:46:56 h sshd[1]: Failed password for bob from 198.51.100.9 port 22 ssh2\nNov  8 00:46:59 h sshd[1]: Failed password for invalid user alice from 198.51.100.9 port 22 ssh2\nNov  8 00:47:29 h sshd[1]: Accepted password for bob from 198.51.100.9 port 22 ssh2\nNov  8 00:59:09 h sshd[1]: Failed password for invalid user oracle from 203.0.113.5 port 22 ssh2\nNov  8 00:59:12 h sshd[1]: Failed password for invalid user ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 00:59:13 h sshd[1]: Failed password for git from 198.51.100.9 port 22 ssh2\nNov  8 00:59:13 h CRON[2]: noise line\nNov  8 01:01:13 h sshd[1]: Failed password for invalid user bob from 192.0.2.77 port 22 ssh2\nNov  8 01:01:16 h sshd[1]: Failed password for git from 203.0.113.5 port 22 ssh2\nNov  8 01:01:17 h sshd[1]: Failed password for invalid user test from 198.51.100.9 port 22 ssh2\nNov  8 01:03:17 h sshd[1]: Failed password for invalid user git from 2001:db8::1 port 22 ssh2\nNov  8 01:03:18 h sshd[1]: Failed password for bob from 203.0.113.5 port 22 ssh2\nNov  8 01:03:48 h sshd[1]: Failed password for admin from 203.0.113.5 port 22 ssh2\nNov  8 01:03:50 h sshd[1]: Failed password for admin from 2001:db8::1 port 22 ssh2\nNov  8 01:03:50 h CRON[2]: noise line\nNov  8 01:03:52 h sshd[1]: Failed password for oracle from 203.0.113.5 port 22 ssh2\nNov  8 01:03:57 h sshd[1]: Failed password for admin from 192.0.2.77 port 22 ssh2\nNov  8 01:04:27 h sshd[1]: Accepted password for admin from 198.51.100.9 port 22 ssh2\nNov  8 01:04:29 h sshd[1]: Accepted password for oracle from 192.0.2.77 port 22 ssh2\nNov  8 01:04:30 h sshd[1]: Failed password for admin from 192.0.2.77 port 22 ssh2\nNov  8 01:04:33 h sshd[1]: Accepted password for root from 2001:db8::1 port 22 ssh2\nNov  8 01:04:36 h sshd[1]: Failed password for admin from 192.0.2.77 port 22 ssh2\nNov  8 01:04:39 h sshd[1]: Failed password for alice from 198.51.100.9 port 22 ssh2\nNov  8 01:16:19 h sshd[1]: Failed password for alice from 203.0.113.5 port 22 ssh2\nNov  8 01:16:49 h sshd[1]: Accepted password for bob from 192.0.2.77 port 22 ssh2\nNov  8 01:16:52 h sshd[1]: Failed password for invalid user alice from 192.0.2.77 port 22 ssh2\nNov  8 01:17:22 h sshd[1]: Accepted password for root from 2001:db8::1 port 22 ssh2\nNov  8 01:17:22 h CRON[2]: noise line\nNov  8 01:17:24 h sshd[1]: Accepted password for alice from 2001:db8::1 port 22 ssh2\nNov  8 01:17:29 h sshd[1]: Accepted password for git from 2001:db8::1 port 22 ssh2\nNov  8 01:17:30 h sshd[1]: Failed password for invalid user oracle from 192.0.2.77 port 22 ssh2\nNov  8 01:18:00 h sshd[1]: Failed password for invalid user git from 203.0.113.5 port 22 ssh2\nNov  8 01:18:30 h sshd[1]: Accepted password for bob from 2001:db8::1 port 22 ssh2\nNov  8 01:18:33 h sshd[1]: Failed password for invalid user oracle from 2001:db8::1 port 22 ssh2\nNov  8 01:19:03 h sshd[1]: Failed password for invalid user ubuntu from 203.0.113.5 port 22 ssh2\nNov  8 01:19:04 h sshd[1]: Failed password for oracle from 192.0.2.77 port 22 ssh2\nNov  8 01:21:04 h sshd[1]: Accepted password for admin from 203.0.113.5 port 22 ssh2\nNov  8 01:23:04 h sshd[1]: Failed password for oracle from 203.0.113.5 port 22 ssh2\nNov  8 01:34:44 h sshd[1]: Failed password for admin from 198.51.100.9 port 22 ssh2\nNov  8 01:35:14 h sshd[1]: Accepted password for oracle from 198.51.100.9 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {
+    "threshold": 3
+   },
+   "alerts": [
+    {
+     "severity": "critical",
+     "kind": "success_after_failures",
+     "ip": "203.0.113.5",
+     "failures": 3,
+     "users": [
+      "alice",
+      "git",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T01:16:19",
+     "last_seen": "2026-11-08T01:21:04",
+     "detail": "Login as 'admin' succeeded after 3 failures within 300s. Treat the account as possibly compromised."
+    },
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "192.0.2.77",
+     "failures": 4,
+     "users": [
+      "admin",
+      "bob"
+     ],
+     "first_seen": "2026-11-08T01:01:13",
+     "last_seen": "2026-11-08T01:04:36",
+     "detail": "4 failed logins within 300s."
+    },
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "198.51.100.9",
+     "failures": 4,
+     "users": [
+      "admin",
+      "test",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:28:58",
+     "last_seen": "2026-11-08T00:33:10",
+     "detail": "4 failed logins within 300s."
+    },
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "2001:db8::1",
+     "failures": 3,
+     "users": [
+      "admin",
+      "git",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:59:12",
+     "last_seen": "2026-11-08T01:03:50",
+     "detail": "3 failed logins within 300s."
+    }
+   ]
+  },
+  {
+   "text": "Nov  8 00:18:40 h sshd[1]: Accepted password for oracle from 192.0.2.77 port 22 ssh2\nNov  8 00:19:10 h sshd[1]: Accepted password for git from 192.0.2.77 port 22 ssh2\nNov  8 00:19:12 h sshd[1]: Failed password for git from 198.51.100.9 port 22 ssh2\nNov  8 00:19:17 h sshd[1]: Accepted password for test from 2001:db8::1 port 22 ssh2\nNov  8 00:19:19 h sshd[1]: Failed password for test from 192.0.2.77 port 22 ssh2\nNov  8 00:19:22 h sshd[1]: Failed password for invalid user git from 203.0.113.5 port 22 ssh2\nNov  8 00:19:52 h sshd[1]: Failed password for alice from 192.0.2.77 port 22 ssh2\nNov  8 00:31:32 h sshd[1]: Failed password for invalid user alice from 203.0.113.5 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {
+    "window": 30,
+    "spray_users": 2
+   },
+   "alerts": [
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "192.0.2.77",
+     "failures": 2,
+     "users": [
+      "alice",
+      "test"
+     ],
+     "first_seen": "2026-11-08T00:19:19",
+     "last_seen": "2026-11-08T00:19:52",
+     "detail": "2 failed logins spread over 2 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "203.0.113.5",
+     "failures": 2,
+     "users": [
+      "alice",
+      "git"
+     ],
+     "first_seen": "2026-11-08T00:19:22",
+     "last_seen": "2026-11-08T00:31:32",
+     "detail": "2 failed logins spread over 2 different usernames (slow spray, stays under the burst threshold)."
+    }
+   ]
+  },
+  {
+   "text": "Nov  8 00:28:20 h sshd[1]: Failed password for invalid user test from 198.51.100.9 port 22 ssh2\nNov  8 00:28:20 h CRON[2]: noise line\nNov  8 00:28:25 h sshd[1]: Accepted password for test from 198.51.100.9 port 22 ssh2\nNov  8 00:28:27 h sshd[1]: Accepted password for root from 198.51.100.9 port 22 ssh2\nNov  8 00:28:28 h sshd[1]: Failed password for invalid user oracle from 203.0.113.5 port 22 ssh2\nNov  8 00:30:28 h sshd[1]: Accepted password for oracle from 203.0.113.5 port 22 ssh2\nNov  8 00:30:31 h sshd[1]: Failed password for alice from 203.0.113.5 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {},
+   "alerts": []
+  },
+  {
+   "text": "Nov  8 00:16:45 h sshd[1]: Failed password for invalid user admin from 203.0.113.5 port 22 ssh2\nNov  8 00:17:15 h sshd[1]: Accepted password for test from 2001:db8::1 port 22 ssh2\nNov  8 00:17:16 h sshd[1]: Failed password for oracle from 192.0.2.77 port 22 ssh2\nNov  8 00:17:19 h sshd[1]: Failed password for invalid user admin from 198.51.100.9 port 22 ssh2\nNov  8 00:28:59 h sshd[1]: Accepted password for oracle from 203.0.113.5 port 22 ssh2\nNov  8 00:29:29 h sshd[1]: Failed password for oracle from 198.51.100.9 port 22 ssh2\nNov  8 00:29:34 h sshd[1]: Failed password for test from 203.0.113.5 port 22 ssh2\nNov  8 00:30:04 h sshd[1]: Failed password for oracle from 192.0.2.77 port 22 ssh2\nNov  8 00:30:05 h sshd[1]: Failed password for admin from 2001:db8::1 port 22 ssh2\nNov  8 00:32:05 h sshd[1]: Failed password for invalid user bob from 198.51.100.9 port 22 ssh2\nNov  8 00:32:05 h CRON[2]: noise line\nNov  8 00:32:07 h sshd[1]: Failed password for invalid user root from 203.0.113.5 port 22 ssh2\nNov  8 00:32:10 h sshd[1]: Accepted password for ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 00:43:50 h sshd[1]: Failed password for root from 198.51.100.9 port 22 ssh2\nNov  8 00:55:30 h sshd[1]: Failed password for invalid user git from 2001:db8::1 port 22 ssh2\nNov  8 00:55:35 h sshd[1]: Failed password for invalid user oracle from 198.51.100.9 port 22 ssh2\nNov  8 00:55:36 h sshd[1]: Failed password for invalid user bob from 203.0.113.5 port 22 ssh2\nNov  8 00:55:41 h sshd[1]: Accepted password for bob from 2001:db8::1 port 22 ssh2\nNov  8 00:55:43 h sshd[1]: Failed password for test from 203.0.113.5 port 22 ssh2\nNov  8 00:55:46 h sshd[1]: Failed password for oracle from 198.51.100.9 port 22 ssh2\nNov  8 00:55:51 h sshd[1]: Failed password for ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 01:07:31 h sshd[1]: Failed password for invalid user test from 198.51.100.9 port 22 ssh2\nNov  8 01:07:33 h sshd[1]: Failed password for oracle from 198.51.100.9 port 22 ssh2\nNov  8 01:08:03 h sshd[1]: Accepted password for git from 203.0.113.5 port 22 ssh2\nNov  8 01:08:04 h sshd[1]: Failed password for invalid user ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 01:10:04 h sshd[1]: Failed password for admin from 203.0.113.5 port 22 ssh2\nNov  8 01:10:07 h sshd[1]: Failed password for invalid user oracle from 198.51.100.9 port 22 ssh2\nNov  8 01:10:08 h sshd[1]: Failed password for oracle from 2001:db8::1 port 22 ssh2\nNov  8 01:10:11 h sshd[1]: Failed password for git from 203.0.113.5 port 22 ssh2\nNov  8 01:10:11 h CRON[2]: noise line\nNov  8 01:10:13 h sshd[1]: Failed password for bob from 198.51.100.9 port 22 ssh2\nNov  8 01:10:13 h CRON[2]: noise line\nNov  8 01:10:16 h sshd[1]: Failed password for admin from 203.0.113.5 port 22 ssh2\nNov  8 01:10:21 h sshd[1]: Failed password for ubuntu from 203.0.113.5 port 22 ssh2\nNov  8 01:10:51 h sshd[1]: Accepted password for oracle from 203.0.113.5 port 22 ssh2\nNov  8 01:10:52 h sshd[1]: Accepted password for git from 192.0.2.77 port 22 ssh2\nNov  8 01:10:54 h sshd[1]: Failed password for invalid user test from 203.0.113.5 port 22 ssh2\nNov  8 01:10:55 h sshd[1]: Failed password for root from 198.51.100.9 port 22 ssh2\nNov  8 01:10:56 h sshd[1]: Failed password for root from 192.0.2.77 port 22 ssh2\nNov  8 01:12:56 h sshd[1]: Failed password for invalid user test from 2001:db8::1 port 22 ssh2\nNov  8 01:12:58 h sshd[1]: Accepted password for bob from 2001:db8::1 port 22 ssh2\nNov  8 01:14:58 h sshd[1]: Failed password for git from 203.0.113.5 port 22 ssh2\nNov  8 01:15:28 h sshd[1]: Accepted password for git from 2001:db8::1 port 22 ssh2\nNov  8 01:15:29 h sshd[1]: Failed password for root from 203.0.113.5 port 22 ssh2\nNov  8 01:15:34 h sshd[1]: Accepted password for alice from 192.0.2.77 port 22 ssh2\nNov  8 01:15:34 h CRON[2]: noise line\nNov  8 01:17:34 h sshd[1]: Failed password for oracle from 2001:db8::1 port 22 ssh2\nNov  8 01:19:34 h sshd[1]: Failed password for invalid user oracle from 2001:db8::1 port 22 ssh2\nNov  8 01:20:04 h sshd[1]: Failed password for admin from 192.0.2.77 port 22 ssh2\nNov  8 01:20:34 h sshd[1]: Accepted password for test from 192.0.2.77 port 22 ssh2\nNov  8 01:22:34 h sshd[1]: Failed password for alice from 192.0.2.77 port 22 ssh2\nNov  8 01:22:34 h CRON[2]: noise line\nNov  8 01:34:14 h sshd[1]: Failed password for git from 192.0.2.77 port 22 ssh2\nNov  8 01:34:16 h sshd[1]: Failed password for alice from 198.51.100.9 port 22 ssh2\nNov  8 01:36:16 h sshd[1]: Failed password for oracle from 203.0.113.5 port 22 ssh2\nNov  8 01:36:17 h sshd[1]: Failed password for invalid user ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 01:38:17 h sshd[1]: Failed password for invalid user alice from 192.0.2.77 port 22 ssh2\nNov  8 01:38:22 h sshd[1]: Failed password for alice from 203.0.113.5 port 22 ssh2\nNov  8 01:38:52 h sshd[1]: Failed password for invalid user root from 198.51.100.9 port 22 ssh2\nNov  8 01:38:54 h sshd[1]: Accepted password for oracle from 192.0.2.77 port 22 ssh2\nNov  8 01:39:24 h sshd[1]: Failed password for invalid user root from 198.51.100.9 port 22 ssh2\nNov  8 01:41:24 h sshd[1]: Failed password for invalid user oracle from 192.0.2.77 port 22 ssh2\nNov  8 01:41:54 h sshd[1]: Failed password for admin from 2001:db8::1 port 22 ssh2\nNov  8 01:42:24 h sshd[1]: Failed password for invalid user root from 192.0.2.77 port 22 ssh2\nNov  8 01:42:24 h CRON[2]: noise line\nNov  8 01:54:04 h sshd[1]: Failed password for bob from 192.0.2.77 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {},
+   "alerts": [
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "203.0.113.5",
+     "failures": 6,
+     "users": [
+      "admin",
+      "git",
+      "test",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T01:10:04",
+     "last_seen": "2026-11-08T01:14:58",
+     "detail": "6 failed logins within 300s."
+    },
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "198.51.100.9",
+     "failures": 5,
+     "users": [
+      "bob",
+      "oracle",
+      "root",
+      "test"
+     ],
+     "first_seen": "2026-11-08T01:07:31",
+     "last_seen": "2026-11-08T01:10:55",
+     "detail": "5 failed logins within 300s."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "192.0.2.77",
+     "failures": 10,
+     "users": [
+      "admin",
+      "alice",
+      "bob",
+      "git",
+      "oracle",
+      "root"
+     ],
+     "first_seen": "2026-11-08T00:17:16",
+     "last_seen": "2026-11-08T01:54:04",
+     "detail": "10 failed logins spread over 6 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "2001:db8::1",
+     "failures": 9,
+     "users": [
+      "admin",
+      "git",
+      "oracle",
+      "test",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:30:05",
+     "last_seen": "2026-11-08T01:41:54",
+     "detail": "9 failed logins spread over 5 different usernames (slow spray, stays under the burst threshold)."
+    }
+   ]
+  },
+  {
+   "text": "Nov  8 00:28:20 h sshd[1]: Accepted password for git from 198.51.100.9 port 22 ssh2\nNov  8 00:28:50 h sshd[1]: Failed password for invalid user admin from 192.0.2.77 port 22 ssh2\nNov  8 00:28:50 h CRON[2]: noise line\nNov  8 00:40:30 h sshd[1]: Failed password for bob from 2001:db8::1 port 22 ssh2\nNov  8 00:42:30 h sshd[1]: Failed password for admin from 203.0.113.5 port 22 ssh2\nNov  8 00:54:10 h sshd[1]: Accepted password for bob from 2001:db8::1 port 22 ssh2\nNov  8 00:54:11 h sshd[1]: Failed password for bob from 2001:db8::1 port 22 ssh2\nNov  8 00:56:11 h sshd[1]: Failed password for invalid user git from 198.51.100.9 port 22 ssh2\nNov  8 00:56:41 h sshd[1]: Failed password for invalid user bob from 192.0.2.77 port 22 ssh2\nNov  8 00:56:42 h sshd[1]: Failed password for admin from 203.0.113.5 port 22 ssh2\nNov  8 00:56:47 h sshd[1]: Failed password for git from 203.0.113.5 port 22 ssh2\nNov  8 00:56:47 h CRON[2]: noise line\nNov  8 00:58:47 h sshd[1]: Accepted password for ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 01:10:27 h sshd[1]: Failed password for oracle from 198.51.100.9 port 22 ssh2\nNov  8 01:10:27 h CRON[2]: noise line\nNov  8 01:10:57 h sshd[1]: Failed password for invalid user test from 192.0.2.77 port 22 ssh2\nNov  8 01:11:00 h sshd[1]: Failed password for invalid user bob from 2001:db8::1 port 22 ssh2\nNov  8 01:11:05 h sshd[1]: Failed password for invalid user test from 2001:db8::1 port 22 ssh2\nNov  8 01:13:05 h sshd[1]: Failed password for alice from 192.0.2.77 port 22 ssh2\nNov  8 01:24:45 h sshd[1]: Failed password for git from 192.0.2.77 port 22 ssh2\nNov  8 01:26:45 h sshd[1]: Failed password for root from 192.0.2.77 port 22 ssh2\nNov  8 01:26:48 h sshd[1]: Failed password for test from 203.0.113.5 port 22 ssh2\nNov  8 01:26:50 h sshd[1]: Accepted password for bob from 2001:db8::1 port 22 ssh2\nNov  8 01:26:52 h sshd[1]: Failed password for ubuntu from 203.0.113.5 port 22 ssh2\nNov  8 01:26:52 h CRON[2]: noise line\nNov  8 01:38:32 h sshd[1]: Failed password for alice from 203.0.113.5 port 22 ssh2\nNov  8 01:50:12 h sshd[1]: Failed password for alice from 198.51.100.9 port 22 ssh2\nNov  8 02:01:52 h sshd[1]: Failed password for ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 02:01:53 h sshd[1]: Failed password for invalid user admin from 2001:db8::1 port 22 ssh2\nNov  8 02:01:53 h CRON[2]: noise line\nNov  8 02:01:55 h sshd[1]: Failed password for invalid user alice from 192.0.2.77 port 22 ssh2\nNov  8 02:01:55 h CRON[2]: noise line\nNov  8 02:03:55 h sshd[1]: Failed password for root from 198.51.100.9 port 22 ssh2\nNov  8 02:15:35 h sshd[1]: Failed password for invalid user ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 02:15:37 h sshd[1]: Failed password for invalid user git from 198.51.100.9 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {
+    "window": 30,
+    "spray_users": 2
+   },
+   "alerts": [
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "192.0.2.77",
+     "failures": 8,
+     "users": [
+      "admin",
+      "alice",
+      "bob",
+      "git",
+      "root",
+      "test",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:28:50",
+     "last_seen": "2026-11-08T02:15:35",
+     "detail": "8 failed logins spread over 7 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "198.51.100.9",
+     "failures": 6,
+     "users": [
+      "alice",
+      "git",
+      "oracle",
+      "root",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:56:11",
+     "last_seen": "2026-11-08T02:15:37",
+     "detail": "6 failed logins spread over 5 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "203.0.113.5",
+     "failures": 6,
+     "users": [
+      "admin",
+      "alice",
+      "git",
+      "test",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:42:30",
+     "last_seen": "2026-11-08T01:38:32",
+     "detail": "6 failed logins spread over 5 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "2001:db8::1",
+     "failures": 5,
+     "users": [
+      "admin",
+      "bob",
+      "test"
+     ],
+     "first_seen": "2026-11-08T00:40:30",
+     "last_seen": "2026-11-08T02:01:53",
+     "detail": "5 failed logins spread over 3 different usernames (slow spray, stays under the burst threshold)."
+    }
+   ]
+  },
+  {
+   "text": "Nov  8 00:16:42 h sshd[1]: Failed password for git from 203.0.113.5 port 22 ssh2\nNov  8 00:18:42 h sshd[1]: Failed password for invalid user admin from 2001:db8::1 port 22 ssh2\nNov  8 00:18:44 h sshd[1]: Failed password for invalid user test from 203.0.113.5 port 22 ssh2\nNov  8 00:18:45 h sshd[1]: Failed password for invalid user alice from 198.51.100.9 port 22 ssh2\nNov  8 00:30:25 h sshd[1]: Failed password for invalid user git from 203.0.113.5 port 22 ssh2\nNov  8 00:42:05 h sshd[1]: Failed password for test from 198.51.100.9 port 22 ssh2\nNov  8 00:42:08 h sshd[1]: Failed password for invalid user ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 00:42:13 h sshd[1]: Failed password for invalid user git from 2001:db8::1 port 22 ssh2\nNov  8 00:53:53 h sshd[1]: Failed password for admin from 192.0.2.77 port 22 ssh2\nNov  8 00:53:54 h sshd[1]: Failed password for invalid user bob from 198.51.100.9 port 22 ssh2\nNov  8 00:53:55 h sshd[1]: Failed password for ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 00:53:55 h CRON[2]: noise line\nNov  8 00:55:55 h sshd[1]: Failed password for oracle from 198.51.100.9 port 22 ssh2\nNov  8 01:07:35 h sshd[1]: Failed password for invalid user test from 2001:db8::1 port 22 ssh2\nNov  8 01:07:36 h sshd[1]: Failed password for alice from 198.51.100.9 port 22 ssh2\nNov  8 01:07:38 h sshd[1]: Failed password for invalid user root from 198.51.100.9 port 22 ssh2\nNov  8 01:07:43 h sshd[1]: Accepted password for ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 01:08:13 h sshd[1]: Failed password for admin from 198.51.100.9 port 22 ssh2\nNov  8 01:19:53 h sshd[1]: Failed password for invalid user git from 198.51.100.9 port 22 ssh2\nNov  8 01:19:54 h sshd[1]: Failed password for invalid user bob from 2001:db8::1 port 22 ssh2\nNov  8 01:19:55 h sshd[1]: Failed password for git from 203.0.113.5 port 22 ssh2\nNov  8 01:21:55 h sshd[1]: Failed password for invalid user git from 203.0.113.5 port 22 ssh2\nNov  8 01:21:55 h CRON[2]: noise line\nNov  8 01:21:57 h sshd[1]: Failed password for test from 198.51.100.9 port 22 ssh2\nNov  8 01:21:59 h sshd[1]: Accepted password for oracle from 203.0.113.5 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {
+    "threshold": 3
+   },
+   "alerts": [
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "198.51.100.9",
+     "failures": 3,
+     "users": [
+      "admin",
+      "alice",
+      "root"
+     ],
+     "first_seen": "2026-11-08T01:07:36",
+     "last_seen": "2026-11-08T01:08:13",
+     "detail": "3 failed logins within 300s."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "2001:db8::1",
+     "failures": 5,
+     "users": [
+      "admin",
+      "bob",
+      "git",
+      "test",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:18:42",
+     "last_seen": "2026-11-08T01:19:54",
+     "detail": "5 failed logins spread over 5 different usernames (slow spray, stays under the burst threshold)."
+    }
+   ]
+  },
+  {
+   "text": "Nov  8 00:16:41 h sshd[1]: Failed password for ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 00:16:44 h sshd[1]: Failed password for invalid user git from 198.51.100.9 port 22 ssh2\nNov  8 00:16:45 h sshd[1]: Failed password for alice from 203.0.113.5 port 22 ssh2\nNov  8 00:16:46 h sshd[1]: Accepted password for git from 203.0.113.5 port 22 ssh2\nNov  8 00:16:46 h CRON[2]: noise line\nNov  8 00:16:49 h sshd[1]: Failed password for admin from 2001:db8::1 port 22 ssh2\nNov  8 00:28:29 h sshd[1]: Failed password for alice from 2001:db8::1 port 22 ssh2\nNov  8 00:28:30 h sshd[1]: Failed password for ubuntu from 2001:db8::1 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {
+    "window": 30,
+    "spray_users": 2
+   },
+   "alerts": [
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "2001:db8::1",
+     "failures": 3,
+     "users": [
+      "admin",
+      "alice",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:16:49",
+     "last_seen": "2026-11-08T00:28:30",
+     "detail": "3 failed logins spread over 3 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "198.51.100.9",
+     "failures": 2,
+     "users": [
+      "git",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:16:41",
+     "last_seen": "2026-11-08T00:16:44",
+     "detail": "2 failed logins spread over 2 different usernames (slow spray, stays under the burst threshold)."
+    }
+   ]
+  },
+  {
+   "text": "Nov  8 00:18:40 h sshd[1]: Accepted password for admin from 203.0.113.5 port 22 ssh2\nNov  8 00:18:43 h sshd[1]: Failed password for git from 198.51.100.9 port 22 ssh2\nNov  8 00:18:48 h sshd[1]: Failed password for invalid user bob from 203.0.113.5 port 22 ssh2\nNov  8 00:30:28 h sshd[1]: Failed password for invalid user bob from 192.0.2.77 port 22 ssh2\nNov  8 00:42:08 h sshd[1]: Failed password for invalid user bob from 192.0.2.77 port 22 ssh2\nNov  8 00:42:09 h sshd[1]: Failed password for alice from 203.0.113.5 port 22 ssh2\nNov  8 00:42:12 h sshd[1]: Failed password for admin from 198.51.100.9 port 22 ssh2\nNov  8 00:42:15 h sshd[1]: Accepted password for admin from 192.0.2.77 port 22 ssh2\nNov  8 00:42:20 h sshd[1]: Failed password for git from 2001:db8::1 port 22 ssh2\nNov  8 00:42:20 h CRON[2]: noise line\nNov  8 00:54:00 h sshd[1]: Failed password for bob from 198.51.100.9 port 22 ssh2\nNov  8 00:54:02 h sshd[1]: Failed password for invalid user bob from 192.0.2.77 port 22 ssh2\nNov  8 01:05:42 h sshd[1]: Failed password for invalid user ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 01:05:43 h sshd[1]: Failed password for alice from 198.51.100.9 port 22 ssh2\nNov  8 01:07:43 h sshd[1]: Failed password for bob from 203.0.113.5 port 22 ssh2\nNov  8 01:07:48 h sshd[1]: Failed password for oracle from 203.0.113.5 port 22 ssh2\nNov  8 01:09:48 h sshd[1]: Accepted password for root from 2001:db8::1 port 22 ssh2\nNov  8 01:09:51 h sshd[1]: Accepted password for root from 203.0.113.5 port 22 ssh2\nNov  8 01:09:52 h sshd[1]: Failed password for alice from 2001:db8::1 port 22 ssh2\nNov  8 01:10:22 h sshd[1]: Accepted password for root from 2001:db8::1 port 22 ssh2\nNov  8 01:10:23 h sshd[1]: Failed password for ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 01:10:28 h sshd[1]: Failed password for invalid user test from 198.51.100.9 port 22 ssh2\nNov  8 01:10:29 h sshd[1]: Failed password for bob from 2001:db8::1 port 22 ssh2\nNov  8 01:10:34 h sshd[1]: Failed password for invalid user oracle from 2001:db8::1 port 22 ssh2\nNov  8 01:11:04 h sshd[1]: Failed password for invalid user root from 2001:db8::1 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {
+    "window": 30,
+    "spray_users": 2
+   },
+   "alerts": [
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "198.51.100.9",
+     "failures": 6,
+     "users": [
+      "admin",
+      "alice",
+      "bob",
+      "git",
+      "test",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:18:43",
+     "last_seen": "2026-11-08T01:10:28",
+     "detail": "6 failed logins spread over 6 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "2001:db8::1",
+     "failures": 5,
+     "users": [
+      "alice",
+      "bob",
+      "git",
+      "oracle",
+      "root"
+     ],
+     "first_seen": "2026-11-08T00:42:20",
+     "last_seen": "2026-11-08T01:11:04",
+     "detail": "5 failed logins spread over 5 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "192.0.2.77",
+     "failures": 4,
+     "users": [
+      "bob",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:30:28",
+     "last_seen": "2026-11-08T01:10:23",
+     "detail": "4 failed logins spread over 2 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "203.0.113.5",
+     "failures": 4,
+     "users": [
+      "alice",
+      "bob",
+      "oracle"
+     ],
+     "first_seen": "2026-11-08T00:18:48",
+     "last_seen": "2026-11-08T01:07:48",
+     "detail": "4 failed logins spread over 3 different usernames (slow spray, stays under the burst threshold)."
+    }
+   ]
+  },
+  {
+   "text": "Nov  8 00:16:41 h sshd[1]: Failed password for invalid user test from 198.51.100.9 port 22 ssh2\nNov  8 00:16:42 h sshd[1]: Failed password for invalid user bob from 192.0.2.77 port 22 ssh2\nNov  8 00:16:45 h sshd[1]: Failed password for invalid user alice from 192.0.2.77 port 22 ssh2\nNov  8 00:16:46 h sshd[1]: Failed password for invalid user oracle from 192.0.2.77 port 22 ssh2\nNov  8 00:16:49 h sshd[1]: Accepted password for git from 203.0.113.5 port 22 ssh2\nNov  8 00:17:19 h sshd[1]: Failed password for invalid user ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 00:28:59 h sshd[1]: Failed password for invalid user bob from 2001:db8::1 port 22 ssh2\nNov  8 00:29:04 h sshd[1]: Failed password for admin from 192.0.2.77 port 22 ssh2\nNov  8 00:29:04 h CRON[2]: noise line\nNov  8 00:40:44 h sshd[1]: Failed password for invalid user oracle from 192.0.2.77 port 22 ssh2\nNov  8 00:40:45 h sshd[1]: Accepted password for bob from 203.0.113.5 port 22 ssh2\nNov  8 00:40:48 h sshd[1]: Accepted password for ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 00:42:48 h sshd[1]: Failed password for bob from 203.0.113.5 port 22 ssh2\nNov  8 00:42:51 h sshd[1]: Failed password for invalid user bob from 2001:db8::1 port 22 ssh2\nNov  8 00:44:51 h sshd[1]: Failed password for bob from 198.51.100.9 port 22 ssh2\nNov  8 00:44:54 h sshd[1]: Failed password for invalid user bob from 203.0.113.5 port 22 ssh2\nNov  8 00:44:56 h sshd[1]: Failed password for bob from 2001:db8::1 port 22 ssh2\nNov  8 00:46:56 h sshd[1]: Failed password for ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 00:46:57 h sshd[1]: Failed password for root from 192.0.2.77 port 22 ssh2\nNov  8 00:47:00 h sshd[1]: Failed password for invalid user bob from 198.51.100.9 port 22 ssh2\nNov  8 00:47:00 h CRON[2]: noise line\nNov  8 00:47:30 h sshd[1]: Accepted password for git from 192.0.2.77 port 22 ssh2\nNov  8 00:47:33 h sshd[1]: Failed password for oracle from 203.0.113.5 port 22 ssh2\nNov  8 00:47:36 h sshd[1]: Failed password for root from 198.51.100.9 port 22 ssh2\nNov  8 00:48:06 h sshd[1]: Failed password for alice from 203.0.113.5 port 22 ssh2\nNov  8 00:48:06 h CRON[2]: noise line\nNov  8 00:48:36 h sshd[1]: Failed password for invalid user admin from 2001:db8::1 port 22 ssh2\nNov  8 00:48:39 h sshd[1]: Failed password for git from 198.51.100.9 port 22 ssh2\nNov  8 01:00:19 h sshd[1]: Failed password for invalid user git from 203.0.113.5 port 22 ssh2\nNov  8 01:00:24 h sshd[1]: Accepted password for admin from 192.0.2.77 port 22 ssh2\nNov  8 01:00:25 h sshd[1]: Failed password for bob from 203.0.113.5 port 22 ssh2\nNov  8 01:02:25 h sshd[1]: Accepted password for oracle from 203.0.113.5 port 22 ssh2\nNov  8 01:02:28 h sshd[1]: Failed password for alice from 203.0.113.5 port 22 ssh2\nNov  8 01:04:28 h sshd[1]: Failed password for invalid user git from 2001:db8::1 port 22 ssh2\nNov  8 01:04:31 h sshd[1]: Failed password for admin from 198.51.100.9 port 22 ssh2\nNov  8 01:04:33 h sshd[1]: Failed password for test from 198.51.100.9 port 22 ssh2\nNov  8 01:04:36 h sshd[1]: Failed password for invalid user root from 203.0.113.5 port 22 ssh2\nNov  8 01:04:36 h CRON[2]: noise line\nNov  8 01:16:16 h sshd[1]: Failed password for oracle from 192.0.2.77 port 22 ssh2\nNov  8 01:16:19 h sshd[1]: Failed password for invalid user admin from 192.0.2.77 port 22 ssh2\nNov  8 01:16:20 h sshd[1]: Failed password for admin from 2001:db8::1 port 22 ssh2\nNov  8 01:16:25 h sshd[1]: Accepted password for admin from 2001:db8::1 port 22 ssh2\nNov  8 01:16:30 h sshd[1]: Failed password for invalid user admin from 198.51.100.9 port 22 ssh2\nNov  8 01:16:33 h sshd[1]: Accepted password for root from 192.0.2.77 port 22 ssh2\nNov  8 01:16:36 h sshd[1]: Failed password for bob from 2001:db8::1 port 22 ssh2\nNov  8 01:16:38 h sshd[1]: Failed password for admin from 203.0.113.5 port 22 ssh2\nNov  8 01:16:39 h sshd[1]: Failed password for invalid user alice from 203.0.113.5 port 22 ssh2\nNov  8 01:16:40 h sshd[1]: Failed password for oracle from 192.0.2.77 port 22 ssh2\nNov  8 01:18:40 h sshd[1]: Failed password for root from 198.51.100.9 port 22 ssh2\nNov  8 01:18:41 h sshd[1]: Accepted password for ubuntu from 203.0.113.5 port 22 ssh2\nNov  8 01:19:11 h sshd[1]: Failed password for admin from 2001:db8::1 port 22 ssh2\nNov  8 01:19:13 h sshd[1]: Failed password for git from 2001:db8::1 port 22 ssh2\nNov  8 01:19:43 h sshd[1]: Accepted password for admin from 198.51.100.9 port 22 ssh2\nNov  8 01:19:44 h sshd[1]: Failed password for git from 198.51.100.9 port 22 ssh2\nNov  8 01:19:46 h sshd[1]: Failed password for git from 203.0.113.5 port 22 ssh2\nNov  8 01:19:47 h sshd[1]: Failed password for root from 2001:db8::1 port 22 ssh2\nNov  8 01:31:27 h sshd[1]: Failed password for invalid user bob from 203.0.113.5 port 22 ssh2\nNov  8 01:31:27 h CRON[2]: noise line\nNov  8 01:43:07 h sshd[1]: Failed password for admin from 203.0.113.5 port 22 ssh2\nNov  8 01:43:37 h sshd[1]: Failed password for admin from 192.0.2.77 port 22 ssh2\nNov  8 01:43:38 h sshd[1]: Failed password for root from 203.0.113.5 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {
+    "window": 30,
+    "spray_users": 2
+   },
+   "alerts": [
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "203.0.113.5",
+     "failures": 14,
+     "users": [
+      "admin",
+      "alice",
+      "bob",
+      "git",
+      "oracle",
+      "root"
+     ],
+     "first_seen": "2026-11-08T00:42:48",
+     "last_seen": "2026-11-08T01:43:38",
+     "detail": "14 failed logins spread over 6 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "198.51.100.9",
+     "failures": 11,
+     "users": [
+      "admin",
+      "bob",
+      "git",
+      "root",
+      "test",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:16:41",
+     "last_seen": "2026-11-08T01:19:44",
+     "detail": "11 failed logins spread over 6 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "2001:db8::1",
+     "failures": 11,
+     "users": [
+      "admin",
+      "bob",
+      "git",
+      "root",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:17:19",
+     "last_seen": "2026-11-08T01:19:47",
+     "detail": "11 failed logins spread over 5 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "192.0.2.77",
+     "failures": 10,
+     "users": [
+      "admin",
+      "alice",
+      "bob",
+      "oracle",
+      "root"
+     ],
+     "first_seen": "2026-11-08T00:16:42",
+     "last_seen": "2026-11-08T01:43:37",
+     "detail": "10 failed logins spread over 5 different usernames (slow spray, stays under the burst threshold)."
+    }
+   ]
+  },
+  {
+   "text": "Nov  8 00:17:10 h sshd[1]: Failed password for root from 203.0.113.5 port 22 ssh2\nNov  8 00:19:10 h sshd[1]: Failed password for git from 203.0.113.5 port 22 ssh2\nNov  8 00:19:15 h sshd[1]: Failed password for admin from 198.51.100.9 port 22 ssh2\nNov  8 00:19:16 h sshd[1]: Failed password for invalid user oracle from 203.0.113.5 port 22 ssh2\nNov  8 00:30:56 h sshd[1]: Failed password for invalid user admin from 203.0.113.5 port 22 ssh2\nNov  8 00:30:58 h sshd[1]: Failed password for invalid user oracle from 2001:db8::1 port 22 ssh2\nNov  8 00:30:58 h CRON[2]: noise line\nNov  8 00:30:59 h sshd[1]: Failed password for bob from 198.51.100.9 port 22 ssh2\nNov  8 00:32:59 h sshd[1]: Accepted password for admin from 198.51.100.9 port 22 ssh2\nNov  8 00:34:59 h sshd[1]: Accepted password for ubuntu from 203.0.113.5 port 22 ssh2\nNov  8 00:35:00 h sshd[1]: Failed password for test from 198.51.100.9 port 22 ssh2\nNov  8 00:35:03 h sshd[1]: Failed password for invalid user root from 192.0.2.77 port 22 ssh2\nNov  8 00:37:03 h sshd[1]: Failed password for invalid user oracle from 2001:db8::1 port 22 ssh2\nNov  8 00:37:04 h sshd[1]: Failed password for invalid user git from 192.0.2.77 port 22 ssh2\nNov  8 00:37:05 h sshd[1]: Failed password for oracle from 198.51.100.9 port 22 ssh2\nNov  8 00:48:45 h sshd[1]: Failed password for invalid user bob from 192.0.2.77 port 22 ssh2\nNov  8 00:48:50 h sshd[1]: Failed password for git from 198.51.100.9 port 22 ssh2\nNov  8 00:48:55 h sshd[1]: Failed password for git from 203.0.113.5 port 22 ssh2\nNov  8 00:50:55 h sshd[1]: Failed password for bob from 192.0.2.77 port 22 ssh2\nNov  8 00:51:00 h sshd[1]: Failed password for invalid user test from 198.51.100.9 port 22 ssh2\nNov  8 00:51:01 h sshd[1]: Failed password for git from 203.0.113.5 port 22 ssh2\nNov  8 00:53:01 h sshd[1]: Failed password for admin from 198.51.100.9 port 22 ssh2\nNov  8 00:53:02 h sshd[1]: Failed password for invalid user root from 203.0.113.5 port 22 ssh2\nNov  8 00:55:02 h sshd[1]: Accepted password for test from 2001:db8::1 port 22 ssh2\nNov  8 00:55:03 h sshd[1]: Failed password for test from 192.0.2.77 port 22 ssh2\nNov  8 00:57:03 h sshd[1]: Failed password for alice from 203.0.113.5 port 22 ssh2\nNov  8 00:57:03 h CRON[2]: noise line\nNov  8 01:08:43 h sshd[1]: Accepted password for admin from 198.51.100.9 port 22 ssh2\nNov  8 01:10:43 h sshd[1]: Failed password for test from 192.0.2.77 port 22 ssh2\nNov  8 01:10:43 h CRON[2]: noise line\nNov  8 01:10:44 h sshd[1]: Failed password for invalid user test from 198.51.100.9 port 22 ssh2\nNov  8 01:10:45 h sshd[1]: Failed password for invalid user bob from 203.0.113.5 port 22 ssh2\nNov  8 01:10:46 h sshd[1]: Failed password for test from 203.0.113.5 port 22 ssh2\nNov  8 01:10:49 h sshd[1]: Failed password for ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 01:10:52 h sshd[1]: Accepted password for admin from 198.51.100.9 port 22 ssh2\nNov  8 01:10:54 h sshd[1]: Accepted password for bob from 192.0.2.77 port 22 ssh2\nNov  8 01:10:54 h CRON[2]: noise line\nNov  8 01:12:54 h sshd[1]: Failed password for git from 198.51.100.9 port 22 ssh2\nNov  8 01:12:59 h sshd[1]: Failed password for root from 192.0.2.77 port 22 ssh2\nNov  8 01:13:01 h sshd[1]: Failed password for root from 192.0.2.77 port 22 ssh2\nNov  8 01:13:31 h sshd[1]: Failed password for admin from 2001:db8::1 port 22 ssh2\nNov  8 01:13:33 h sshd[1]: Failed password for invalid user alice from 2001:db8::1 port 22 ssh2\nNov  8 01:13:38 h sshd[1]: Accepted password for git from 2001:db8::1 port 22 ssh2\nNov  8 01:13:39 h sshd[1]: Failed password for alice from 198.51.100.9 port 22 ssh2\nNov  8 01:25:19 h sshd[1]: Failed password for admin from 2001:db8::1 port 22 ssh2\nNov  8 01:25:19 h CRON[2]: noise line\nNov  8 01:25:49 h sshd[1]: Failed password for invalid user oracle from 198.51.100.9 port 22 ssh2\nNov  8 01:25:54 h sshd[1]: Accepted password for admin from 198.51.100.9 port 22 ssh2\nNov  8 01:25:55 h sshd[1]: Failed password for invalid user test from 198.51.100.9 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {
+    "threshold": 3
+   },
+   "alerts": [
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "192.0.2.77",
+     "failures": 4,
+     "users": [
+      "root",
+      "test",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T01:10:43",
+     "last_seen": "2026-11-08T01:13:01",
+     "detail": "4 failed logins within 300s."
+    },
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "198.51.100.9",
+     "failures": 3,
+     "users": [
+      "admin",
+      "git",
+      "test"
+     ],
+     "first_seen": "2026-11-08T00:48:50",
+     "last_seen": "2026-11-08T00:53:01",
+     "detail": "3 failed logins within 300s."
+    },
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "203.0.113.5",
+     "failures": 3,
+     "users": [
+      "git",
+      "oracle",
+      "root"
+     ],
+     "first_seen": "2026-11-08T00:17:10",
+     "last_seen": "2026-11-08T00:19:16",
+     "detail": "3 failed logins within 300s."
+    }
+   ]
+  },
+  {
+   "text": "Nov  8 00:16:43 h sshd[1]: Failed password for root from 198.51.100.9 port 22 ssh2\nNov  8 00:18:43 h sshd[1]: Failed password for invalid user root from 2001:db8::1 port 22 ssh2\nNov  8 00:19:13 h sshd[1]: Failed password for oracle from 198.51.100.9 port 22 ssh2\nNov  8 00:21:13 h sshd[1]: Failed password for oracle from 203.0.113.5 port 22 ssh2\nNov  8 00:21:14 h sshd[1]: Failed password for admin from 2001:db8::1 port 22 ssh2\nNov  8 00:21:16 h sshd[1]: Failed password for test from 198.51.100.9 port 22 ssh2\nNov  8 00:21:21 h sshd[1]: Failed password for ubuntu from 203.0.113.5 port 22 ssh2\nNov  8 00:21:26 h sshd[1]: Failed password for invalid user alice from 192.0.2.77 port 22 ssh2\nNov  8 00:21:28 h sshd[1]: Failed password for git from 2001:db8::1 port 22 ssh2\nNov  8 00:33:08 h sshd[1]: Failed password for invalid user root from 192.0.2.77 port 22 ssh2\nNov  8 00:33:09 h sshd[1]: Failed password for ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 00:44:49 h sshd[1]: Failed password for alice from 192.0.2.77 port 22 ssh2\nNov  8 00:44:52 h sshd[1]: Failed password for admin from 198.51.100.9 port 22 ssh2\nNov  8 00:45:22 h sshd[1]: Accepted password for oracle from 198.51.100.9 port 22 ssh2\nNov  8 00:45:22 h CRON[2]: noise line\nNov  8 00:45:24 h sshd[1]: Failed password for ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 00:45:27 h sshd[1]: Accepted password for ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 00:47:27 h sshd[1]: Failed password for admin from 2001:db8::1 port 22 ssh2\nNov  8 00:47:28 h sshd[1]: Failed password for admin from 192.0.2.77 port 22 ssh2\nNov  8 00:47:33 h sshd[1]: Accepted password for bob from 203.0.113.5 port 22 ssh2\nNov  8 00:49:33 h sshd[1]: Failed password for alice from 203.0.113.5 port 22 ssh2\nNov  8 01:01:13 h sshd[1]: Failed password for git from 192.0.2.77 port 22 ssh2\nNov  8 01:01:18 h sshd[1]: Failed password for test from 198.51.100.9 port 22 ssh2\nNov  8 01:01:21 h sshd[1]: Failed password for root from 203.0.113.5 port 22 ssh2\nNov  8 01:13:01 h sshd[1]: Failed password for alice from 203.0.113.5 port 22 ssh2\nNov  8 01:15:01 h sshd[1]: Accepted password for alice from 198.51.100.9 port 22 ssh2\nNov  8 01:15:03 h sshd[1]: Accepted password for admin from 2001:db8::1 port 22 ssh2\nNov  8 01:15:08 h sshd[1]: Accepted password for ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 01:17:08 h sshd[1]: Failed password for bob from 192.0.2.77 port 22 ssh2\nNov  8 01:17:10 h sshd[1]: Failed password for test from 198.51.100.9 port 22 ssh2\nNov  8 01:17:40 h sshd[1]: Failed password for admin from 2001:db8::1 port 22 ssh2\nNov  8 01:18:10 h sshd[1]: Failed password for oracle from 192.0.2.77 port 22 ssh2\nNov  8 01:18:15 h sshd[1]: Failed password for invalid user ubuntu from 203.0.113.5 port 22 ssh2\nNov  8 01:18:18 h sshd[1]: Failed password for git from 198.51.100.9 port 22 ssh2\nNov  8 01:29:58 h sshd[1]: Failed password for invalid user test from 192.0.2.77 port 22 ssh2\nNov  8 01:31:58 h sshd[1]: Accepted password for git from 203.0.113.5 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {
+    "threshold": 3
+   },
+   "alerts": [
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "198.51.100.9",
+     "failures": 3,
+     "users": [
+      "oracle",
+      "root",
+      "test"
+     ],
+     "first_seen": "2026-11-08T00:16:43",
+     "last_seen": "2026-11-08T00:21:16",
+     "detail": "3 failed logins within 300s."
+    },
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "2001:db8::1",
+     "failures": 3,
+     "users": [
+      "admin",
+      "git",
+      "root"
+     ],
+     "first_seen": "2026-11-08T00:18:43",
+     "last_seen": "2026-11-08T00:21:28",
+     "detail": "3 failed logins within 300s."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "192.0.2.77",
+     "failures": 9,
+     "users": [
+      "admin",
+      "alice",
+      "bob",
+      "git",
+      "oracle",
+      "root",
+      "test",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:21:26",
+     "last_seen": "2026-11-08T01:29:58",
+     "detail": "9 failed logins spread over 8 different usernames (slow spray, stays under the burst threshold)."
+    }
+   ]
+  },
+  {
+   "text": "Nov  8 00:17:10 h sshd[1]: Failed password for invalid user root from 192.0.2.77 port 22 ssh2\nNov  8 00:19:10 h sshd[1]: Failed password for invalid user root from 198.51.100.9 port 22 ssh2\nNov  8 00:30:50 h sshd[1]: Failed password for invalid user root from 198.51.100.9 port 22 ssh2\nNov  8 00:30:50 h CRON[2]: noise line\nNov  8 00:30:52 h sshd[1]: Failed password for alice from 198.51.100.9 port 22 ssh2\nNov  8 00:30:57 h sshd[1]: Failed password for test from 2001:db8::1 port 22 ssh2\nNov  8 00:31:00 h sshd[1]: Failed password for admin from 203.0.113.5 port 22 ssh2\nNov  8 00:42:40 h sshd[1]: Failed password for invalid user oracle from 192.0.2.77 port 22 ssh2\nNov  8 00:43:10 h sshd[1]: Accepted password for ubuntu from 203.0.113.5 port 22 ssh2\nNov  8 00:43:13 h sshd[1]: Failed password for invalid user git from 203.0.113.5 port 22 ssh2\nNov  8 00:43:14 h sshd[1]: Failed password for git from 198.51.100.9 port 22 ssh2\nNov  8 00:54:54 h sshd[1]: Accepted password for admin from 198.51.100.9 port 22 ssh2\nNov  8 00:54:59 h sshd[1]: Failed password for root from 198.51.100.9 port 22 ssh2\nNov  8 00:56:59 h sshd[1]: Failed password for git from 2001:db8::1 port 22 ssh2\nNov  8 00:57:02 h sshd[1]: Failed password for invalid user root from 203.0.113.5 port 22 ssh2\nNov  8 00:57:04 h sshd[1]: Accepted password for git from 2001:db8::1 port 22 ssh2\nNov  8 00:57:07 h sshd[1]: Failed password for invalid user ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 01:08:47 h sshd[1]: Failed password for bob from 192.0.2.77 port 22 ssh2\nNov  8 01:08:47 h CRON[2]: noise line\nNov  8 01:09:17 h sshd[1]: Failed password for invalid user admin from 192.0.2.77 port 22 ssh2\nNov  8 01:09:19 h sshd[1]: Failed password for invalid user alice from 198.51.100.9 port 22 ssh2\nNov  8 01:11:19 h sshd[1]: Failed password for alice from 192.0.2.77 port 22 ssh2\nNov  8 01:11:20 h sshd[1]: Failed password for invalid user bob from 2001:db8::1 port 22 ssh2\nNov  8 01:11:22 h sshd[1]: Accepted password for oracle from 2001:db8::1 port 22 ssh2\nNov  8 01:11:27 h sshd[1]: Failed password for alice from 192.0.2.77 port 22 ssh2\nNov  8 01:11:28 h sshd[1]: Failed password for alice from 203.0.113.5 port 22 ssh2\nNov  8 01:23:08 h sshd[1]: Failed password for admin from 198.51.100.9 port 22 ssh2\nNov  8 01:23:09 h sshd[1]: Failed password for invalid user bob from 192.0.2.77 port 22 ssh2\nNov  8 01:25:09 h sshd[1]: Failed password for root from 203.0.113.5 port 22 ssh2\nNov  8 01:25:10 h sshd[1]: Failed password for oracle from 203.0.113.5 port 22 ssh2\nNov  8 01:25:12 h sshd[1]: Failed password for ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 01:25:15 h sshd[1]: Failed password for git from 203.0.113.5 port 22 ssh2\nNov  8 01:25:15 h CRON[2]: noise line\nNov  8 01:27:15 h sshd[1]: Failed password for invalid user alice from 2001:db8::1 port 22 ssh2\nNov  8 01:38:55 h sshd[1]: Failed password for bob from 2001:db8::1 port 22 ssh2\nNov  8 01:38:57 h sshd[1]: Accepted password for admin from 2001:db8::1 port 22 ssh2\nNov  8 01:50:37 h sshd[1]: Failed password for root from 198.51.100.9 port 22 ssh2\nNov  8 01:50:39 h sshd[1]: Failed password for oracle from 192.0.2.77 port 22 ssh2\nNov  8 01:50:41 h sshd[1]: Accepted password for root from 2001:db8::1 port 22 ssh2\nNov  8 01:51:11 h sshd[1]: Failed password for invalid user root from 192.0.2.77 port 22 ssh2\nNov  8 01:51:11 h CRON[2]: noise line\nNov  8 01:51:12 h sshd[1]: Accepted password for git from 192.0.2.77 port 22 ssh2\nNov  8 01:51:15 h sshd[1]: Failed password for invalid user test from 192.0.2.77 port 22 ssh2\nNov  8 01:51:16 h sshd[1]: Accepted password for root from 198.51.100.9 port 22 ssh2\nNov  8 01:53:16 h sshd[1]: Accepted password for root from 198.51.100.9 port 22 ssh2\nNov  8 02:04:56 h sshd[1]: Failed password for test from 198.51.100.9 port 22 ssh2\nNov  8 02:16:36 h sshd[1]: Failed password for ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 02:16:37 h sshd[1]: Accepted password for ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 02:16:39 h sshd[1]: Accepted password for alice from 203.0.113.5 port 22 ssh2\nNov  8 02:16:44 h sshd[1]: Failed password for invalid user oracle from 198.51.100.9 port 22 ssh2\nNov  8 02:16:45 h sshd[1]: Failed password for git from 203.0.113.5 port 22 ssh2\nNov  8 02:16:46 h sshd[1]: Failed password for invalid user alice from 198.51.100.9 port 22 ssh2\nNov  8 02:16:51 h sshd[1]: Failed password for invalid user alice from 192.0.2.77 port 22 ssh2\nNov  8 02:18:51 h sshd[1]: Failed password for admin from 192.0.2.77 port 22 ssh2\nNov  8 02:18:52 h sshd[1]: Failed password for alice from 2001:db8::1 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {},
+   "alerts": [
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "192.0.2.77",
+     "failures": 14,
+     "users": [
+      "admin",
+      "alice",
+      "bob",
+      "oracle",
+      "root",
+      "test",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:17:10",
+     "last_seen": "2026-11-08T02:18:51",
+     "detail": "14 failed logins spread over 7 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "198.51.100.9",
+     "failures": 12,
+     "users": [
+      "admin",
+      "alice",
+      "git",
+      "oracle",
+      "root",
+      "test",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:19:10",
+     "last_seen": "2026-11-08T02:16:46",
+     "detail": "12 failed logins spread over 7 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "203.0.113.5",
+     "failures": 8,
+     "users": [
+      "admin",
+      "alice",
+      "git",
+      "oracle",
+      "root"
+     ],
+     "first_seen": "2026-11-08T00:31:00",
+     "last_seen": "2026-11-08T02:16:45",
+     "detail": "8 failed logins spread over 5 different usernames (slow spray, stays under the burst threshold)."
+    }
+   ]
+  },
+  {
+   "text": "Nov  8 00:16:43 h sshd[1]: Failed password for admin from 192.0.2.77 port 22 ssh2\nNov  8 00:17:13 h sshd[1]: Failed password for root from 2001:db8::1 port 22 ssh2\nNov  8 00:17:13 h CRON[2]: noise line\nNov  8 00:17:43 h sshd[1]: Failed password for oracle from 192.0.2.77 port 22 ssh2\nNov  8 00:17:44 h sshd[1]: Accepted password for oracle from 198.51.100.9 port 22 ssh2\nNov  8 00:17:49 h sshd[1]: Failed password for invalid user bob from 198.51.100.9 port 22 ssh2\nNov  8 00:17:52 h sshd[1]: Failed password for oracle from 192.0.2.77 port 22 ssh2\nNov  8 00:29:32 h sshd[1]: Failed password for invalid user ubuntu from 203.0.113.5 port 22 ssh2\nNov  8 00:41:12 h sshd[1]: Failed password for ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 00:41:13 h sshd[1]: Accepted password for root from 192.0.2.77 port 22 ssh2\nNov  8 00:41:14 h sshd[1]: Accepted password for alice from 198.51.100.9 port 22 ssh2\nNov  8 00:41:16 h sshd[1]: Accepted password for alice from 198.51.100.9 port 22 ssh2\nNov  8 00:41:46 h sshd[1]: Failed password for invalid user test from 192.0.2.77 port 22 ssh2\nNov  8 00:41:47 h sshd[1]: Accepted password for root from 203.0.113.5 port 22 ssh2\nNov  8 00:41:49 h sshd[1]: Failed password for test from 198.51.100.9 port 22 ssh2\nNov  8 00:41:51 h sshd[1]: Failed password for admin from 198.51.100.9 port 22 ssh2\nNov  8 00:41:54 h sshd[1]: Failed password for invalid user root from 2001:db8::1 port 22 ssh2\nNov  8 00:53:34 h sshd[1]: Failed password for bob from 203.0.113.5 port 22 ssh2\nNov  8 00:54:04 h sshd[1]: Failed password for invalid user bob from 192.0.2.77 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {},
+   "alerts": []
+  },
+  {
+   "text": "Nov  8 00:16:45 h sshd[1]: Failed password for invalid user bob from 192.0.2.77 port 22 ssh2\nNov  8 00:16:46 h sshd[1]: Failed password for invalid user git from 198.51.100.9 port 22 ssh2\nNov  8 00:16:51 h sshd[1]: Failed password for alice from 2001:db8::1 port 22 ssh2\nNov  8 00:16:54 h sshd[1]: Failed password for git from 2001:db8::1 port 22 ssh2\nNov  8 00:16:56 h sshd[1]: Failed password for oracle from 203.0.113.5 port 22 ssh2\nNov  8 00:16:59 h sshd[1]: Failed password for oracle from 2001:db8::1 port 22 ssh2\nNov  8 00:17:01 h sshd[1]: Failed password for root from 2001:db8::1 port 22 ssh2\nNov  8 00:17:31 h sshd[1]: Failed password for invalid user bob from 2001:db8::1 port 22 ssh2\nNov  8 00:19:31 h sshd[1]: Failed password for ubuntu from 203.0.113.5 port 22 ssh2\nNov  8 00:19:34 h sshd[1]: Accepted password for oracle from 198.51.100.9 port 22 ssh2\nNov  8 00:20:04 h sshd[1]: Failed password for invalid user ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 00:20:05 h sshd[1]: Failed password for invalid user alice from 192.0.2.77 port 22 ssh2\nNov  8 00:20:06 h sshd[1]: Failed password for oracle from 192.0.2.77 port 22 ssh2\nNov  8 00:20:11 h sshd[1]: Failed password for invalid user root from 192.0.2.77 port 22 ssh2\nNov  8 00:22:11 h sshd[1]: Accepted password for test from 203.0.113.5 port 22 ssh2\nNov  8 00:22:16 h sshd[1]: Failed password for invalid user bob from 198.51.100.9 port 22 ssh2\nNov  8 00:22:16 h CRON[2]: noise line\nNov  8 00:33:56 h sshd[1]: Failed password for invalid user ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 00:33:57 h sshd[1]: Failed password for ubuntu from 203.0.113.5 port 22 ssh2\nNov  8 00:33:57 h CRON[2]: noise line\nNov  8 00:33:59 h sshd[1]: Failed password for git from 2001:db8::1 port 22 ssh2\nNov  8 00:34:04 h sshd[1]: Failed password for ubuntu from 203.0.113.5 port 22 ssh2\nNov  8 00:34:04 h CRON[2]: noise line\nNov  8 00:34:05 h sshd[1]: Failed password for invalid user admin from 198.51.100.9 port 22 ssh2\nNov  8 00:34:07 h sshd[1]: Failed password for invalid user alice from 203.0.113.5 port 22 ssh2\nNov  8 00:36:07 h sshd[1]: Failed password for oracle from 198.51.100.9 port 22 ssh2\nNov  8 00:36:12 h sshd[1]: Failed password for alice from 192.0.2.77 port 22 ssh2\nNov  8 00:38:12 h sshd[1]: Failed password for invalid user ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 00:40:12 h sshd[1]: Failed password for alice from 203.0.113.5 port 22 ssh2\nNov  8 00:40:12 h CRON[2]: noise line\nNov  8 00:40:17 h sshd[1]: Failed password for invalid user alice from 203.0.113.5 port 22 ssh2\nNov  8 00:42:17 h sshd[1]: Accepted password for ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 00:42:47 h sshd[1]: Failed password for invalid user alice from 198.51.100.9 port 22 ssh2\nNov  8 00:42:48 h sshd[1]: Failed password for oracle from 203.0.113.5 port 22 ssh2\nNov  8 00:44:48 h sshd[1]: Accepted password for oracle from 2001:db8::1 port 22 ssh2\nNov  8 00:45:18 h sshd[1]: Accepted password for oracle from 198.51.100.9 port 22 ssh2\nNov  8 00:45:20 h sshd[1]: Failed password for oracle from 203.0.113.5 port 22 ssh2\nNov  8 00:45:50 h sshd[1]: Failed password for ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 00:57:30 h sshd[1]: Accepted password for alice from 203.0.113.5 port 22 ssh2\nNov  8 00:57:32 h sshd[1]: Failed password for admin from 2001:db8::1 port 22 ssh2\nNov  8 00:57:37 h sshd[1]: Failed password for invalid user admin from 203.0.113.5 port 22 ssh2\nNov  8 00:57:38 h sshd[1]: Accepted password for alice from 2001:db8::1 port 22 ssh2\nNov  8 00:57:39 h sshd[1]: Failed password for oracle from 2001:db8::1 port 22 ssh2\nNov  8 00:57:41 h sshd[1]: Failed password for invalid user test from 203.0.113.5 port 22 ssh2\nNov  8 00:58:11 h sshd[1]: Failed password for test from 2001:db8::1 port 22 ssh2\nNov  8 01:00:11 h sshd[1]: Failed password for admin from 2001:db8::1 port 22 ssh2\nNov  8 01:00:14 h sshd[1]: Failed password for ubuntu from 203.0.113.5 port 22 ssh2\nNov  8 01:00:17 h sshd[1]: Failed password for invalid user alice from 203.0.113.5 port 22 ssh2\nNov  8 01:00:18 h sshd[1]: Failed password for alice from 198.51.100.9 port 22 ssh2\nNov  8 01:00:18 h CRON[2]: noise line\nNov  8 01:00:21 h sshd[1]: Accepted password for ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 01:12:01 h sshd[1]: Accepted password for ubuntu from 203.0.113.5 port 22 ssh2\nNov  8 01:12:03 h sshd[1]: Failed password for git from 198.51.100.9 port 22 ssh2\nNov  8 01:12:04 h sshd[1]: Accepted password for ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 01:23:44 h sshd[1]: Failed password for bob from 203.0.113.5 port 22 ssh2\nNov  8 01:23:45 h sshd[1]: Accepted password for alice from 2001:db8::1 port 22 ssh2\nNov  8 01:25:45 h sshd[1]: Failed password for git from 2001:db8::1 port 22 ssh2\nNov  8 01:25:47 h sshd[1]: Failed password for invalid user ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 01:25:49 h sshd[1]: Failed password for alice from 198.51.100.9 port 22 ssh2\nNov  8 01:25:50 h sshd[1]: Failed password for oracle from 2001:db8::1 port 22 ssh2\nNov  8 01:25:51 h sshd[1]: Failed password for alice from 198.51.100.9 port 22 ssh2\nNov  8 01:26:21 h sshd[1]: Failed password for invalid user oracle from 198.51.100.9 port 22 ssh2\nNov  8 01:26:24 h sshd[1]: Failed password for oracle from 2001:db8::1 port 22 ssh2\nNov  8 01:26:27 h sshd[1]: Failed password for git from 2001:db8::1 port 22 ssh2\nNov  8 01:26:30 h sshd[1]: Failed password for git from 198.51.100.9 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {
+    "window": 30,
+    "spray_users": 2
+   },
+   "alerts": [
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "2001:db8::1",
+     "failures": 15,
+     "users": [
+      "admin",
+      "alice",
+      "bob",
+      "git",
+      "oracle",
+      "root",
+      "test",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:16:51",
+     "last_seen": "2026-11-08T01:26:27",
+     "detail": "15 failed logins spread over 8 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "203.0.113.5",
+     "failures": 14,
+     "users": [
+      "admin",
+      "alice",
+      "bob",
+      "oracle",
+      "test",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:16:56",
+     "last_seen": "2026-11-08T01:23:44",
+     "detail": "14 failed logins spread over 6 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "198.51.100.9",
+     "failures": 13,
+     "users": [
+      "admin",
+      "alice",
+      "bob",
+      "git",
+      "oracle",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:16:46",
+     "last_seen": "2026-11-08T01:26:30",
+     "detail": "13 failed logins spread over 6 different usernames (slow spray, stays under the burst threshold)."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "192.0.2.77",
+     "failures": 7,
+     "users": [
+      "alice",
+      "bob",
+      "oracle",
+      "root",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:16:45",
+     "last_seen": "2026-11-08T01:25:47",
+     "detail": "7 failed logins spread over 5 different usernames (slow spray, stays under the burst threshold)."
+    }
+   ]
+  },
+  {
+   "text": "Nov  8 00:16:45 h sshd[1]: Failed password for invalid user git from 203.0.113.5 port 22 ssh2\nNov  8 00:16:46 h sshd[1]: Failed password for admin from 198.51.100.9 port 22 ssh2\nNov  8 00:18:46 h sshd[1]: Failed password for test from 203.0.113.5 port 22 ssh2\nNov  8 00:18:49 h sshd[1]: Failed password for bob from 203.0.113.5 port 22 ssh2\nNov  8 00:18:51 h sshd[1]: Accepted password for git from 203.0.113.5 port 22 ssh2\nNov  8 00:18:53 h sshd[1]: Accepted password for git from 203.0.113.5 port 22 ssh2\nNov  8 00:20:53 h sshd[1]: Failed password for bob from 192.0.2.77 port 22 ssh2\nNov  8 00:20:53 h CRON[2]: noise line\nNov  8 00:32:33 h sshd[1]: Accepted password for admin from 2001:db8::1 port 22 ssh2\nNov  8 00:33:03 h sshd[1]: Failed password for bob from 198.51.100.9 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {},
+   "alerts": []
+  },
+  {
+   "text": "Nov  8 00:17:10 h sshd[1]: Failed password for invalid user ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 00:17:13 h sshd[1]: Failed password for invalid user ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 00:28:53 h sshd[1]: Failed password for ubuntu from 203.0.113.5 port 22 ssh2\nNov  8 00:28:53 h CRON[2]: noise line\nNov  8 00:28:58 h sshd[1]: Failed password for invalid user alice from 2001:db8::1 port 22 ssh2\nNov  8 00:28:58 h CRON[2]: noise line\nNov  8 00:29:03 h sshd[1]: Accepted password for git from 198.51.100.9 port 22 ssh2\nNov  8 00:29:03 h CRON[2]: noise line\nNov  8 00:40:43 h sshd[1]: Failed password for git from 192.0.2.77 port 22 ssh2\nNov  8 00:40:48 h sshd[1]: Failed password for invalid user alice from 192.0.2.77 port 22 ssh2\nNov  8 00:52:28 h sshd[1]: Accepted password for alice from 203.0.113.5 port 22 ssh2\nNov  8 00:52:29 h sshd[1]: Failed password for invalid user git from 198.51.100.9 port 22 ssh2\nNov  8 00:52:30 h sshd[1]: Failed password for invalid user admin from 192.0.2.77 port 22 ssh2\nNov  8 00:52:35 h sshd[1]: Failed password for ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 00:52:36 h sshd[1]: Failed password for ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 00:54:36 h sshd[1]: Failed password for invalid user root from 198.51.100.9 port 22 ssh2\nNov  8 00:54:36 h CRON[2]: noise line\nNov  8 00:55:06 h sshd[1]: Failed password for bob from 198.51.100.9 port 22 ssh2\nNov  8 00:57:06 h sshd[1]: Failed password for admin from 2001:db8::1 port 22 ssh2\nNov  8 00:59:06 h sshd[1]: Failed password for invalid user admin from 2001:db8::1 port 22 ssh2\nNov  8 00:59:09 h sshd[1]: Failed password for git from 192.0.2.77 port 22 ssh2\nNov  8 00:59:14 h sshd[1]: Failed password for invalid user bob from 2001:db8::1 port 22 ssh2\nNov  8 00:59:14 h CRON[2]: noise line\nNov  8 00:59:16 h sshd[1]: Failed password for admin from 192.0.2.77 port 22 ssh2\nNov  8 00:59:17 h sshd[1]: Failed password for alice from 2001:db8::1 port 22 ssh2\nNov  8 00:59:22 h sshd[1]: Failed password for ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 00:59:23 h sshd[1]: Failed password for root from 198.51.100.9 port 22 ssh2\nNov  8 00:59:23 h CRON[2]: noise line\nNov  8 01:11:03 h sshd[1]: Failed password for git from 192.0.2.77 port 22 ssh2\nNov  8 01:11:06 h sshd[1]: Failed password for oracle from 198.51.100.9 port 22 ssh2\nNov  8 01:11:11 h sshd[1]: Failed password for invalid user ubuntu from 2001:db8::1 port 22 ssh2\nNov  8 01:22:51 h sshd[1]: Failed password for invalid user ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 01:34:31 h sshd[1]: Failed password for invalid user admin from 2001:db8::1 port 22 ssh2\nNov  8 01:34:31 h CRON[2]: noise line\nNov  8 01:34:34 h sshd[1]: Accepted password for test from 203.0.113.5 port 22 ssh2\nNov  8 01:36:34 h sshd[1]: Failed password for invalid user git from 2001:db8::1 port 22 ssh2\nNov  8 01:36:36 h sshd[1]: Failed password for oracle from 192.0.2.77 port 22 ssh2\nNov  8 01:36:39 h sshd[1]: Failed password for root from 198.51.100.9 port 22 ssh2\nNov  8 01:37:09 h sshd[1]: Failed password for test from 192.0.2.77 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {
+    "threshold": 3
+   },
+   "alerts": [
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "198.51.100.9",
+     "failures": 4,
+     "users": [
+      "bob",
+      "git",
+      "root",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:52:29",
+     "last_seen": "2026-11-08T00:55:06",
+     "detail": "4 failed logins within 300s."
+    },
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "2001:db8::1",
+     "failures": 4,
+     "users": [
+      "admin",
+      "alice",
+      "bob"
+     ],
+     "first_seen": "2026-11-08T00:57:06",
+     "last_seen": "2026-11-08T00:59:17",
+     "detail": "4 failed logins within 300s."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "192.0.2.77",
+     "failures": 9,
+     "users": [
+      "admin",
+      "alice",
+      "git",
+      "oracle",
+      "test",
+      "ubuntu"
+     ],
+     "first_seen": "2026-11-08T00:17:13",
+     "last_seen": "2026-11-08T01:37:09",
+     "detail": "9 failed logins spread over 6 different usernames (slow spray, stays under the burst threshold)."
+    }
+   ]
+  },
+  {
+   "text": "Nov  8 00:16:45 h sshd[1]: Failed password for invalid user bob from 198.51.100.9 port 22 ssh2\nNov  8 00:16:46 h sshd[1]: Failed password for alice from 192.0.2.77 port 22 ssh2\nNov  8 00:28:26 h sshd[1]: Failed password for invalid user test from 192.0.2.77 port 22 ssh2\nNov  8 00:30:26 h sshd[1]: Accepted password for git from 198.51.100.9 port 22 ssh2\nNov  8 00:32:26 h sshd[1]: Failed password for invalid user oracle from 192.0.2.77 port 22 ssh2\nNov  8 00:32:26 h CRON[2]: noise line\nNov  8 00:32:29 h sshd[1]: Failed password for root from 2001:db8::1 port 22 ssh2\nNov  8 00:44:09 h sshd[1]: Failed password for git from 192.0.2.77 port 22 ssh2\nNov  8 00:46:09 h sshd[1]: Failed password for invalid user alice from 198.51.100.9 port 22 ssh2\nNov  8 00:46:10 h sshd[1]: Accepted password for oracle from 198.51.100.9 port 22 ssh2\nNov  8 00:46:15 h sshd[1]: Failed password for invalid user bob from 192.0.2.77 port 22 ssh2\nNov  8 00:48:15 h sshd[1]: Failed password for oracle from 198.51.100.9 port 22 ssh2\nNov  8 00:48:18 h sshd[1]: Accepted password for ubuntu from 203.0.113.5 port 22 ssh2\nNov  8 00:48:20 h sshd[1]: Failed password for invalid user oracle from 198.51.100.9 port 22 ssh2\nNov  8 00:48:50 h sshd[1]: Accepted password for test from 2001:db8::1 port 22 ssh2\nNov  8 00:48:52 h sshd[1]: Failed password for invalid user root from 2001:db8::1 port 22 ssh2\nNov  8 00:48:54 h sshd[1]: Failed password for git from 203.0.113.5 port 22 ssh2\nNov  8 00:48:56 h sshd[1]: Failed password for admin from 192.0.2.77 port 22 ssh2\nNov  8 00:48:58 h sshd[1]: Failed password for oracle from 2001:db8::1 port 22 ssh2\nNov  8 01:00:38 h sshd[1]: Failed password for invalid user alice from 203.0.113.5 port 22 ssh2\nNov  8 01:00:43 h sshd[1]: Accepted password for root from 192.0.2.77 port 22 ssh2\nNov  8 01:00:48 h sshd[1]: Failed password for bob from 198.51.100.9 port 22 ssh2\nNov  8 01:00:49 h sshd[1]: Failed password for test from 192.0.2.77 port 22 ssh2\nNov  8 01:00:50 h sshd[1]: Failed password for bob from 203.0.113.5 port 22 ssh2\nNov  8 01:01:20 h sshd[1]: Failed password for bob from 2001:db8::1 port 22 ssh2\nNov  8 01:13:00 h sshd[1]: Failed password for admin from 2001:db8::1 port 22 ssh2\nNov  8 01:13:01 h sshd[1]: Failed password for invalid user admin from 203.0.113.5 port 22 ssh2\nNov  8 01:13:06 h sshd[1]: Failed password for oracle from 192.0.2.77 port 22 ssh2\nNov  8 01:13:36 h sshd[1]: Failed password for admin from 2001:db8::1 port 22 ssh2\nNov  8 01:13:41 h sshd[1]: Failed password for oracle from 192.0.2.77 port 22 ssh2\nNov  8 01:25:21 h sshd[1]: Accepted password for oracle from 203.0.113.5 port 22 ssh2\nNov  8 01:25:51 h sshd[1]: Failed password for ubuntu from 192.0.2.77 port 22 ssh2\nNov  8 01:25:56 h sshd[1]: Failed password for invalid user oracle from 203.0.113.5 port 22 ssh2\nNov  8 01:25:58 h sshd[1]: Failed password for invalid user oracle from 2001:db8::1 port 22 ssh2\nNov  8 01:26:03 h sshd[1]: Accepted password for oracle from 198.51.100.9 port 22 ssh2\nNov  8 01:26:03 h CRON[2]: noise line\nNov  8 01:26:08 h sshd[1]: Failed password for oracle from 198.51.100.9 port 22 ssh2\nNov  8 01:26:13 h sshd[1]: Failed password for invalid user ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 01:37:53 h sshd[1]: Failed password for ubuntu from 198.51.100.9 port 22 ssh2\nNov  8 01:38:23 h sshd[1]: Failed password for invalid user alice from 198.51.100.9 port 22 ssh2\n",
+   "year": 2026,
+   "opts": {
+    "threshold": 3
+   },
+   "alerts": [
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "192.0.2.77",
+     "failures": 3,
+     "users": [
+      "admin",
+      "bob",
+      "git"
+     ],
+     "first_seen": "2026-11-08T00:44:09",
+     "last_seen": "2026-11-08T00:48:56",
+     "detail": "3 failed logins within 300s."
+    },
+    {
+     "severity": "high",
+     "kind": "brute_force",
+     "ip": "198.51.100.9",
+     "failures": 3,
+     "users": [
+      "alice",
+      "oracle"
+     ],
+     "first_seen": "2026-11-08T00:46:09",
+     "last_seen": "2026-11-08T00:48:20",
+     "detail": "3 failed logins within 300s."
+    },
+    {
+     "severity": "medium",
+     "kind": "username_spray",
+     "ip": "203.0.113.5",
+     "failures": 5,
+     "users": [
+      "admin",
+      "alice",
+      "bob",
+      "git",
+      "oracle"
+     ],
+     "first_seen": "2026-11-08T00:48:54",
+     "last_seen": "2026-11-08T01:25:56",
+     "detail": "5 failed logins spread over 5 different usernames (slow spray, stays under the burst threshold)."
+    }
+   ]
+  },
+  {
+   "text": "Feb 30 10:00:00 h sshd[1]: Failed password for root from 1.2.3.4 port 1 ssh2\n",
+   "year": 2026,
+   "opts": {},
+   "alerts": []
+  }
+ ],
+ "knn": [
+  {
+   "X": [
+    [
+     8.0,
+     5.8
+    ],
+    [
+     0.9,
+     4.3
+    ],
+    [
+     4.8,
+     1.6
+    ],
+    [
+     7.3,
+     1.1
+    ],
+    [
+     3.9,
+     5.2
+    ],
+    [
+     4.3,
+     5.9
+    ],
+    [
+     7.4,
+     9.6
+    ],
+    [
+     2.8,
+     6.5
+    ],
+    [
+     7.0,
+     2.9
+    ],
+    [
+     0.0,
+     9.7
+    ],
+    [
+     3.0,
+     3.1
+    ],
+    [
+     8.9,
+     5.9
+    ],
+    [
+     4.7,
+     7.7
+    ],
+    [
+     0.3,
+     7.1
+    ],
+    [
+     3.7,
+     0.9
+    ],
+    [
+     6.6,
+     9.3
+    ],
+    [
+     2.1,
+     6.3
+    ],
+    [
+     3.0,
+     7.4
+    ],
+    [
+     7.2,
+     2.2
+    ],
+    [
+     8.3,
+     6.6
+    ],
+    [
+     6.8,
+     8.2
+    ],
+    [
+     4.3,
+     7.6
+    ],
+    [
+     8.8,
+     1.0
+    ],
+    [
+     8.5,
+     3.9
+    ],
+    [
+     4.8,
+     1.5
+    ],
+    [
+     7.0,
+     2.9
+    ],
+    [
+     8.7,
+     2.8
+    ],
+    [
+     5.6,
+     4.0
+    ],
+    [
+     6.1,
+     2.0
+    ],
+    [
+     1.8,
+     7.5
+    ],
+    [
+     7.5,
+     5.7
+    ],
+    [
+     9.2,
+     2.1
+    ],
+    [
+     8.5,
+     1.7
+    ]
+   ],
+   "y": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "k": 1,
+   "Q": [
+    [
+     9.7,
+     7.1
+    ],
+    [
+     2.1,
+     5.4
+    ],
+    [
+     7.1,
+     0.5
+    ],
+    [
+     6.8,
+     3.7
+    ],
+    [
+     5.9,
+     6.7
+    ],
+    [
+     6.7,
+     5.2
+    ],
+    [
+     5.5,
+     2.0
+    ],
+    [
+     5.0,
+     1.3
+    ],
+    [
+     4.8,
+     5.4
+    ],
+    [
+     7.7,
+     3.9
+    ],
+    [
+     0.2,
+     5.3
+    ],
+    [
+     2.1,
+     7.4
+    ],
+    [
+     3.9,
+     3.8
+    ],
+    [
+     9.1,
+     3.9
+    ],
+    [
+     3.5,
+     3.5
+    ]
+   ],
+   "pred": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "X": [
+    [
+     5.5,
+     9.2
+    ],
+    [
+     5.6,
+     7.4
+    ],
+    [
+     9.5,
+     8.4
+    ],
+    [
+     7.4,
+     8.1
+    ],
+    [
+     8.2,
+     2.5
+    ],
+    [
+     4.8,
+     3.4
+    ],
+    [
+     2.6,
+     5.7
+    ],
+    [
+     3.2,
+     6.2
+    ],
+    [
+     5.8,
+     1.0
+    ],
+    [
+     4.4,
+     3.9
+    ],
+    [
+     7.1,
+     0.9
+    ],
+    [
+     1.7,
+     5.1
+    ],
+    [
+     4.0,
+     6.7
+    ],
+    [
+     3.3,
+     2.0
+    ],
+    [
+     9.3,
+     2.4
+    ],
+    [
+     1.5,
+     2.8
+    ],
+    [
+     3.4,
+     2.3
+    ],
+    [
+     5.4,
+     9.4
+    ],
+    [
+     1.3,
+     4.2
+    ],
+    [
+     6.7,
+     8.8
+    ],
+    [
+     10.0,
+     1.4
+    ],
+    [
+     5.4,
+     8.8
+    ]
+   ],
+   "y": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   "k": 4,
+   "Q": [
+    [
+     6.7,
+     4.1
+    ],
+    [
+     2.7,
+     7.0
+    ],
+    [
+     3.1,
+     3.7
+    ],
+    [
+     7.7,
+     5.0
+    ],
+    [
+     7.8,
+     5.2
+    ],
+    [
+     1.6,
+     4.4
+    ],
+    [
+     8.7,
+     5.6
+    ],
+    [
+     9.6,
+     0.0
+    ],
+    [
+     3.4,
+     7.7
+    ],
+    [
+     6.9,
+     5.6
+    ],
+    [
+     6.6,
+     8.8
+    ],
+    [
+     6.8,
+     5.5
+    ],
+    [
+     5.6,
+     6.7
+    ],
+    [
+     3.2,
+     6.7
+    ],
+    [
+     6.2,
+     7.9
+    ]
+   ],
+   "pred": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "X": [
+    [
+     0.3,
+     5.4
+    ],
+    [
+     8.6,
+     6.4
+    ],
+    [
+     6.4,
+     3.9
+    ],
+    [
+     3.6,
+     7.2
+    ],
+    [
+     0.8,
+     8.7
+    ],
+    [
+     8.8,
+     9.6
+    ],
+    [
+     1.4,
+     1.2
+    ],
+    [
+     8.9,
+     4.0
+    ],
+    [
+     2.7,
+     3.8
+    ],
+    [
+     6.6,
+     1.6
+    ],
+    [
+     4.9,
+     6.6
+    ],
+    [
+     7.2,
+     0.1
+    ],
+    [
+     8.1,
+     4.3
+    ],
+    [
+     4.4,
+     5.6
+    ]
+   ],
+   "y": [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   "k": 5,
+   "Q": [
+    [
+     8.8,
+     1.3
+    ],
+    [
+     6.2,
+     8.9
+    ],
+    [
+     2.0,
+     4.1
+    ],
+    [
+     7.1,
+     7.4
+    ],
+    [
+     4.5,
+     6.4
+    ],
+    [
+     6.7,
+     3.5
+    ],
+    [
+     6.5,
+     5.8
+    ],
+    [
+     7.0,
+     5.1
+    ],
+    [
+     3.4,
+     4.3
+    ],
+    [
+     9.2,
+     1.9
+    ],
+    [
+     1.5,
+     0.1
+    ],
+    [
+     8.5,
+     9.9
+    ],
+    [
+     2.4,
+     2.7
+    ],
+    [
+     2.0,
+     6.0
+    ],
+    [
+     4.9,
+     8.2
+    ]
+   ],
+   "pred": [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  },
+  {
+   "X": [
+    [
+     4.6,
+     8.1
+    ],
+    [
+     8.0,
+     9.1
+    ],
+    [
+     5.0,
+     6.1
+    ],
+    [
+     5.6,
+     1.9
+    ],
+    [
+     5.0,
+     9.3
+    ],
+    [
+     9.1,
+     0.2
+    ],
+    [
+     6.6,
+     3.3
+    ],
+    [
+     1.4,
+     1.4
+    ],
+    [
+     7.9,
+     9.6
+    ],
+    [
+     5.2,
+     3.8
+    ],
+    [
+     5.1,
+     8.3
+    ],
+    [
+     7.5,
+     0.6
+    ],
+    [
+     2.1,
+     8.7
+    ],
+    [
+     4.9,
+     6.6
+    ],
+    [
+     7.8,
+     6.4
+    ],
+    [
+     7.3,
+     5.5
+    ],
+    [
+     2.3,
+     1.9
+    ],
+    [
+     9.9,
+     0.1
+    ],
+    [
+     6.9,
+     8.8
+    ],
+    [
+     2.3,
+     0.5
+    ],
+    [
+     4.0,
+     3.3
+    ],
+    [
+     4.6,
+     4.3
+    ],
+    [
+     9.4,
+     1.2
+    ],
+    [
+     9.4,
+     0.5
+    ],
+    [
+     9.4,
+     3.3
+    ],
+    [
+     7.3,
+     0.0
+    ]
+   ],
+   "y": [
+    2,
+    2,
+    1,
+    1,
+    2,
+    0,
+    1,
+    0,
+    2,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    2,
+    2,
+    1,
+    2,
+    0,
+    1,
+    0,
+    1
+   ],
+   "k": 2,
+   "Q": [
+    [
+     0.5,
+     2.4
+    ],
+    [
+     3.0,
+     2.6
+    ],
+    [
+     7.3,
+     5.9
+    ],
+    [
+     9.0,
+     7.0
+    ],
+    [
+     2.9,
+     3.2
+    ],
+    [
+     1.2,
+     2.4
+    ],
+    [
+     6.0,
+     7.3
+    ],
+    [
+     3.0,
+     3.4
+    ],
+    [
+     8.0,
+     9.6
+    ],
+    [
+     0.8,
+     0.7
+    ],
+    [
+     7.6,
+     5.0
+    ],
+    [
+     4.3,
+     6.3
+    ],
+    [
+     7.6,
+     0.7
+    ],
+    [
+     9.6,
+     9.6
+    ],
+    [
+     4.2,
+     4.7
+    ]
+   ],
+   "pred": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    1,
+    1,
+    2,
+    1
+   ]
+  },
+  {
+   "X": [
+    [
+     5.9,
+     2.1
+    ],
+    [
+     5.3,
+     9.0
+    ],
+    [
+     5.1,
+     8.3
+    ],
+    [
+     1.8,
+     8.8
+    ],
+    [
+     1.2,
+     2.1
+    ],
+    [
+     7.2,
+     3.0
+    ],
+    [
+     1.2,
+     0.9
+    ],
+    [
+     7.9,
+     0.2
+    ],
+    [
+     0.6,
+     9.5
+    ],
+    [
+     7.8,
+     3.7
+    ],
+    [
+     1.9,
+     8.7
+    ],
+    [
+     7.9,
+     6.7
+    ],
+    [
+     5.3,
+     5.3
+    ],
+    [
+     9.8,
+     5.2
+    ],
+    [
+     0.8,
+     0.7
+    ],
+    [
+     6.0,
+     7.3
+    ],
+    [
+     6.3,
+     7.4
+    ],
+    [
+     2.9,
+     3.7
+    ],
+    [
+     2.7,
+     3.7
+    ],
+    [
+     2.7,
+     8.3
+    ],
+    [
+     1.5,
+     2.1
+    ],
+    [
+     7.1,
+     4.0
+    ],
+    [
+     3.4,
+     9.7
+    ],
+    [
+     8.9,
+     2.2
+    ],
+    [
+     1.6,
+     4.9
+    ],
+    [
+     5.7,
+     3.5
+    ],
+    [
+     5.9,
+     6.8
+    ],
+    [
+     8.1,
+     2.4
+    ]
+   ],
+   "y": [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   "k": 7,
+   "Q": [
+    [
+     4.2,
+     2.6
+    ],
+    [
+     7.4,
+     7.0
+    ],
+    [
+     3.8,
+     5.1
+    ],
+    [
+     4.0,
+     5.7
+    ],
+    [
+     5.9,
+     5.8
+    ],
+    [
+     9.0,
+     9.5
+    ],
+    [
+     0.5,
+     3.8
+    ],
+    [
+     0.4,
+     3.7
+    ],
+    [
+     8.0,
+     6.8
+    ],
+    [
+     5.7,
+     0.9
+    ],
+    [
+     8.1,
+     6.1
+    ],
+    [
+     3.0,
+     7.9
+    ],
+    [
+     0.4,
+     1.9
+    ],
+    [
+     7.9,
+     0.5
+    ],
+    [
+     1.3,
+     5.0
+    ]
+   ],
+   "pred": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "X": [
+    [
+     0.4,
+     2.7
+    ],
+    [
+     7.1,
+     3.5
+    ],
+    [
+     1.9,
+     0.0
+    ],
+    [
+     2.6,
+     9.3
+    ],
+    [
+     0.5,
+     5.5
+    ],
+    [
+     9.1,
+     7.0
+    ],
+    [
+     2.8,
+     6.5
+    ],
+    [
+     1.2,
+     5.0
+    ]
+   ],
+   "y": [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   "k": 5,
+   "Q": [
+    [
+     3.8,
+     8.0
+    ],
+    [
+     9.8,
+     3.7
+    ],
+    [
+     5.3,
+     1.6
+    ],
+    [
+     1.1,
+     7.2
+    ],
+    [
+     0.6,
+     6.0
+    ],
+    [
+     1.1,
+     6.7
+    ],
+    [
+     7.5,
+     9.4
+    ],
+    [
+     3.9,
+     3.9
+    ],
+    [
+     4.0,
+     7.1
+    ],
+    [
+     7.9,
+     1.2
+    ],
+    [
+     3.2,
+     0.6
+    ],
+    [
+     2.3,
+     7.3
+    ],
+    [
+     9.4,
+     9.8
+    ],
+    [
+     0.7,
+     4.0
+    ],
+    [
+     8.7,
+     5.0
+    ]
+   ],
+   "pred": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "X": [
+    [
+     7.8,
+     8.6
+    ],
+    [
+     1.5,
+     5.2
+    ],
+    [
+     1.5,
+     1.8
+    ],
+    [
+     5.3,
+     2.5
+    ],
+    [
+     8.1,
+     3.7
+    ],
+    [
+     1.8,
+     6.3
+    ],
+    [
+     2.6,
+     0.7
+    ],
+    [
+     10.0,
+     1.8
+    ],
+    [
+     1.3,
+     4.8
+    ],
+    [
+     0.0,
+     7.9
+    ],
+    [
+     0.8,
+     0.4
+    ],
+    [
+     9.7,
+     5.2
+    ],
+    [
+     9.3,
+     9.0
+    ],
+    [
+     7.3,
+     0.3
+    ],
+    [
+     6.4,
+     0.7
+    ],
+    [
+     0.1,
+     8.4
+    ],
+    [
+     3.1,
+     7.5
+    ],
+    [
+     5.3,
+     7.8
+    ],
+    [
+     6.4,
+     9.7
+    ],
+    [
+     4.7,
+     8.5
+    ],
+    [
+     8.2,
+     5.9
+    ],
+    [
+     5.1,
+     4.3
+    ],
+    [
+     6.5,
+     2.0
+    ],
+    [
+     4.4,
+     6.5
+    ],
+    [
+     3.1,
+     2.2
+    ],
+    [
+     1.1,
+     8.0
+    ],
+    [
+     8.8,
+     8.3
+    ],
+    [
+     7.1,
+     6.0
+    ],
+    [
+     0.6,
+     8.8
+    ],
+    [
+     4.7,
+     6.9
+    ],
+    [
+     1.2,
+     7.5
+    ]
+   ],
+   "y": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "k": 7,
+   "Q": [
+    [
+     7.3,
+     4.3
+    ],
+    [
+     2.0,
+     1.2
+    ],
+    [
+     4.2,
+     6.5
+    ],
+    [
+     8.3,
+     4.6
+    ],
+    [
+     8.5,
+     8.1
+    ],
+    [
+     8.5,
+     3.3
+    ],
+    [
+     4.7,
+     1.6
+    ],
+    [
+     5.8,
+     0.4
+    ],
+    [
+     4.7,
+     1.6
+    ],
+    [
+     4.8,
+     1.8
+    ],
+    [
+     0.0,
+     4.2
+    ],
+    [
+     4.3,
+     5.4
+    ],
+    [
+     1.2,
+     5.0
+    ],
+    [
+     3.0,
+     0.8
+    ],
+    [
+     4.1,
+     6.7
+    ]
+   ],
+   "pred": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "X": [
+    [
+     7.1,
+     7.9
+    ],
+    [
+     0.1,
+     2.2
+    ],
+    [
+     2.8,
+     5.9
+    ],
+    [
+     4.9,
+     5.7
+    ],
+    [
+     0.7,
+     2.9
+    ],
+    [
+     1.6,
+     7.5
+    ],
+    [
+     6.8,
+     3.0
+    ],
+    [
+     8.8,
+     1.4
+    ],
+    [
+     0.2,
+     3.7
+    ],
+    [
+     6.7,
+     9.5
+    ],
+    [
+     5.1,
+     1.4
+    ],
+    [
+     6.0,
+     0.2
+    ],
+    [
+     8.2,
+     3.2
+    ],
+    [
+     1.0,
+     1.5
+    ],
+    [
+     8.3,
+     9.1
+    ],
+    [
+     1.8,
+     10.0
+    ],
+    [
+     8.6,
+     3.3
+    ],
+    [
+     0.5,
+     1.5
+    ],
+    [
+     4.4,
+     2.1
+    ],
+    [
+     1.8,
+     2.7
+    ],
+    [
+     8.8,
+     0.4
+    ],
+    [
+     9.2,
+     4.5
+    ],
+    [
+     7.4,
+     5.1
+    ],
+    [
+     9.5,
+     1.8
+    ],
+    [
+     2.6,
+     5.1
+    ],
+    [
+     5.1,
+     3.3
+    ],
+    [
+     3.1,
+     0.9
+    ],
+    [
+     5.0,
+     8.3
+    ],
+    [
+     8.7,
+     4.1
+    ],
+    [
+     9.8,
+     9.7
+    ],
+    [
+     3.2,
+     1.2
+    ],
+    [
+     8.4,
+     9.4
+    ],
+    [
+     6.5,
+     9.6
+    ],
+    [
+     4.8,
+     5.2
+    ],
+    [
+     0.7,
+     3.7
+    ],
+    [
+     9.2,
+     1.0
+    ],
+    [
+     1.4,
+     0.3
+    ],
+    [
+     5.0,
+     6.0
+    ],
+    [
+     5.3,
+     8.8
+    ]
+   ],
+   "y": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   "k": 2,
+   "Q": [
+    [
+     3.0,
+     8.7
+    ],
+    [
+     2.7,
+     6.4
+    ],
+    [
+     6.4,
+     9.4
+    ],
+    [
+     7.2,
+     9.3
+    ],
+    [
+     5.8,
+     0.0
+    ],
+    [
+     3.3,
+     7.4
+    ],
+    [
+     3.4,
+     6.6
+    ],
+    [
+     1.2,
+     6.5
+    ],
+    [
+     3.9,
+     9.5
+    ],
+    [
+     0.7,
+     3.6
+    ],
+    [
+     7.7,
+     3.9
+    ],
+    [
+     4.6,
+     3.3
+    ],
+    [
+     1.0,
+     3.2
+    ],
+    [
+     8.8,
+     7.7
+    ],
+    [
+     3.1,
+     6.7
+    ]
+   ],
+   "pred": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "X": [
+    [
+     8.0,
+     0.6
+    ],
+    [
+     1.6,
+     9.6
+    ],
+    [
+     2.8,
+     7.8
+    ],
+    [
+     6.3,
+     8.7
+    ],
+    [
+     0.8,
+     9.3
+    ],
+    [
+     8.8,
+     2.4
+    ],
+    [
+     7.1,
+     0.1
+    ],
+    [
+     8.7,
+     4.1
+    ],
+    [
+     7.4,
+     8.0
+    ],
+    [
+     0.3,
+     8.8
+    ],
+    [
+     1.0,
+     1.5
+    ],
+    [
+     4.6,
+     2.5
+    ],
+    [
+     6.5,
+     1.9
+    ],
+    [
+     6.2,
+     7.6
+    ],
+    [
+     9.6,
+     4.0
+    ],
+    [
+     2.9,
+     5.8
+    ],
+    [
+     6.5,
+     9.2
+    ],
+    [
+     5.9,
+     4.4
+    ],
+    [
+     3.0,
+     7.3
+    ],
+    [
+     6.4,
+     0.7
+    ],
+    [
+     3.0,
+     1.7
+    ],
+    [
+     5.0,
+     3.8
+    ],
+    [
+     1.6,
+     5.3
+    ],
+    [
+     6.6,
+     3.4
+    ],
+    [
+     8.3,
+     1.0
+    ],
+    [
+     0.6,
+     7.1
+    ]
+   ],
+   "y": [
+    0,
+    1,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1,
+    2,
+    2,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    2,
+    2,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "k": 7,
+   "Q": [
+    [
+     0.6,
+     6.5
+    ],
+    [
+     0.4,
+     3.8
+    ],
+    [
+     4.4,
+     5.7
+    ],
+    [
+     5.7,
+     6.0
+    ],
+    [
+     0.2,
+     3.3
+    ],
+    [
+     7.4,
+     4.2
+    ],
+    [
+     8.3,
+     5.4
+    ],
+    [
+     5.7,
+     6.8
+    ],
+    [
+     9.8,
+     0.0
+    ],
+    [
+     1.2,
+     0.9
+    ],
+    [
+     2.1,
+     0.2
+    ],
+    [
+     9.9,
+     1.5
+    ],
+    [
+     4.7,
+     8.8
+    ],
+    [
+     4.7,
+     2.5
+    ],
+    [
+     2.9,
+     4.2
+    ]
+   ],
+   "pred": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    0,
+    2,
+    1,
+    1
+   ]
+  },
+  {
+   "X": [
+    [
+     4.1,
+     0.8
+    ],
+    [
+     8.7,
+     9.7
+    ],
+    [
+     5.6,
+     0.9
+    ],
+    [
+     9.1,
+     3.6
+    ],
+    [
+     3.8,
+     2.6
+    ],
+    [
+     9.3,
+     6.9
+    ],
+    [
+     3.0,
+     3.7
+    ],
+    [
+     4.2,
+     3.8
+    ],
+    [
+     6.7,
+     9.5
+    ],
+    [
+     0.4,
+     8.5
+    ],
+    [
+     8.5,
+     2.2
+    ],
+    [
+     9.8,
+     8.8
+    ],
+    [
+     7.2,
+     1.1
+    ],
+    [
+     4.5,
+     7.6
+    ],
+    [
+     5.5,
+     0.6
+    ],
+    [
+     7.6,
+     4.1
+    ],
+    [
+     2.2,
+     3.5
+    ],
+    [
+     1.0,
+     3.6
+    ],
+    [
+     0.2,
+     10.0
+    ],
+    [
+     1.4,
+     3.4
+    ],
+    [
+     3.0,
+     4.6
+    ],
+    [
+     3.4,
+     8.9
+    ],
+    [
+     1.9,
+     10.0
+    ],
+    [
+     3.9,
+     9.8
+    ],
+    [
+     3.3,
+     0.8
+    ],
+    [
+     8.3,
+     1.6
+    ],
+    [
+     7.4,
+     8.8
+    ],
+    [
+     2.2,
+     3.2
+    ],
+    [
+     5.6,
+     8.7
+    ],
+    [
+     8.6,
+     4.9
+    ],
+    [
+     5.7,
+     8.0
+    ],
+    [
+     1.6,
+     9.3
+    ],
+    [
+     8.6,
+     2.3
+    ],
+    [
+     6.3,
+     7.3
+    ],
+    [
+     6.5,
+     0.7
+    ],
+    [
+     0.6,
+     2.2
+    ]
+   ],
+   "y": [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    2,
+    0,
+    1,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    2,
+    0,
+    0,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    0,
+    0,
+    2,
+    1,
+    2,
+    1,
+    1,
+    2,
+    1,
+    0,
+    0
+   ],
+   "k": 3,
+   "Q": [
+    [
+     6.1,
+     3.7
+    ],
+    [
+     1.3,
+     6.9
+    ],
+    [
+     0.5,
+     3.4
+    ],
+    [
+     0.3,
+     3.1
+    ],
+    [
+     2.5,
+     6.2
+    ],
+    [
+     6.8,
+     7.1
+    ],
+    [
+     4.1,
+     7.5
+    ],
+    [
+     6.6,
+     5.3
+    ],
+    [
+     7.8,
+     9.7
+    ],
+    [
+     4.8,
+     9.6
+    ],
+    [
+     6.2,
+     3.9
+    ],
+    [
+     4.8,
+     6.6
+    ],
+    [
+     3.2,
+     9.2
+    ],
+    [
+     3.9,
+     6.2
+    ],
+    [
+     8.6,
+     8.3
+    ]
+   ],
+   "pred": [
+    0,
+    2,
+    0,
+    0,
+    2,
+    1,
+    1,
+    2,
+    0,
+    1,
+    2,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "X": [
+    [
+     7.1,
+     7.6
+    ],
+    [
+     5.9,
+     4.3
+    ],
+    [
+     9.0,
+     1.6
+    ],
+    [
+     1.3,
+     3.1
+    ],
+    [
+     2.3,
+     9.7
+    ],
+    [
+     5.3,
+     8.8
+    ],
+    [
+     5.5,
+     2.2
+    ],
+    [
+     8.7,
+     8.8
+    ],
+    [
+     1.2,
+     7.7
+    ],
+    [
+     5.7,
+     1.8
+    ],
+    [
+     3.4,
+     7.3
+    ],
+    [
+     1.9,
+     6.1
+    ],
+    [
+     5.3,
+     5.3
+    ],
+    [
+     1.8,
+     8.3
+    ],
+    [
+     5.4,
+     6.9
+    ],
+    [
+     6.3,
+     3.2
+    ],
+    [
+     7.4,
+     4.0
+    ],
+    [
+     9.2,
+     4.6
+    ],
+    [
+     1.9,
+     4.6
+    ],
+    [
+     3.9,
+     9.5
+    ],
+    [
+     3.1,
+     8.9
+    ],
+    [
+     0.3,
+     1.3
+    ],
+    [
+     2.9,
+     7.4
+    ],
+    [
+     6.0,
+     4.2
+    ],
+    [
+     4.1,
+     8.4
+    ],
+    [
+     2.2,
+     7.9
+    ],
+    [
+     3.7,
+     6.9
+    ],
+    [
+     8.2,
+     4.3
+    ]
+   ],
+   "y": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   "k": 1,
+   "Q": [
+    [
+     0.2,
+     0.7
+    ],
+    [
+     3.2,
+     7.3
+    ],
+    [
+     0.3,
+     3.8
+    ],
+    [
+     6.0,
+     8.5
+    ],
+    [
+     5.6,
+     2.5
+    ],
+    [
+     0.9,
+     5.1
+    ],
+    [
+     8.1,
+     8.3
+    ],
+    [
+     6.2,
+     1.8
+    ],
+    [
+     0.7,
+     0.5
+    ],
+    [
+     2.7,
+     5.3
+    ],
+    [
+     1.5,
+     6.2
+    ],
+    [
+     3.1,
+     7.9
+    ],
+    [
+     5.3,
+     7.7
+    ],
+    [
+     2.6,
+     5.7
+    ],
+    [
+     8.9,
+     0.2
+    ]
+   ],
+   "pred": [
+    2,
+    0,
+    0,
+    0,
+    1,
+    2,
+    0,
+    1,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1,
+    0
+   ]
+  },
+  {
+   "X": [
+    [
+     10.0,
+     2.8
+    ],
+    [
+     4.9,
+     6.8
+    ],
+    [
+     5.9,
+     6.2
+    ],
+    [
+     8.6,
+     1.6
+    ],
+    [
+     7.2,
+     4.5
+    ],
+    [
+     9.1,
+     9.5
+    ],
+    [
+     4.4,
+     3.6
+    ],
+    [
+     9.0,
+     9.4
+    ],
+    [
+     7.7,
+     9.0
+    ],
+    [
+     9.5,
+     4.8
+    ],
+    [
+     3.6,
+     0.6
+    ],
+    [
+     4.4,
+     2.2
+    ],
+    [
+     7.3,
+     6.1
+    ],
+    [
+     9.4,
+     6.9
+    ],
+    [
+     2.5,
+     3.7
+    ],
+    [
+     5.0,
+     5.4
+    ],
+    [
+     9.4,
+     6.3
+    ],
+    [
+     3.3,
+     2.8
+    ],
+    [
+     5.8,
+     0.9
+    ],
+    [
+     4.6,
+     9.0
+    ],
+    [
+     9.2,
+     5.6
+    ],
+    [
+     5.4,
+     3.3
+    ]
+   ],
+   "y": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   "k": 7,
+   "Q": [
+    [
+     2.8,
+     2.4
+    ],
+    [
+     9.8,
+     8.8
+    ],
+    [
+     4.5,
+     8.2
+    ],
+    [
+     6.4,
+     7.8
+    ],
+    [
+     5.9,
+     6.8
+    ],
+    [
+     9.4,
+     4.3
+    ],
+    [
+     7.4,
+     9.6
+    ],
+    [
+     0.4,
+     2.5
+    ],
+    [
+     3.6,
+     5.7
+    ],
+    [
+     4.6,
+     9.4
+    ],
+    [
+     1.9,
+     3.1
+    ],
+    [
+     0.8,
+     1.8
+    ],
+    [
+     6.0,
+     0.5
+    ],
+    [
+     9.4,
+     7.6
+    ],
+    [
+     0.9,
+     7.9
+    ]
+   ],
+   "pred": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  }
+ ]
+}

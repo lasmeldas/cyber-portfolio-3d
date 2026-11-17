@@ -34,8 +34,7 @@
       <nav aria-label="Primary">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
-        <a href="#lab">Security lab</a>
-        <a href="#devlab">Dev lab</a>
+        <a href="#lab">Lab</a>
         <a href="#cases">Case studies</a>
         <a href="#repos">Repos</a>
         <a href="#skills">Skills</a>
@@ -143,32 +142,61 @@
       </div>
     </section>
 
-    <section id="lab" class="panel reveal">
-      <h2>Security lab</h2>
-      <p class="section-note">A small live demo of how <a href="https://github.com/lasmeldas/passguard" target="_blank" rel="noopener">passguard</a>'s breach check keeps your password private. Type anything: it is hashed in your browser and nothing is sent anywhere.</p>
-      <label for="lab-pw" class="lab-label">Try a password</label>
-      <input id="lab-pw" class="lab-input" type="text" autocomplete="off" spellcheck="false" placeholder="e.g. correct horse battery staple">
-      <dl class="lab-out" aria-live="polite">
-        <div><dt>SHA-1 (stays on your device)</dt><dd id="lab-hash">-</dd></div>
-        <div><dt>Only this prefix would be sent</dt><dd id="lab-prefix">-</dd></div>
-        <div><dt>Kept private</dt><dd id="lab-suffix">-</dd></div>
-        <div><dt>Rough strength (length &times; log2 of the character pool)</dt><dd id="lab-entropy">-</dd></div>
-      </dl>
-      <p class="section-note">The strength figure is a simplified estimate that ignores patterns. The real tool also subtracts repeated runs, keyboard sequences, years and common passwords.</p>
-    </section>
-
-    <section id="devlab" class="panel reveal">
-      <h2>Dev lab</h2>
-      <p class="section-note">Three tools from <a href="devtoolbox/">devtoolbox</a>, running right here. Nothing you type leaves your browser. <a href="devtoolbox/">Open all eight tools &rarr;</a></p>
-      <div class="tabs" role="tablist" aria-label="Dev lab tools">
-        <button type="button" role="tab" class="tab" data-tab="json" aria-selected="true">JSON</button>
-        <button type="button" role="tab" class="tab" data-tab="jwt" aria-selected="false">JWT</button>
-        <button type="button" role="tab" class="tab" data-tab="hash" aria-selected="false">Hash</button>
+    <section id="lab" class="panel wide reveal">
+      <h2>Lab: try my projects</h2>
+      <p class="section-note">Everything here runs in your browser. Nothing you type is uploaded. Pick a project:</p>
+      <div class="tabs" role="tablist" aria-label="Lab projects">
+        <button type="button" role="tab" class="tab" data-tab="dev" aria-selected="true">devtoolbox</button>
+        <button type="button" role="tab" class="tab" data-tab="pass" aria-selected="false">passguard</button>
+        <button type="button" role="tab" class="tab" data-tab="ssh" aria-selected="false">authwatch</button>
+        <button type="button" role="tab" class="tab" data-tab="ml" aria-selected="false">ml-from-scratch</button>
       </div>
-      <label for="dev-in" class="lab-label" id="dev-label">Paste JSON</label>
-      <textarea id="dev-in" class="lab-input" rows="5" spellcheck="false"></textarea>
-      <div class="lab-actions"><button type="button" class="btn" id="dev-example">Fill with an example</button></div>
-      <pre id="dev-out" class="dev-out" aria-live="polite"></pre>
+
+      <div class="pane" data-pane="dev">
+        <p class="pane-note">All eight tools: JSON, Base64, JWT, Hash, Regex, Time, Diff and UUID. <a href="devtoolbox/" target="_blank" rel="noopener">Open in its own page &rarr;</a></p>
+        <iframe id="dev-frame" class="dev-frame" title="devtoolbox" data-src="devtoolbox/?theme=dark" loading="lazy"></iframe>
+      </div>
+
+      <div class="pane" data-pane="pass" hidden>
+        <p class="pane-note">The passguard analysis, ported to JavaScript. I checked it against the real Python tool on 152 passwords and the results were identical. <a href="https://github.com/lasmeldas/passguard" target="_blank" rel="noopener">Source &rarr;</a></p>
+        <label for="pw-in" class="lab-label">Try a password (use a made-up one, not a real one)</label>
+        <input id="pw-in" class="lab-input" type="text" autocomplete="off" spellcheck="false" placeholder="e.g. Summer2019!">
+        <div id="pw-out" class="result" aria-live="polite"></div>
+        <dl class="lab-out">
+          <div><dt>SHA-1 of the password (stays on your device)</dt><dd id="pw-hash">-</dd></div>
+          <div><dt>Only these 5 characters would be sent in the optional breach check</dt><dd id="pw-prefix">-</dd></div>
+        </dl>
+      </div>
+
+      <div class="pane" data-pane="ssh" hidden>
+        <p class="pane-note">The authwatch detection rules, ported to JavaScript and checked against the real Python tool on 28 logs. The sample below is made-up data. <a href="https://github.com/lasmeldas/authwatch" target="_blank" rel="noopener">Source &rarr;</a></p>
+        <label for="ssh-in" class="lab-label">Paste an OpenSSH auth log (or use the sample)</label>
+        <textarea id="ssh-in" class="lab-input" rows="7" spellcheck="false"></textarea>
+        <div class="lab-actions">
+          <button type="button" class="btn" id="ssh-sample">Load sample log</button>
+          <label class="inline">Failures per burst <input id="ssh-threshold" type="number" min="1" value="5"></label>
+          <label class="inline">Window (s) <input id="ssh-window" type="number" min="1" value="300"></label>
+          <label class="inline">Trusted IPs <input id="ssh-ignore" type="text" placeholder="10.0.0.0/8, 203.0.113.7"></label>
+        </div>
+        <div id="ssh-out" class="result" aria-live="polite"></div>
+      </div>
+
+      <div class="pane" data-pane="ml" hidden>
+        <p class="pane-note">k-NN and k-means as in ml-from-scratch, here in JavaScript. The k-NN answers were checked against the Python code on 12 random datasets. <a href="https://github.com/lasmeldas/ml-from-scratch" target="_blank" rel="noopener">Source &rarr;</a></p>
+        <div class="lab-actions">
+          <label class="inline">Algorithm
+            <select id="ml-mode"><option value="knn">k-NN classifier</option><option value="kmeans">k-means clustering</option></select>
+          </label>
+          <label class="inline"><span id="ml-k-label">k (neighbours)</span> <input id="ml-k" type="range" min="1" max="9" value="3"><output id="ml-k-out">3</output></label>
+          <span id="ml-classes" class="inline">Click to add: <button type="button" class="swatch" data-cls="0" aria-pressed="true" style="--c:#38bdf8">A</button><button type="button" class="swatch" data-cls="1" aria-pressed="false" style="--c:#00ffa3">B</button><button type="button" class="swatch" data-cls="2" aria-pressed="false" style="--c:#ffb86b">C</button></span>
+          <button type="button" class="btn" id="ml-example">Example data</button>
+          <button type="button" class="btn" id="ml-clear">Clear</button>
+        </div>
+        <canvas id="ml-canvas" class="ml-canvas" width="640" height="380" role="img" aria-label="Click to place points; the coloured regions show what the algorithm predicts"></canvas>
+        <p id="ml-status" class="pane-note" aria-live="polite"></p>
+      </div>
+
+      <p class="pane-note also">Also live: <a href="https://lasmeldas.github.io/threat-globe-3d/" target="_blank" rel="noopener">Threat Globe 3D</a> &middot; <a href="https://ethiopost-library.vercel.app" target="_blank" rel="noopener">Ethiopost Library</a>. PhishGuard-AI and SentinelScan need Python and network access, so they run on your machine: see their READMEs on GitHub.</p>
     </section>
 
     <section id="cases" class="reveal">
@@ -222,7 +250,6 @@
 
   <noscript><p class="noscript">This portfolio uses JavaScript for its 3D scene and live repository list. The content above still works without it.</p></noscript>
   <script type="module" src="main.js"></script>
-  <script type="module" src="lab.js"></script>
-  <script type="module" src="devlab.js"></script>
+  <script type="module" src="lab/lab.js"></script>
 </body>
 </html>
