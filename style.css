@@ -203,3 +203,14 @@ a:focus-visible, .btn:focus-visible { outline: 2px solid var(--cyan); outline-of
 .case summary:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
 .case p { color: var(--muted); margin: 0 0 14px; }
 .case code { font-family: var(--mono); color: var(--cyan); }
+
+/* Dev lab */
+.tabs { display: flex; gap: 6px; margin-bottom: 14px; }
+.tab { background: transparent; color: var(--muted); border: 1px solid var(--border); border-radius: 999px; padding: 6px 16px; font: 0.85rem var(--mono); cursor: pointer; }
+.tab[aria-selected="true"] { background: var(--green); color: #04110c; border-color: var(--green); }
+.tab:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
+textarea.lab-input { resize: vertical; min-height: 110px; }
+.lab-actions { margin: 10px 0; }
+.dev-out { margin: 0; background: rgba(5, 7, 13, 0.8); border: 1px solid var(--border); border-radius: 8px; padding: 12px; font: 0.85rem/1.5 var(--mono); color: var(--green); white-space: pre-wrap; word-break: break-all; min-height: 48px; }
+.dev-out.bad { color: #ff6b81; }
+.panel .section-note a { color: var(--cyan); }

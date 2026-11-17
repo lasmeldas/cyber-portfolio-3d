@@ -34,7 +34,8 @@
       <nav aria-label="Primary">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
-        <a href="#lab">Lab</a>
+        <a href="#lab">Security lab</a>
+        <a href="#devlab">Dev lab</a>
         <a href="#cases">Case studies</a>
         <a href="#repos">Repos</a>
         <a href="#skills">Skills</a>
@@ -156,6 +157,20 @@
       <p class="section-note">The strength figure is a simplified estimate that ignores patterns. The real tool also subtracts repeated runs, keyboard sequences, years and common passwords.</p>
     </section>
 
+    <section id="devlab" class="panel reveal">
+      <h2>Dev lab</h2>
+      <p class="section-note">Three tools from <a href="devtoolbox/">devtoolbox</a>, running right here. Nothing you type leaves your browser. <a href="devtoolbox/">Open all eight tools &rarr;</a></p>
+      <div class="tabs" role="tablist" aria-label="Dev lab tools">
+        <button type="button" role="tab" class="tab" data-tab="json" aria-selected="true">JSON</button>
+        <button type="button" role="tab" class="tab" data-tab="jwt" aria-selected="false">JWT</button>
+        <button type="button" role="tab" class="tab" data-tab="hash" aria-selected="false">Hash</button>
+      </div>
+      <label for="dev-in" class="lab-label" id="dev-label">Paste JSON</label>
+      <textarea id="dev-in" class="lab-input" rows="5" spellcheck="false"></textarea>
+      <div class="lab-actions"><button type="button" class="btn" id="dev-example">Fill with an example</button></div>
+      <pre id="dev-out" class="dev-out" aria-live="polite"></pre>
+    </section>
+
     <section id="cases" class="reveal">
       <h2>How I build</h2>
       <p class="section-note">Short write-ups of the thinking behind three projects.</p>
@@ -208,5 +223,6 @@
   <noscript><p class="noscript">This portfolio uses JavaScript for its 3D scene and live repository list. The content above still works without it.</p></noscript>
   <script type="module" src="main.js"></script>
   <script type="module" src="lab.js"></script>
+  <script type="module" src="devlab.js"></script>
 </body>
 </html>
