@@ -1,5 +1,10 @@
-import json, random, sys
-sys.path.insert(0, '/home/claude/passguard'); sys.path.insert(0, '/home/claude/authwatch')
+import json, os, random, sys
+from pathlib import Path
+
+# Sibling checkouts of passguard, authwatch and ml-from-scratch; override with PROJECTS_DIR if they live elsewhere.
+HERE = Path(__file__).resolve().parent
+PROJECTS = Path(os.environ.get('PROJECTS_DIR', HERE.parents[1]))
+sys.path.insert(0, str(PROJECTS / 'passguard')); sys.path.insert(0, str(PROJECTS / 'authwatch'))
 from passguard.core import analyze
 from authwatch.parser import parse_lines
 from authwatch.detector import detect
@@ -15,7 +20,7 @@ def run_log(text, year, **kw):
     ev = list(parse_lines(text.splitlines(True), year))
     return [a.to_dict() for a in detect(ev, **kw)]
 logs = []
-sample = open('/home/claude/authwatch/samples/auth.log').read()
+sample = open(str(PROJECTS / 'authwatch' / 'samples' / 'auth.log')).read()
 logs.append({"text": sample, "year": 2026, "opts": {}, "alerts": run_log(sample, 2026)})
 logs.append({"text": sample, "year": 2026, "opts": {"threshold": 3, "window": 60, "spray_users": 3}, "alerts": run_log(sample, 2026, threshold=3, window=60, spray_users=3)})
 # random logs
@@ -34,11 +39,11 @@ for n in range(25):
     opts = rnd.choice([{}, {"threshold": 3}, {"window": 30, "spray_users": 2}])
     logs.append({"text": text, "year": 2026, "opts": opts, "alerts": run_log(text, 2026, **opts)})
 logs.append({"text": "Feb 30 10:00:00 h sshd[1]: Failed password for root from 1.2.3.4 port 1 ssh2\n", "year": 2026, "opts": {}, "alerts": run_log("Feb 30 10:00:00 h sshd[1]: Failed password for root from 1.2.3.4 port 1 ssh2\n", 2026)})
-json.dump({"passwords": passwords, "logs": logs}, open('/home/claude/cyber-portfolio-3d/tests/fixtures.json', 'w'), ensure_ascii=False, indent=1)
+json.dump({"passwords": passwords, "logs": logs}, open(str(HERE / 'fixtures.json'), 'w'), ensure_ascii=False, indent=1)
 print(len(passwords), len(logs), sum(len(l["alerts"]) for l in logs))
 
 # k-NN fixtures from the real ml-from-scratch implementation
-sys.path.insert(0, '/home/claude/ml-from-scratch')
+sys.path.insert(0, str(PROJECTS / 'ml-from-scratch'))
 import numpy as np
 from mlscratch.neighbors import KNeighborsClassifier
 knn = []
@@ -50,6 +55,6 @@ for case in range(12):
     Q = np.round(r.uniform(0, 10, (15, 2)), 1)
     pred = KNeighborsClassifier(n_neighbors=min(k, n)).fit(X, y).predict(Q)
     knn.append({"X": X.tolist(), "y": y.tolist(), "k": k, "Q": Q.tolist(), "pred": pred.tolist()})
-d = json.load(open('/home/claude/cyber-portfolio-3d/tests/fixtures.json')); d["knn"] = knn
-json.dump(d, open('/home/claude/cyber-portfolio-3d/tests/fixtures.json', 'w'), ensure_ascii=False, indent=1)
+d = json.load(open(str(HERE / 'fixtures.json'))); d["knn"] = knn
+json.dump(d, open(str(HERE / 'fixtures.json'), 'w'), ensure_ascii=False, indent=1)
 print("knn cases", len(knn))
